@@ -8,10 +8,10 @@ namespace WikiPhytoScrapper.Services
 {
     public static class DataSerializer
     {
-        public static void Serialize(List<PlantFamily> family)
+        public static void Serialize(List<PlantFamily> family, string FileName)
         {
             string exeFolder = AppDomain.CurrentDomain.BaseDirectory;
-            var outputPath = $"{exeFolder}\\Datas\\Datas.json";
+            var outputPath = $"{exeFolder}\\Datas\\{FileName}.json";
             using (StreamWriter outputFile = new StreamWriter(outputPath))
             {
                 JsonSerializer serializer = new JsonSerializer();

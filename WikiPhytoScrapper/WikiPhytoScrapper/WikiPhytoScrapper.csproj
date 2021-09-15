@@ -11,9 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Datas\Datas.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Update="Data\Datas.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

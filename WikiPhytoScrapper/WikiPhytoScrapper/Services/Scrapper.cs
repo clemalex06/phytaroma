@@ -53,7 +53,7 @@ namespace WikiPhytoScrapper.Services
                 {
                     var plantFamily = new PlantFamily
                     {
-                        Id = i,
+                        Id = $"cat{i}",
                         Link = $"{BaseUrl}{link.FirstChild.Attributes[0].Value}",
                         Name = link.FirstChild.InnerText,
                         Plants = new List<Plant>()
@@ -81,7 +81,7 @@ namespace WikiPhytoScrapper.Services
                 {
                     var plant = new Plant
                     {
-                        Id = i,
+                        Id = $"plant{i}",
                         Link = $"{BaseUrl}{link.FirstChild.Attributes[0].Value}",
                         Name = link.FirstChild.InnerText,
                     };
@@ -127,7 +127,7 @@ namespace WikiPhytoScrapper.Services
                 Console.WriteLine($"End Scrapping Plants From Family : {fam.Name}");
             }
 
-            DataSerializer.Serialize(family);
+            DataSerializer.Serialize(family, "PlantFamily");
 
             Console.WriteLine("");
             Console.WriteLine($"Total Family Plants Scrapped : {family.Count}");
@@ -138,6 +138,7 @@ namespace WikiPhytoScrapper.Services
             Console.ReadLine();
         }
 
+        // Test To retrieve the details of a Plant
         public static void LoadPlantDetail()
         {
             var sw = Stopwatch.StartNew();
@@ -145,7 +146,7 @@ namespace WikiPhytoScrapper.Services
 
             var plant = new Plant()
             {
-                Id = 772,
+                Id = "plant772",
                 Name = "Valériane",
                 Link = "http://www.wikiphyto.org/wiki/Val%C3%A9riane",
                 Properties = new List<PlantProperty>()
