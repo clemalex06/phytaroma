@@ -7,6 +7,7 @@ namespace WikiPhytoScrapper.Models
         public string Id { get; set; }
         public string Name { get; set; }
         public string Link { get; set; }
+        public string ImageLink { get; set; }
         public List<PlantProperty> Properties { get; set; }
     }
 

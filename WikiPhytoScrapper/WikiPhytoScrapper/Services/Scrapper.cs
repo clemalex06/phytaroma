@@ -157,6 +157,7 @@ namespace WikiPhytoScrapper.Services
             var responsePagePlantFamily = Scrapper.CallUrl(plant.Link).Result;
             HtmlDocument htmlDoc = new HtmlDocument();
             htmlDoc.LoadHtml(responsePagePlantFamily);
+            //TODO change implementation
             var refNodes = htmlDoc.DocumentNode
                     .Descendants("div")
                     .Where(node => node.GetAttributeValue("id", "").Equals("toc"))
@@ -178,11 +179,9 @@ namespace WikiPhytoScrapper.Services
                             plantProperty = new PlantProperty()
                             {
                                 Name = $"{plantNode.Name}- {id}",
-                                Content = "",
-                                SubProperties = new List<PlantProperty>()
+                                Content = new List<string>(),
                             };
                             switch (plantNode.Name)
-                            
                             {
                                 case "h2":
                                     plant.Properties.Add(plantProperty);
@@ -209,7 +208,93 @@ namespace WikiPhytoScrapper.Services
                 Console.WriteLine($"Time taken: {sw.Elapsed.TotalMilliseconds}ms");
                 Console.ReadLine();
             }
+        }
 
+        //// Test To retrieve the details of a Plant
+        //public static void LoadPlantDetailObsolete()
+        //{
+        //    var sw = Stopwatch.StartNew();
+        //    Console.WriteLine("Start Scrapping Plant detail");
+
+        //    var plant = new Plant()
+        //    {
+        //        Id = "plant772",
+        //        Name = "Valériane",
+        //        Link = "http://www.wikiphyto.org/wiki/Val%C3%A9riane",
+        //        Properties = new List<PlantProperty>()
+        //    };
+
+        //    var currentList = plant.Properties;
+
+        //    var responsePagePlantFamily = Scrapper.CallUrl(plant.Link).Result;
+        //    HtmlDocument htmlDoc = new HtmlDocument();
+        //    htmlDoc.LoadHtml(responsePagePlantFamily);
+        //    var refNodes = htmlDoc.DocumentNode
+        //            .Descendants("div")
+        //            .Where(node => node.GetAttributeValue("id", "").Equals("toc"))
+        //            .FirstOrDefault()?.Descendants("a").Select(n => n.GetAttributeValue("href", "")).ToList();
+        //    if (refNodes != null)
+        //    {
+        //        foreach (var id in refNodes)
+        //        {
+        //            var plantNode = htmlDoc.DocumentNode.Descendants("span")
+        //                    .FirstOrDefault(node => node.GetAttributeValue("id", "").Equals(id.Replace("#", ""))).
+        //                    AncestorsAndSelf("h2").FirstOrDefault();
+        //            if (plantNode != null)
+        //            {
+        //                PlantProperty plantProperty = null;
+
+        //                do
+        //                {
+        //                    var previouName = string.Empty;
+        //                    plantProperty = new PlantProperty()
+        //                    {
+        //                        Name = $"{plantNode.Name}- {id}",
+        //                        Content = new List<string>(),
+        //                    };
+        //                    switch (plantNode.Name)
+
+        //                    {
+        //                        case "h2":
+        //                            plant.Properties.Add(plantProperty);
+        //                            break;
+        //                        case "ul":
+        //                            break;
+        //                        case "h3":
+        //                            break;
+        //                        case "p":
+        //                            break;
+        //                    }
+        //                    previouName = plantNode.Name;
+        //                    plantNode = plantNode.NextSibling;
+        //                } while (plantNode.Name != "h2");
+
+        //                //var toto = plantNode.NextSibling;
+        //            }
+        //        }
+
+        //        //foreach
+
+        //        Console.WriteLine("End Scrapping Plant detail");
+        //        sw.Stop();
+        //        Console.WriteLine($"Time taken: {sw.Elapsed.TotalMilliseconds}ms");
+        //        Console.ReadLine();
+        //    }
+        //}
+
+        private static Dictionary<PropertyCategory, string> GetHtmlIds()
+        {
+            return new Dictionary<PropertyCategory, string>
+            {
+                {PropertyCategory.Name, "Nom_de_la_plante" },
+                {PropertyCategory.Composition, "Composition" },
+                {PropertyCategory.Description, "Description_et_habitat" },
+                {PropertyCategory.HealthProperty, "Propri.C3.A9t.C3.A9s" },
+                {PropertyCategory.Indications, "" },
+                {PropertyCategory.Dosis, "" },
+                {PropertyCategory.History, "" },
+                {PropertyCategory.UndesirableEffects, "" }
+            };
         }
     }
 }
