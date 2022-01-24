@@ -4,19 +4,27 @@ namespace WikiPhytoScrapper.Models
 {
     public class PlantProperty
     {
-        public string Name { get; set; }
+        public string Name
+        {
+            get
+            {
+                return PropertyCategory.ToString();
+            }
+        }
         public List<string> Content { get; set; }
+
+        public PropertyCategory PropertyCategory { get; set; }
     }
 
     public enum PropertyCategory
     {
         Name,
-        Composition,
         Description,
+        History,
+        Dosis,
+        Composition,
         HealthProperty,
         Indications,
-        Dosis,
-        History,
         UndesirableEffects
     }
 }

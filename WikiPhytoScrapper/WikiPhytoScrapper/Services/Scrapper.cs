@@ -152,6 +152,7 @@ namespace WikiPhytoScrapper.Services
                 Properties = new List<PlantProperty>()
             };
 
+            var idDictionnary = GetHtmlIds();
             var currentList = plant.Properties;
 
             var responsePagePlantFamily = Scrapper.CallUrl(plant.Link).Result;
@@ -166,38 +167,41 @@ namespace WikiPhytoScrapper.Services
             {
                 foreach (var id in refNodes)
                 {
-                    var plantNode = htmlDoc.DocumentNode.Descendants("span")
-                            .FirstOrDefault(node => node.GetAttributeValue("id", "").Equals(id.Replace("#", ""))).
-                            AncestorsAndSelf("h2").FirstOrDefault();
-                    if (plantNode != null)
+                    if (idDictionnary.ContainsKey(id))
                     {
-                        PlantProperty plantProperty = null;
+                        var plantNode = htmlDoc.DocumentNode.Descendants("span")
+                            .FirstOrDefault(node => node.GetAttributeValue("id", "").Equals(id.Replace("#", "")))
+                            .AncestorsAndSelf("h2").FirstOrDefault();
 
-                        do
+                        if (plantNode != null)
                         {
-                            var previouName = string.Empty;
-                            plantProperty = new PlantProperty()
+                            PlantProperty plantProperty = null;
+                            do
                             {
-                                Name = $"{plantNode.Name}- {id}",
-                                Content = new List<string>(),
-                            };
-                            switch (plantNode.Name)
-                            {
-                                case "h2":
-                                    plant.Properties.Add(plantProperty);
-                                    break;
-                                case "ul":
-                                    break;
-                                case "h3":
-                                    break;
-                                case "p":
-                                    break;
-                            }
-                            previouName = plantNode.Name;
-                            plantNode = plantNode.NextSibling;
-                        } while (plantNode.Name != "h2");
+                                var previouName = string.Empty;
+                                plantProperty = new PlantProperty()
+                                {
+                                    PropertyCategory = idDictionnary[id],
+                                    Content = new List<string>(),
+                                };
+                                switch (plantNode.Name)
+                                {
+                                    case "h2":
+                                        plant.Properties.Add(plantProperty);
+                                        break;
+                                    case "ul":
+                                        break;
+                                    case "h3":
+                                        break;
+                                    case "p":
+                                        break;
+                                }
+                                previouName = plantNode.Name;
+                                plantNode = plantNode.NextSibling;
+                            } while (plantNode.Name != "h2");
 
-                        //var toto = plantNode.NextSibling;
+                            //var toto = plantNode.NextSibling;
+                        }
                     }
                 }
 
@@ -282,18 +286,18 @@ namespace WikiPhytoScrapper.Services
         //    }
         //}
 
-        private static Dictionary<PropertyCategory, string> GetHtmlIds()
+        private static Dictionary<string, PropertyCategory> GetHtmlIds()
         {
-            return new Dictionary<PropertyCategory, string>
+            return new Dictionary<string, PropertyCategory>
             {
-                {PropertyCategory.Name, "Nom_de_la_plante" },
-                {PropertyCategory.Composition, "Composition" },
-                {PropertyCategory.Description, "Description_et_habitat" },
-                {PropertyCategory.HealthProperty, "Propri.C3.A9t.C3.A9s" },
-                {PropertyCategory.Indications, "" },
-                {PropertyCategory.Dosis, "" },
-                {PropertyCategory.History, "" },
-                {PropertyCategory.UndesirableEffects, "" }
+                {"#Nom_de_la_plante", PropertyCategory.Name },
+                {"#Description_et_habitat", PropertyCategory.Description },
+                {"#Histoire_et_tradition", PropertyCategory.History },
+                {"#Dosages_usuels", PropertyCategory.Dosis },
+                {"#Composition", PropertyCategory.Composition },
+                {"#Propri.C3.A9t.C3.A9s", PropertyCategory.HealthProperty },
+                {"#Indications", PropertyCategory.Indications },
+                {"#Effets_ind.C3.A9sirables_.C3.A9ventuels_et_pr.C3.A9cautions_d.27emploi", PropertyCategory.UndesirableEffects }
             };
         }
     }
