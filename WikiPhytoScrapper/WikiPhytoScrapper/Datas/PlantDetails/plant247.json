@@ -1,0 +1,132 @@
+{
+  "Id": "plant247",
+  "Name": "Millepertuis",
+  "Link": "http://www.wikiphyto.org/wiki/Millepertuis",
+  "ImageLink": null,
+  "Properties": [
+    {
+      "Name": "Name",
+      "Content": [
+        "Millepertuis, herbe de la Saint Jean, millepertuis perforé, St John's wort (anglais)"
+      ]
+    },
+    {
+      "Name": "Description",
+      "Content": [
+        "Plante herbacée d’origine eurasiatique, vivace, tige anguleuse dressée, rameuse",
+        "Jusqu’à 80 cm de haut",
+        "Feuilles ovales, opposées et ponctuées de noir sur les bords (poches sécrétrices à hypéricine), présentant sur leur surface de nombreuses petites poches à essence translucides, visibles par transparence comme de petites perforations, justifient son nom (l’adjectif “perforé” est donc un pléonasme)",
+        "Fleurs jaune vif groupées en panicules",
+        "La plante est actuellement cultivée dans de nombreuses régions tempérées du monde pour répondre à une demande très forte"
+      ]
+    },
+    {
+      "Name": "History",
+      "Content": [
+        "Une des fleurs de la Saint Jean",
+        "Servait à la fabrication du “baume Tranquille” et de nos jours du “baume du Commandeur” du fait de ses propriétés vulnéraires, au Moyen-Âge, traitait les cas de démence",
+        "Associé à des cultes solaires pour deux raisons&#160;: floraison à la St Jean, et coloration rouge vif du macérat huileux des fleurs après exposition à la lumière pendant plusieurs semaines",
+        "On ne retrouve mention de ses propriétés antidépressives qu'à partir des années 1960 en Allemagne, où il a été très étudié, avec de nombreuses études pharmacologiques et cliniques.",
+        "Décision du 22 janvier 2001 publiée au JO du 27 janvier 2001&#160;: toute préparation magistrale de Millepertuis même homéopathique doit comporter sur le conditionnement la mention suivante&#160;: “attention, risque d’interaction médicamenteuse. L’association de cette préparation de millepertuis à d’autres médicaments peut entrainer une diminution de leur efficacité. A l’inverse, une interruption brutale de la prise de la prise de millepertuis peut majorer la toxicité de ces médicaments. Demandez conseil à votre médecin ou à votre pharmacien.”"
+      ]
+    },
+    {
+      "Name": "Dosis",
+      "Content": [
+        "600 mg par jour d’extrait sec titré à 0,2&#160;% d’hypericine minimum ou formes galéniques équivalentes",
+        "Correspond à 2 à 4 g de drogue, 0,2 à 1 mg d’hypéricine",
+        "Une teinture-mère contient en moyenne 5 mg d'hypéricine pour 100 ml, ce qui correspond, pour une dose journalière de 3 fois 20 gouttes (= 3 ml), à une quantité de 0,15 mg d'hypéricine",
+        "En général 2 à 3 prises par jour (soit 1 mg à 3 mg au maximum d’hypéricines totales)",
+        "Dose minimale d'hypéricine pour l'activité&#160;: 0,6 à 1 mg/jour"
+      ]
+    },
+    {
+      "Name": "Composition",
+      "Content": [
+        "Composants principaux de la plante",
+        "Pigments rouges du groupe des anthrones (0,06-0,15%): naphtodianthrones dont hypéricine (traceur habituel des extraits), pseudohypéricine, isopseudohypéricine, protopseudohypéricine, et cyclopseudohypéricine",
+        "Composés phénoliques dérivés du phloroglucinol (2-5%): hyperforine (dérivé prénylé), adhyperforine, hydroperoxycadiforine (le meilleur candidat à l’effet antidépresseur)",
+        "Flavonoïdes&#160;: hypéroside, isoquercitroside, rutoside, quercétol",
+        "Biflavonoïdes (0,1-0,5%)&#160;: biapigénine, amentoflavone (son isomère)",
+        "Xanthones en faible quantité&#160;: tétrahydroxyxanthone (et kielcorine dans les racines)",
+        "Tanins et proanthocyanidols",
+        "Huile essentielle&#160;: n-alcanes et monoterpènes",
+        "Mélatonine (4490 ng/g) ",
+        "Composants principaux des bourgeons ou jeunes pousses",
+        "Composants principaux de l'huile essentielle",
+        "Méthyl-2-octane (composant principal, 50&#160;% environ), n-nonane, n-undécane",
+        "Alpha-pinène, bêta-pinène, limonène, myrcène, caryophyllène, alpha-terpinéol, géraniol, aldéhydes caprylique (n-octanal) et caprique (n-décanal) "
+      ]
+    },
+    {
+      "Name": "HealthProperty",
+      "Content": [
+        "Propriétés de la plante",
+        "Antidépresseur, l’activité est liée à une inhibition de la recapture des neuromédiateurs (sérotonine surtout, dopamine, noradrénaline) et à une interaction modérée avec les récepteurs du GABA-A (hyperforine surtout), , , , , , , , , l'hyperforine serait le candidat le plus sérieux, mais l'effet antidépresseur est probablement dû à une synergie entre différentes substances , ",
+        "Anxiolytique , ",
+        "Sédatif  même avec des extraits dépourvus d'hyperforine",
+        "De nombreuses molécules sont synergiques entre elles, par deux mécanismes complémentaires&#160;:",
+        "Synergie pharmacodynamique, où des composants ont des effets sur des cibles identiques ou des effets multicibles&#160;: l’hypéricine, les flavonols et les xanthones inhibent la monoamine oxydase MAO et la catéchol-O-méthyltransférase COMT, l’hyperforine inhibe la recapture de la sérotonine",
+        "Synergie pharmacocinétique, qui affecte l’absorption, la distribution, la biotransformation, ou l’élimination de molécules&#160;: la procyanidine augmente l’hydrosolubilité des naphtodianthrones, donc leur biodisponibilité ",
+        "Les extraits hydro-alcooliques sont des inhibiteurs sélectifs de la mono-amine oxydase de type A (MAO) par les flavonoïdes et les xanthones (qui seraient néanmoins présentes en trop faible quantité), inhibition de la catéchol-O-méthyl transférase ",
+        "L’hypéricine a une activité faible (les préparations qui en sont dépourvues sont actives) mais elle se lie aux récepteurs des neuropeptides Y1 et Y2, supposés jouer un rôle dans les états anxieux et dépressifs. Les naphtodianthrones sont très réactives en présence de lumière et ce sont elles qui procurent la couleur rouge de l’huile",
+        "Les flavonoïdes sont aussi des inhibiteurs de la catéchol-o-méthyltransférase (COMT) mais les études montrent une activité trop faible sur ce plan et sur l’inhibition de la MAO",
+        "L’amentoflavone se lie au récepteur des benzodiazépines",
+        "L’hypéricine est sédative et mélatoninergique",
+        "L'hypéricine pourrait lutter contre le cytomégalovirus (CMV) et l'herpès simplex ",
+        "Neuroprotecteur ",
+        "L’hypéroside agit sur les tumeurs cérébrales humaines",
+        "L'hyperforine induit une inhibition de la croissance tumorale de cellules leucémiques, de cellules de glioblastome cérébral, de manière synergique avec l’hypéricine et la procyanidine B2, activation de caspases, induction d’apoptose ",
+        "Sérotoninergique et mélatoninergique (entraine une augmentation du taux de mélatonine)",
+        "Activité modeste vis-à-vis des facteurs de stress comportemental ",
+        "Les produits à base de poudre de Millepertuis à consommer par voie orale, vendus hors prescription médicale, sont actuellement commercialisés en France illégalement",
+        "Dans la plante fraîche, les naphtodianthrones existent sous forme proto- ou précurseur (protohypéricine), la protohypéricine est beaucoup plus faiblement phototoxique",
+        "Anti-inflammatoire et antalgique ",
+        "Cholagogue, digestif",
+        "Anti-asthmatique&#160;?",
+        "Par voie externe&#160;: antiseptique, astringent, cicatrisant, vulnéraire, surtout sous forme de macération huileuse ",
+        "Utilisable dans le traitement de la maladie parodontale inflammatoire, inhibe l'extravasation du plasma et diminue la résorption osseuse ",
+        "L'hypéricine peut être un agent de photo-détection et de photothérapie dynamique des micrométastases de cancer ovarien [6]",
+        "Hypericum lanceolatum possède des propriétés antimalariques ",
+        "Propriétés du bourgeon",
+        "Propriétés de l'huile essentielle",
+        "Anti-inflammatoire",
+        "Propriétés anti-angiogéniques potentielles "
+      ]
+    },
+    {
+      "Name": "Indications",
+      "Content": [
+        "Indications de la plante entière (phytothérapie)",
+        "États dépressifs (dépression légère à modérée), surtout dépressions saisonnières, et survenant lors de fatigue nerveuse et d’états physiologiques comme la ménopause",
+        "Une méta-analyse  rapporte en 1996 les résultats de 27 essais (sur 1757 patients en tout) comparant le millepertuis soit avec un placebo soit avec des traitements actifs. Elle suggère que le millepertuis est plus efficace qu'un placebo et aussi efficace que les antidépresseurs tricycliques (ATC) à doses faibles dans le traitement de la dépression. Son mécanisme d’action semble similaire à celui des antidépresseurs classiques: inhibition de la recapture de monoamines.",
+        "Un essai en double aveugle sur 324 patients atteint de dépression discrète à modérée ont été traité par un extrait alcoolique à 0,2% d'hypericine a montré une efficacité identique à 50 mg d'imipramine deux fois par jour , une autre étude a montré la même efficacité que l'imipramine, avec une meilleure tolérance ",
+        "Plus récemment, il a été observé, chez les patients traités par un extrait de millepertuis, une réduction significative du score de Hamilton (échelle d'évaluation initiale de la dépression) comparativement aux patients traités par la paroxétine, avec amélioration du score de gravité de la dépression et une meilleure rémission à moyen terme ",
+        "Aucun effet positif ne doit être attendu avant 10 - 14 jours de traitement",
+        "Arrêter si aucun effet ne s’est manifesté après 4 à 6 semaines de traitement",
+        "Selon l'expérience des cliniciens, l'efficacité est plus nette dans les dépressions à forme hivernale (action sur la mélatonine&#160;?)",
+        "Plaies et brûlures, coups de soleil (voie externe)",
+        "Indications du bourgeon (gemmothérapie)",
+        "Indications spécifiques de l'huile essentielle (aromathérapie)"
+      ]
+    },
+    {
+      "Name": "UndesirableEffects",
+      "Content": [
+        "Photosensibilisant (par induction de la formation d’O2 singulet)",
+        "Interactions  avec des médicaments \"à faible marge thérapeutique\", notamment les anti-rétroviraux (anti-VIH tels que l’indinavir ), la digoxine, la théophylline, les anti-vitamines K, la ciclosporine, les contraceptifs oraux, les antidépresseurs IRS, l'amitriptyline, la cyclosporine, la fexofenadine, l'indinavir, la méthadone, le midazolam, la nevirapine, le phenprocoumon, la simvastatine, le tacrolimus et la warfarine. Ces interactions sont liées à une induction enzymatique du cytochrome P450 et à une induction de la glycoprotéine P membranaire ",
+        "Réduction possible de l’effet du médicament secondaire à une diminution de la concentration plasmatique, par suite d’une induction possible de l’isoenzyme CYP2C9, du CYP3A4 et du CYP1A2 , , induction de l’activité du CYP3A, avec réduction de l’efficacité thérapeutique des médicaments métabolisés par le CYP3A, d'autres sources ne retrouvent pas d'altération de l’activité des CYP2C9, CYP1A2, CYP2D6 ",
+        "Interactions avec inhibiteurs de protéase et de transcriptase, immunosuppresseurs ciclosporine et tacrolimus, irinotecan, imatinib, contraceptifs hormonaux minidosés, antidépresseurs sérotoninergiques par induction du cytochrome P450 CYP3A4 (hyperforine) et de la glycoprotéine P (hypéricine) ",
+        "Une interruption brutale de la prise du millepertuis peut donc aussi entraîner une augmentation de la concentration plasmatique de ces médicaments",
+        "Le millepertuis induit progressivement et puissamment l'activité du CYP3A4, l'élimination de l'éthinylestradiol, substrat majeur du CYP3A4, sera fortement accélérée en présence du millepertuis, par conséquent, l'effet contraceptif ne sera plus assuré et il faudra prévoir un autre mode de contraception ",
+        "En 2014, la MHRA, (Medicines and Healthcare Products Regulatory Agency) Agence britannique de régulation des médicaments, a émis une alerte sur le risque d’interaction entre millepertuis et contraceptifs hormonaux à base de progestérone, pilules combinées microdosées et implants d'étonogestrel&#160;: 19 interactions suspectes ont été signalées entre 2000 et 2014, dont 15 grossesses non désirées ",
+        "L'hyperforine est vraisemblablement le principal responsable des interactions&#160;:",
+        "Il a été montré que la teneur en hyperforine d’une préparation de millepertuis est significativement corrélée avec le niveau d'induction du CYP3A4 ",
+        "Un extrait d'Hypericum à faible teneur en hyperforine a été étudié chez 20 volontaires sains recevant un cocktail médicamenteux, et aucune interaction pharmacocinétique n'a été observée pour les CYP1A2, CYP2B6, CYP2C9, CYP2C19, CYP3A4 et la glycoprotéine-P ",
+        "Quelques cas de syndrome sérotoninergique ont été rapportés dans la littérature chez des patients âgés traités par un antidépresseur inhibiteur de la recapture de la sérotonine et ayant pris du millepertuis",
+        "Bonne sécurité d'emploi par ailleurs ",
+        "L'huile essentielle peut être allergisante"
+      ]
+    }
+  ]
+}

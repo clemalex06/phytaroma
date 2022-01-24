@@ -145,13 +145,7 @@ namespace WikiPhytoScrapper.Services
             var sw = Stopwatch.StartNew();
             Console.WriteLine("Start Scrapping Plant detail");
 
-            var plant = new Plant()
-            {
-                Id = "plant772",
-                Name = "Valériane",
-                Link = "http://www.wikiphyto.org/wiki/Val%C3%A9riane",
-                Properties = new List<PlantProperty>()
-            };
+            var plant = GetPlantFromId("plant788");
 
             var idDictionnary = GetHtmlIds();
             var currentList = plant.Properties;
@@ -229,7 +223,35 @@ namespace WikiPhytoScrapper.Services
         {
             var regex = new Regex(@"[0-9]*&#93;");
             string result = regex.Replace(initialstring, string.Empty);
-            return result.Replace("&#91;", string.Empty);
+            return result
+                .Replace("&#91;", string.Empty)
+                .Replace("&#160;", string.Empty);
+        }
+
+        private static Plant GetPlantFromId(string id)
+        {
+            var plant = DataSerializer.Deserialize()?
+                .Select(p => p.Plants.SingleOrDefault(plant => string.Equals(plant.Id, id)))?
+                .Where(p => p != null)?.SingleOrDefault();
+
+            if (plant != null && plant.Properties == null)
+            {
+                plant.Properties = new List<PlantProperty>();
+            }
+
+            if (plant == null)
+            {
+                plant = new Plant()
+                {
+                    Id = "plant772",
+                    Name = "Valériane",
+                    Link = "http://www.wikiphyto.org/wiki/Val%C3%A9riane",
+                    Properties = new List<PlantProperty>()
+                };
+            }
+
+            return plant;
+
         }
     }
 }

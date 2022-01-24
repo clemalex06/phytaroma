@@ -29,5 +29,14 @@ namespace WikiPhytoScrapper.Services
                 serializer.Serialize(outputFile, plant);
             }
         }
+
+        public static List<PlantFamily> Deserialize()
+        {
+            using (StreamReader file = File.OpenText(@"D:\Dev\phytaroma\WikiPhytoScrapper\WikiPhytoScrapper\Datas\PlantFamily.json"))
+            {
+                JsonSerializer serializer = new JsonSerializer();
+                return (List<PlantFamily>)serializer.Deserialize(file, typeof(List<PlantFamily>));
+            }
+        }
     }
 }

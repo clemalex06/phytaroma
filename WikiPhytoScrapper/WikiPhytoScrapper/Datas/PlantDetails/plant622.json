@@ -1,0 +1,89 @@
+{
+  "Id": "plant622",
+  "Name": "Shii-Také",
+  "Link": "http://www.wikiphyto.org/wiki/Shii-Tak%C3%A9",
+  "ImageLink": null,
+  "Properties": [
+    {
+      "Name": "Name",
+      "Content": [
+        "Shii-Také, lentin du chêne, shiitake, xiang gu (chinois), «&#160;champignon parfumé&#160;»"
+      ]
+    },
+    {
+      "Name": "Description",
+      "Content": [
+        "Champignon de 5 à 20 cm de diamètre, convexe puis s'étalant ensuite. Cuticule sèche, brun-fauve couverte d'écailles concentriques blanches plus amples et nombreuses vers la marge. Marge longtemps enroulée, régulière, concolore,",
+        "Lames moyennement larges , serrées, blanches, blanchâtres puis foncées, se tachant de brun au contact.",
+        "Pied fibrilleux-laineux, pelucheux, coriace, en général central mais souvent courbé, cylindrique plus étroit à la base, plus pâle que le chapeau, avec zone annulaire laineuse",
+        "Chair épaisse, blanchâtre, présente une odeur et une saveur fongique et épicée agréable.",
+        "Spores blanches, non amyloïdes.",
+        "Bon comestible"
+      ]
+    },
+    {
+      "Name": "History",
+      "Content": [
+        "Saprophyte et parasite lignicole, le shii-take pousse généralement au Japon sur l'arbre \"Shii\" (espèce absente des forêts européennes), où il fait toujours l’objet d’une culture familiale qui consiste à frotter les lamelles ou du mycélium sur des billots de bois à demi enfouis dans les jardins. Il serait originaire de Taïwan et d'Indonésie. Il est probable que son utilisation alimentaire en Sud-Est asiatique est millénaire, mais les références précises à sa culture ne remontent qu'à trois siècles",
+        "Deuxième champignon comestible le plus cultivé dans le monde (après Agaricus bisporus, le champignon de Paris), c'est un ingrédient important de la cuisine chinoise et japonaise",
+        "L’INRA a mis au point un substrat de culture à base de résidus du chêne, mais il a surtout développé un support à base de paille de blé grossièrement broyée, enrichie de plâtre et farines puis pasteurisée à 65°C, pour détruire tous parasites. Ensemencé de mycélium puis conditionné en unités cylindriques, ces \" billots \" sont placés dans des locaux dont la température, l'humidité, l'aération et l'éclairement sont contrôlés, et ajustés en fonction des phases de développement (incubation, préfructification et fructification)"
+      ]
+    },
+    {
+      "Name": "Dosis",
+      "Content": [
+      ]
+    },
+    {
+      "Name": "Composition",
+      "Content": [
+        "Composants principaux de la plante",
+        "Polysaccharides&#160;: lentinane, polymère homogène de masse moléculaire voisine de 50 000 (béta-glucane)",
+        "Protéines, lectines ",
+        "Vitamines du groupe B&#160;:",
+        "Vitamine B5 (22 mg pour 100 g)",
+        "Vitamine B2",
+        "Vitamine PP (33&#160;% de l'apport conseillé pour 100 g)",
+        "Sélénium, cuivre, zinc",
+        "Composants principaux des bourgeons ou jeunes pousses",
+        "Composants principaux de l'huile essentielle"
+      ]
+    },
+    {
+      "Name": "HealthProperty",
+      "Content": [
+        "Propriétés de la plante",
+        "Amélioration de l'immunité, induction de la prolifération et activation des cellules immunocompétentes, augmentation de la production des IgA ",
+        "Propriétés antitumorales dues non pas à des effets cytostatiques mais à une activité immuno-stimulante, protecteur vis-à-vis du développement tumoral ",
+        "Le lentinane, polysaccharide du β 1-3, glycane, stimule in vitro la phagocytose par des macrophages péritonéaux de souris ",
+        "Le lentinane stimule la prolifération des lymphocytes T en présence d’interleukine-2, stimule l’activité des macrophages et la production d’interleukine-1",
+        "Inhibition de la croissance des cellules tumorales de cancer du col utérin associées aux papillomavirus oncogènes par induction d'apoptose ",
+        "Utilisé au Japon en association avec la chimiothérapie et la radiothérapie dans certains cancers , des études japonaises réalisées chez l’homme montrent que l’association avec un antitumoral est meilleure que l’antitumoral seul (cancers du colon et de l’estomac)",
+        "Diminution des effets indésirables des antitumoraux ",
+        "Un autre champignon considéré comme un aliment fonctionnel, Inonotus obliquus, présente une activité anti-inflammatoire et anticancer. Il contient lanostérol, 3β-hydroxy-8,24-dien-21-al, ergostérol, inotodiol, peroxyde d’ergostérol, acide traméténolique ",
+        "Amélioration de la plaque dentaire , inhibe l'adhésion et la formation du biofilm bactérien ",
+        "Gastroprotecteur ",
+        "Antioxydant ",
+        "Propriétés du bourgeon",
+        "Propriétés de l'huile essentielle"
+      ]
+    },
+    {
+      "Name": "Indications",
+      "Content": [
+        "Indications de la plante entière (phytothérapie)",
+        "Association adjuvante avec la chimiothérapie des cancers",
+        "Indications du bourgeon (gemmothérapie)",
+        "Indications spécifiques de l'huile essentielle (aromathérapie)"
+      ]
+    },
+    {
+      "Name": "UndesirableEffects",
+      "Content": [
+        "Considéré comme atoxique ",
+        "Rares allergies avec le champignon cru , des cas de dermatite allergique ont été observés après absorption orale de shii-také ",
+        "Une éruption cutanée prurigineuse (dermatite flagellée) peut apparaître 12 à 24 h après l'ingestion de Lentinula edodes  (Shiitaké) consommé cru ou insuffisamment cuit (lentinanes). Il s’agit d’une éruption érythémateuse débutant au tronc puis s'étendant aux membres, constituée de papules, isolées ou groupées en ligne (aspect de flagellation). Le traitement est symptomatique Vidal Tox'in"
+      ]
+    }
+  ]
+}

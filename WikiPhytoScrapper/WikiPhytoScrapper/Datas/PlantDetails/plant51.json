@@ -1,0 +1,114 @@
+{
+  "Id": "plant51",
+  "Name": "Fenouil doux",
+  "Link": "http://www.wikiphyto.org/wiki/Fenouil_doux",
+  "ImageLink": null,
+  "Properties": [
+    {
+      "Name": "Name",
+      "Content": [
+        "Fenouil doux (aneth fenouil)",
+        "Fenouil amer"
+      ]
+    },
+    {
+      "Name": "Description",
+      "Content": [
+        "Plante herbacée des coteaux calcaires du Midi, d’odeur anisée bien marquée",
+        "Tige glauque pouvant atteindre 2 m de haut, à feuilles découpées en lanières filiformes, pennées, plumeuses",
+        "Fleurs jaunes verdâtres réunies en ombelles",
+        "Fruit&#160;: akène oblong +/- arqué"
+      ]
+    },
+    {
+      "Name": "History",
+      "Content": [
+        "Fait partie du sirop des cinq racines&#160;: Ache, Asperge, Fenouil, Persil, Petit houx",
+        "Au Moyen-Âge, on s’en servait comme antidote contre la sorcellerie",
+        "On décrit deux variétés, Fœniculum vulgare var. amara (à fenchone) et var. dulce (à anéthole et estragole)"
+      ]
+    },
+    {
+      "Name": "Dosis",
+      "Content": [
+      ]
+    },
+    {
+      "Name": "Composition",
+      "Content": [
+        "Composants principaux de la plante",
+        "Fruits de la variété douce Fœniculum vulgare var. dulce&#160;:",
+        "Huile essentielle (2 à 6&#160;%) riche en E-anéthole (= trans-anéthole 80&#160;%) méthyl-chavicol = estragole (5 - 10&#160;%) et fenchone (&lt; 2&#160;%)",
+        "Coumarines&#160;: scopolétine, bergaptène, ombelliférone",
+        "Diosgénine",
+        "Il existe deux chimiotypes&#160;: à anéthole et à estragole",
+        "Racine&#160;: flavonoïdes (kaemférol, quercétine, isorhamnétine), acides organiques, coumarines (ombelliférone)",
+        "Composants principaux des bourgeons ou jeunes pousses",
+        "Composants principaux de l'huile essentielle",
+        "Phénols méthyl éthers&#160;: trans-anéthole = E-anéthole (55-75&#160;% dans Fœniculum vulgare var. amara, 80-95&#160;% dans Fœniculum vulgare var. dulce), méthyl-chavicol = estragole (5 - 10&#160;%)",
+        "Cétone&#160;: fenchone (12-25&#160;%  dans Fœniculum vulgare var. amara, 1-10&#160;% dans Fœniculum vulgare var. dulce)",
+        "Alpha-pinène 1-10&#160;% (dans Fœniculum vulgare var. amara)",
+        "On décrit deux chimiotypes&#160;: à anéthole et à estragole"
+      ]
+    },
+    {
+      "Name": "HealthProperty",
+      "Content": [
+        "Propriétés de la plante",
+        "Racine&#160;: diurétique (sirop des cinq racines), la tisane est bcp moins active, il faut un extrait hydro-alcoolique (Fleurentin)",
+        "Feuille&#160;: vulnéraire",
+        "Fruit&#160;: carminatif, galactagogue et eupeptique, expectorant",
+        "Anti-inflammatoire, anti-allergique, par inhibition de la 5-lipoxygénase ",
+        "Stimule la motricité de l’estomac par voie orale",
+        "Galactogène (graine et huile essentielle)",
+        "La plante (extrait hydro-alcoolique) améliore la fertilité chez la souris (présence de diosgénine) ",
+        "L’anéthole est œstrogène-like mais l’huile essentielle totale est plus active. Elle augmente les sécrétions glandulaires au niveau respiratoire par action directe sur les cellules ou par stimulation des glandes de la muqueuse gastrique. Cela engendre une évacuation du mucus bronchique",
+        "Propriétés du bourgeon",
+        "Propriétés de l'huile essentielle",
+        "Galactogène, œstrogène-like (anéthole) , l’effet œstrogénique est lié à des polymères de l’anéthole (dianéthole et photoanéthole) ",
+        "Puissamment antispasmodique",
+        "Anxiolytique ",
+        "Tonique nerveuse, respiratoire et cardiaque",
+        "Dépurative, eupeptique, stomachique, apéritive, cholagogue, cholérétique, carminative, améliore les coliques des enfants dans une étude randomisée contre placebo ",
+        "Hépatoprotectrice ",
+        "Analgésique, anti-inflammatoire ",
+        "Antifongique (dermatophytes Trichophyton rubrum, Trichophyton tonsurans, Microsporum gypseum, Trichophyton mentagrophytes) , ",
+        "Antioxydante, comparable au tocophérol ",
+        "Antithrombotique, activité antiplaquettaire à large spectre, et action vasorelaxante (anéthole) ",
+        "Acaricide "
+      ]
+    },
+    {
+      "Name": "Indications",
+      "Content": [
+        "Indications de la plante entière (phytothérapie)",
+        "Ballonnements, gastralgies",
+        "Lithiases biliaires",
+        "Allaitement maternel (stimule)",
+        "Anxiété et dépression chez la femme ménopausée ",
+        "Atrophie vaginale postménopausique par voie locale sous forme de crème, augmente significativement l’index de maturation vaginale et le nombre de cellules superficielles , mais pas par voie orale ",
+        "Localement&#160;: blépharites, conjonctivites",
+        "Une crème à l'extrait de fenouil dosée à 2% est efficace sur l'hirsutisme féminin ",
+        "Indications du bourgeon (gemmothérapie)",
+        "Indications spécifiques de l'huile essentielle (aromathérapie)",
+        "Allaitement maternel insuffisant",
+        "Aménorrhée, symptômes de préménopause et ménopause",
+        "Spasmes neuromusculaires, lumbago, rhumatisme",
+        "Bronchite, asthme, toux spastiques",
+        "Dyspepsie, aérophagie, hoquet, nausée, flatulence, colite, gastralgie, anorexie",
+        "Stress, asthénie nerveuse"
+      ]
+    },
+    {
+      "Name": "UndesirableEffects",
+      "Content": [
+        "HE déconseillée chez la femme enceinte",
+        "Un usage prolongé de fenouil peut entrainer une hypertrophie mammaire prématurée chez la petite fille (thelarche en anglais) ",
+        "Prudence en cas d' hypothyroïdie (HE)",
+        "Éviter l'association avec les anticoagulants ou antiagrégants",
+        "Pas d'usage prolongé",
+        "Huile essentielle formellement contre-indiquée dans les pathologies cancéreuses hormono-dépendantes"
+      ]
+    }
+  ]
+}
