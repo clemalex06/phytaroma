@@ -18,5 +18,16 @@ namespace WikiPhytoScrapper.Services
                 serializer.Serialize(outputFile, family);
             }
         }
+
+        public static void Serialize(Plant plant)
+        {
+            string exeFolder = AppDomain.CurrentDomain.BaseDirectory;
+            var outputPath = $"{exeFolder}\\Datas\\{plant.Id}.json";
+            using (StreamWriter outputFile = new StreamWriter(outputPath))
+            {
+                JsonSerializer serializer = new JsonSerializer();
+                serializer.Serialize(outputFile, plant);
+            }
+        }
     }
 }

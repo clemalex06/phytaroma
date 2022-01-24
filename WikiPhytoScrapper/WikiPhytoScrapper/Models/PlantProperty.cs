@@ -4,6 +4,11 @@ namespace WikiPhytoScrapper.Models
 {
     public class PlantProperty
     {
+        public PlantProperty(PropertyCategory property)
+        {
+            this.PropertyCategory = property;
+        }
+
         public string Name
         {
             get
@@ -13,7 +18,7 @@ namespace WikiPhytoScrapper.Models
         }
         public List<string> Content { get; set; }
 
-        public PropertyCategory PropertyCategory { get; set; }
+        private PropertyCategory PropertyCategory { get; set; }
     }
 
     public enum PropertyCategory
@@ -25,6 +30,7 @@ namespace WikiPhytoScrapper.Models
         Composition,
         HealthProperty,
         Indications,
+        TherapeuticEffects,
         UndesirableEffects
     }
 }

@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using WikiPhytoScrapper.Models;
 
@@ -175,116 +176,38 @@ namespace WikiPhytoScrapper.Services
 
                         if (plantNode != null)
                         {
-                            PlantProperty plantProperty = null;
-                            do
+                            var plantProperty = new PlantProperty(idDictionnary[id])
                             {
-                                var previouName = string.Empty;
-                                plantProperty = new PlantProperty()
+                                Content = new List<string>(),
+                            };
+                            do
+                            {   
+                                if (plantNode.Name != "h2")
                                 {
-                                    PropertyCategory = idDictionnary[id],
-                                    Content = new List<string>(),
-                                };
-                                switch (plantNode.Name)
-                                {
-                                    case "h2":
-                                        plant.Properties.Add(plantProperty);
-                                        break;
-                                    case "ul":
-                                        break;
-                                    case "h3":
-                                        break;
-                                    case "p":
-                                        break;
+
+                                    var content = plantNode.InnerText
+                                        .Split('\n')
+                                        .Where( s => !string.IsNullOrWhiteSpace(s))
+                                        .Select(p=> RemoveEncodedCharacters(p)).ToList();
+
+                                    plantProperty.Content.AddRange(content);
                                 }
-                                previouName = plantNode.Name;
+
                                 plantNode = plantNode.NextSibling;
                             } while (plantNode.Name != "h2");
 
-                            //var toto = plantNode.NextSibling;
+                            plant.Properties.Add(plantProperty);
                         }
                     }
                 }
 
-                //foreach
-
+                DataSerializer.Serialize(plant);
                 Console.WriteLine("End Scrapping Plant detail");
                 sw.Stop();
                 Console.WriteLine($"Time taken: {sw.Elapsed.TotalMilliseconds}ms");
                 Console.ReadLine();
             }
         }
-
-        //// Test To retrieve the details of a Plant
-        //public static void LoadPlantDetailObsolete()
-        //{
-        //    var sw = Stopwatch.StartNew();
-        //    Console.WriteLine("Start Scrapping Plant detail");
-
-        //    var plant = new Plant()
-        //    {
-        //        Id = "plant772",
-        //        Name = "Valériane",
-        //        Link = "http://www.wikiphyto.org/wiki/Val%C3%A9riane",
-        //        Properties = new List<PlantProperty>()
-        //    };
-
-        //    var currentList = plant.Properties;
-
-        //    var responsePagePlantFamily = Scrapper.CallUrl(plant.Link).Result;
-        //    HtmlDocument htmlDoc = new HtmlDocument();
-        //    htmlDoc.LoadHtml(responsePagePlantFamily);
-        //    var refNodes = htmlDoc.DocumentNode
-        //            .Descendants("div")
-        //            .Where(node => node.GetAttributeValue("id", "").Equals("toc"))
-        //            .FirstOrDefault()?.Descendants("a").Select(n => n.GetAttributeValue("href", "")).ToList();
-        //    if (refNodes != null)
-        //    {
-        //        foreach (var id in refNodes)
-        //        {
-        //            var plantNode = htmlDoc.DocumentNode.Descendants("span")
-        //                    .FirstOrDefault(node => node.GetAttributeValue("id", "").Equals(id.Replace("#", ""))).
-        //                    AncestorsAndSelf("h2").FirstOrDefault();
-        //            if (plantNode != null)
-        //            {
-        //                PlantProperty plantProperty = null;
-
-        //                do
-        //                {
-        //                    var previouName = string.Empty;
-        //                    plantProperty = new PlantProperty()
-        //                    {
-        //                        Name = $"{plantNode.Name}- {id}",
-        //                        Content = new List<string>(),
-        //                    };
-        //                    switch (plantNode.Name)
-
-        //                    {
-        //                        case "h2":
-        //                            plant.Properties.Add(plantProperty);
-        //                            break;
-        //                        case "ul":
-        //                            break;
-        //                        case "h3":
-        //                            break;
-        //                        case "p":
-        //                            break;
-        //                    }
-        //                    previouName = plantNode.Name;
-        //                    plantNode = plantNode.NextSibling;
-        //                } while (plantNode.Name != "h2");
-
-        //                //var toto = plantNode.NextSibling;
-        //            }
-        //        }
-
-        //        //foreach
-
-        //        Console.WriteLine("End Scrapping Plant detail");
-        //        sw.Stop();
-        //        Console.WriteLine($"Time taken: {sw.Elapsed.TotalMilliseconds}ms");
-        //        Console.ReadLine();
-        //    }
-        //}
 
         private static Dictionary<string, PropertyCategory> GetHtmlIds()
         {
@@ -297,8 +220,16 @@ namespace WikiPhytoScrapper.Services
                 {"#Composition", PropertyCategory.Composition },
                 {"#Propri.C3.A9t.C3.A9s", PropertyCategory.HealthProperty },
                 {"#Indications", PropertyCategory.Indications },
+                {"#Effet_th.C3.A9rapeutique", PropertyCategory.TherapeuticEffects },
                 {"#Effets_ind.C3.A9sirables_.C3.A9ventuels_et_pr.C3.A9cautions_d.27emploi", PropertyCategory.UndesirableEffects }
             };
+        }
+
+        private static string RemoveEncodedCharacters(string initialstring)
+        {
+            var regex = new Regex(@"[0-9]*&#93;");
+            string result = regex.Replace(initialstring, string.Empty);
+            return result.Replace("&#91;", string.Empty);
         }
     }
 }
