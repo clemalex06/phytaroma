@@ -1,0 +1,40 @@
+{
+  "Id": "plant788",
+  "Name": "Temoe-Lawaq",
+  "Link": "http://www.wikiphyto.org/wiki/Temoe-Lawaq",
+  "ImageLink": null,
+  "Properties": [
+    {
+      "Name": "Name",
+      "Content": [ "Temoe-Lawaq, Témoé-lawacq, Témoé-lawaq, Safran des Indes" ]
+    },
+    {
+      "Name": "Description",
+      "Content": [ "Arbuste aux rhizomes de cassure jaune, à odeur et saveur aromatiques, jusqu'à 1,5 m de hauteur, feuilles larges, engainantes, à limbe elliptique et penninerve, à épis de fleurs coniques, proches du sol, à la corolle munie d'un pétale postérieur développé", "Originaire d'Indonésie, cultivée en Inde" ]
+    },
+    {
+      "Name": "History",
+      "Content": []
+    },
+    {
+      "Name": "Dosis",
+      "Content": []
+    },
+    {
+      "Name": "Composition",
+      "Content": [ "Composants principaux de la plante", "Curcuminoïdes: pigments jaunes, constitués de curcumine, monodéméthoxycurcumines et bisdéméthoxycurcumines", "Sesquiterpénoïde: xanthorrizol", "Huile essentielle surtout constituée de sesquiterpènes", "Composants principaux des bourgeons ou jeunes pousses", "Composants principaux de l'huile essentielle" ]
+    },
+    {
+      "Name": "HealthProperty",
+      "Content": [ "Propriétés de la plante", "Le xanthorrhizol est antibactérien, protecteur vis-à-vis de l'hépatotoxicité induite par le cisplatine, antioxydant et anti-inflammatoire vis-à-vis des neurones et des cellules microgliales, protecteur vis-à-vis de la neurotoxicité induite par le glutamate et les espèces réactives de l'oxygène, il réduit l'expression de la cyclooxygenase-2 et de la nitric oxyde synthase, et peut être un candidat sérieux  comme traitement de la maladie d'Alzheimer et d'autres maladies inflammatoires neuronales , il induit en outre l'apoptose dans les cellules cancéreuses HeLa  et dans les cellules de cancer du sein , ", "Anti-candidosique ", "Antibactérien ", "Activité œstrogénique ", "Propriétés du bourgeon", "Propriétés de l'huile essentielle" ]
+    },
+    {
+      "Name": "Indications",
+      "Content": [ "Indications de la plante entière (phytothérapie)", "Indications du bourgeon (gemmothérapie)", "Indications spécifiques de l'huile essentielle (aromathérapie)" ]
+    },
+    {
+      "Name": "UndesirableEffects",
+      "Content": []
+    }
+  ]
+}

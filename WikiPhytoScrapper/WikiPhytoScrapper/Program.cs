@@ -7,10 +7,10 @@ namespace WikiPhytoScrapper
         static void Main(string[] args)
         {
             //To Load families Plants
-            Scrapper.LoadFamilies();
+            // Scrapper.LoadFamilies();
 
             //To Load Plant Detail
-            //Scrapper.LoadPlantDetail();
+            Scrapper.LoadPlantDetail();
         }
     }
 }

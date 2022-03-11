@@ -1,0 +1,6122 @@
+[
+	{
+		"Id": "cat1",
+		"Name": "Abietaceae",
+		"Plants": [
+			{
+				"Id": "plant1",
+				"Name": "Pin maritime",
+				"Link": "http://www.wikiphyto.org/wiki/Pin_maritime",
+				"Properties": null
+			},
+			{
+				"Id": "plant2",
+				"Name": "Sapin argenté",
+				"Link": "http://www.wikiphyto.org/wiki/Sapin_argent%C3%A9",
+				"Properties": null
+			},
+			{
+				"Id": "plant3",
+				"Name": "Épinette",
+				"Link": "http://www.wikiphyto.org/wiki/%C3%89pinette",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Abietaceae"
+	},
+	{
+		"Id": "cat2",
+		"Name": "Acanthaceae",
+		"Plants": [
+			{
+				"Id": "plant4",
+				"Name": "Andrographis",
+				"Link": "http://www.wikiphyto.org/wiki/Andrographis",
+				"Properties": null
+			},
+			{
+				"Id": "plant5",
+				"Name": "Gendarusse",
+				"Link": "http://www.wikiphyto.org/wiki/Gendarusse",
+				"Properties": null
+			},
+			{
+				"Id": "plant6",
+				"Name": "Herbe charpentier",
+				"Link": "http://www.wikiphyto.org/wiki/Herbe_charpentier",
+				"Properties": null
+			},
+			{
+				"Id": "plant7",
+				"Name": "Noix de Malabar",
+				"Link": "http://www.wikiphyto.org/wiki/Noix_de_Malabar",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Acanthaceae"
+	},
+	{
+		"Id": "cat3",
+		"Name": "Aceraceae",
+		"Plants": [
+			{
+				"Id": "plant8",
+				"Name": "Érable champêtre",
+				"Link": "http://www.wikiphyto.org/wiki/%C3%89rable_champ%C3%AAtre",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Aceraceae"
+	},
+	{
+		"Id": "cat4",
+		"Name": "Adoxaceae",
+		"Plants": [
+			{
+				"Id": "plant9",
+				"Name": "Sureau hièble",
+				"Link": "http://www.wikiphyto.org/wiki/Sureau_hi%C3%A8ble",
+				"Properties": null
+			},
+			{
+				"Id": "plant10",
+				"Name": "Sureau noir",
+				"Link": "http://www.wikiphyto.org/wiki/Sureau_noir",
+				"Properties": null
+			},
+			{
+				"Id": "plant11",
+				"Name": "Viorne douce",
+				"Link": "http://www.wikiphyto.org/wiki/Viorne_douce",
+				"Properties": null
+			},
+			{
+				"Id": "plant12",
+				"Name": "Viorne mancienne",
+				"Link": "http://www.wikiphyto.org/wiki/Viorne_mancienne",
+				"Properties": null
+			},
+			{
+				"Id": "plant13",
+				"Name": "Viorne obier",
+				"Link": "http://www.wikiphyto.org/wiki/Viorne_obier",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Adoxaceae"
+	},
+	{
+		"Id": "cat5",
+		"Name": "Agaricaceae",
+		"Plants": [
+			{
+				"Id": "plant14",
+				"Name": "Amanite tue-mouches",
+				"Link": "http://www.wikiphyto.org/wiki/Amanite_tue-mouches",
+				"Properties": null
+			},
+			{
+				"Id": "plant15",
+				"Name": "Psilocybe",
+				"Link": "http://www.wikiphyto.org/wiki/Psilocybe",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Agaricaceae"
+	},
+	{
+		"Id": "cat6",
+		"Name": "Alariaceae",
+		"Plants": [
+			{
+				"Id": "plant16",
+				"Name": "Wakamé",
+				"Link": "http://www.wikiphyto.org/wiki/Wakam%C3%A9",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Alariaceae"
+	},
+	{
+		"Id": "cat7",
+		"Name": "Amaranthaceae",
+		"Plants": [
+			{
+				"Id": "plant17",
+				"Name": "Gomphrena",
+				"Link": "http://www.wikiphyto.org/wiki/Gomphrena",
+				"Properties": null
+			},
+			{
+				"Id": "plant18",
+				"Name": "Iresine celosia",
+				"Link": "http://www.wikiphyto.org/wiki/Iresine_celosia",
+				"Properties": null
+			},
+			{
+				"Id": "plant19",
+				"Name": "Pfaffia",
+				"Link": "http://www.wikiphyto.org/wiki/Pfaffia",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Amaranthaceae"
+	},
+	{
+		"Id": "cat8",
+		"Name": "Amaryllidaceae",
+		"Plants": [
+			{
+				"Id": "plant20",
+				"Name": "Agave",
+				"Link": "http://www.wikiphyto.org/wiki/Agave",
+				"Properties": null
+			},
+			{
+				"Id": "plant21",
+				"Name": "Ail",
+				"Link": "http://www.wikiphyto.org/wiki/Ail",
+				"Properties": null
+			},
+			{
+				"Id": "plant22",
+				"Name": "Curculigo orchioides",
+				"Link": "http://www.wikiphyto.org/wiki/Curculigo_orchioides",
+				"Properties": null
+			},
+			{
+				"Id": "plant23",
+				"Name": "Lys-araignée",
+				"Link": "http://www.wikiphyto.org/wiki/Lys-araign%C3%A9e",
+				"Properties": null
+			},
+			{
+				"Id": "plant24",
+				"Name": "Oignon",
+				"Link": "http://www.wikiphyto.org/wiki/Oignon",
+				"Properties": null
+			},
+			{
+				"Id": "plant25",
+				"Name": "Perce-Neige",
+				"Link": "http://www.wikiphyto.org/wiki/Perce-Neige",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Amaryllidaceae"
+	},
+	{
+		"Id": "cat9",
+		"Name": "Anacardiaceae",
+		"Plants": [
+			{
+				"Id": "plant26",
+				"Name": "Anacardier",
+				"Link": "http://www.wikiphyto.org/wiki/Anacardier",
+				"Properties": null
+			},
+			{
+				"Id": "plant27",
+				"Name": "Comocladia",
+				"Link": "http://www.wikiphyto.org/wiki/Comocladia",
+				"Properties": null
+			},
+			{
+				"Id": "plant28",
+				"Name": "Lentisque pistachier",
+				"Link": "http://www.wikiphyto.org/wiki/Lentisque_pistachier",
+				"Properties": null
+			},
+			{
+				"Id": "plant29",
+				"Name": "Poivre rose",
+				"Link": "http://www.wikiphyto.org/wiki/Poivre_rose",
+				"Properties": null
+			},
+			{
+				"Id": "plant30",
+				"Name": "Sumac des corroyeurs",
+				"Link": "http://www.wikiphyto.org/wiki/Sumac_des_corroyeurs",
+				"Properties": null
+			},
+			{
+				"Id": "plant31",
+				"Name": "Sumac vénéneux",
+				"Link": "http://www.wikiphyto.org/wiki/Sumac_v%C3%A9n%C3%A9neux",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Anacardiaceae"
+	},
+	{
+		"Id": "cat10",
+		"Name": "Annonaceae",
+		"Plants": [
+			{
+				"Id": "plant32",
+				"Name": "Ylang-ylang",
+				"Link": "http://www.wikiphyto.org/wiki/Ylang-ylang",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Annonaceae"
+	},
+	{
+		"Id": "cat11",
+		"Name": "Apiaceae",
+		"Plants": [
+			{
+				"Id": "plant33",
+				"Name": "Ache des marais",
+				"Link": "http://www.wikiphyto.org/wiki/Ache_des_marais",
+				"Properties": null
+			},
+			{
+				"Id": "plant34",
+				"Name": "Ajowan",
+				"Link": "http://www.wikiphyto.org/wiki/Ajowan",
+				"Properties": null
+			},
+			{
+				"Id": "plant35",
+				"Name": "Aneth",
+				"Link": "http://www.wikiphyto.org/wiki/Aneth",
+				"Properties": null
+			},
+			{
+				"Id": "plant36",
+				"Name": "Angélique chinoise",
+				"Link": "http://www.wikiphyto.org/wiki/Ang%C3%A9lique_chinoise",
+				"Properties": null
+			},
+			{
+				"Id": "plant37",
+				"Name": "Angélique officinale",
+				"Link": "http://www.wikiphyto.org/wiki/Ang%C3%A9lique_officinale",
+				"Properties": null
+			},
+			{
+				"Id": "plant38",
+				"Name": "Anis vert",
+				"Link": "http://www.wikiphyto.org/wiki/Anis_vert",
+				"Properties": null
+			},
+			{
+				"Id": "plant39",
+				"Name": "Ase fétide",
+				"Link": "http://www.wikiphyto.org/wiki/Ase_f%C3%A9tide",
+				"Properties": null
+			},
+			{
+				"Id": "plant40",
+				"Name": "Berce commune",
+				"Link": "http://www.wikiphyto.org/wiki/Berce_commune",
+				"Properties": null
+			},
+			{
+				"Id": "plant41",
+				"Name": "Boucage",
+				"Link": "http://www.wikiphyto.org/wiki/Boucage",
+				"Properties": null
+			},
+			{
+				"Id": "plant42",
+				"Name": "Buplèvre en faux",
+				"Link": "http://www.wikiphyto.org/wiki/Bupl%C3%A8vre_en_faux",
+				"Properties": null
+			},
+			{
+				"Id": "plant43",
+				"Name": "Carotte sauvage",
+				"Link": "http://www.wikiphyto.org/wiki/Carotte_sauvage",
+				"Properties": null
+			},
+			{
+				"Id": "plant44",
+				"Name": "Carvi",
+				"Link": "http://www.wikiphyto.org/wiki/Carvi",
+				"Properties": null
+			},
+			{
+				"Id": "plant45",
+				"Name": "Cerfeuil",
+				"Link": "http://www.wikiphyto.org/wiki/Cerfeuil",
+				"Properties": null
+			},
+			{
+				"Id": "plant46",
+				"Name": "Ciguë tachetée",
+				"Link": "http://www.wikiphyto.org/wiki/Cigu%C3%AB_tachet%C3%A9e",
+				"Properties": null
+			},
+			{
+				"Id": "plant47",
+				"Name": "Ciguë vireuse",
+				"Link": "http://www.wikiphyto.org/wiki/Cigu%C3%AB_vireuse",
+				"Properties": null
+			},
+			{
+				"Id": "plant48",
+				"Name": "Coriandre",
+				"Link": "http://www.wikiphyto.org/wiki/Coriandre",
+				"Properties": null
+			},
+			{
+				"Id": "plant49",
+				"Name": "Criste marine",
+				"Link": "http://www.wikiphyto.org/wiki/Criste_marine",
+				"Properties": null
+			},
+			{
+				"Id": "plant50",
+				"Name": "Cumin",
+				"Link": "http://www.wikiphyto.org/wiki/Cumin",
+				"Properties": null
+			},
+			{
+				"Id": "plant51",
+				"Name": "Fenouil doux",
+				"Link": "http://www.wikiphyto.org/wiki/Fenouil_doux",
+				"Properties": null
+			},
+			{
+				"Id": "plant52",
+				"Name": "Galbanum",
+				"Link": "http://www.wikiphyto.org/wiki/Galbanum",
+				"Properties": null
+			},
+			{
+				"Id": "plant53",
+				"Name": "Hydrocotyle asiatique",
+				"Link": "http://www.wikiphyto.org/wiki/Hydrocotyle_asiatique",
+				"Properties": null
+			},
+			{
+				"Id": "plant54",
+				"Name": "Impératoire",
+				"Link": "http://www.wikiphyto.org/wiki/Imp%C3%A9ratoire",
+				"Properties": null
+			},
+			{
+				"Id": "plant55",
+				"Name": "Khella",
+				"Link": "http://www.wikiphyto.org/wiki/Khella",
+				"Properties": null
+			},
+			{
+				"Id": "plant56",
+				"Name": "Livèche",
+				"Link": "http://www.wikiphyto.org/wiki/Liv%C3%A8che",
+				"Properties": null
+			},
+			{
+				"Id": "plant57",
+				"Name": "Oenanthe safranée",
+				"Link": "http://www.wikiphyto.org/wiki/Oenanthe_safran%C3%A9e",
+				"Properties": null
+			},
+			{
+				"Id": "plant58",
+				"Name": "Panais",
+				"Link": "http://www.wikiphyto.org/wiki/Panais",
+				"Properties": null
+			},
+			{
+				"Id": "plant59",
+				"Name": "Persil commun",
+				"Link": "http://www.wikiphyto.org/wiki/Persil_commun",
+				"Properties": null
+			},
+			{
+				"Id": "plant60",
+				"Name": "Petite ciguë",
+				"Link": "http://www.wikiphyto.org/wiki/Petite_cigu%C3%AB",
+				"Properties": null
+			},
+			{
+				"Id": "plant61",
+				"Name": "Phellandrie",
+				"Link": "http://www.wikiphyto.org/wiki/Phellandrie",
+				"Properties": null
+			},
+			{
+				"Id": "plant62",
+				"Name": "Racine de musc",
+				"Link": "http://www.wikiphyto.org/wiki/Racine_de_musc",
+				"Properties": null
+			},
+			{
+				"Id": "plant63",
+				"Name": "Sanicle",
+				"Link": "http://www.wikiphyto.org/wiki/Sanicle",
+				"Properties": null
+			},
+			{
+				"Id": "plant64",
+				"Name": "Égopode podagraire",
+				"Link": "http://www.wikiphyto.org/wiki/%C3%89gopode_podagraire",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Apiaceae"
+	},
+	{
+		"Id": "cat12",
+		"Name": "Apocynaceae",
+		"Plants": [
+			{
+				"Id": "plant65",
+				"Name": "Caralluma",
+				"Link": "http://www.wikiphyto.org/wiki/Caralluma",
+				"Properties": null
+			},
+			{
+				"Id": "plant66",
+				"Name": "Chanvre du Canada",
+				"Link": "http://www.wikiphyto.org/wiki/Chanvre_du_Canada",
+				"Properties": null
+			},
+			{
+				"Id": "plant67",
+				"Name": "Hoodia",
+				"Link": "http://www.wikiphyto.org/wiki/Hoodia",
+				"Properties": null
+			},
+			{
+				"Id": "plant68",
+				"Name": "Iboga",
+				"Link": "http://www.wikiphyto.org/wiki/Iboga",
+				"Properties": null
+			},
+			{
+				"Id": "plant69",
+				"Name": "Laurier rose",
+				"Link": "http://www.wikiphyto.org/wiki/Laurier_rose",
+				"Properties": null
+			},
+			{
+				"Id": "plant70",
+				"Name": "Ochrosia",
+				"Link": "http://www.wikiphyto.org/wiki/Ochrosia",
+				"Properties": null
+			},
+			{
+				"Id": "plant71",
+				"Name": "Pao-pereira",
+				"Link": "http://www.wikiphyto.org/wiki/Pao-pereira",
+				"Properties": null
+			},
+			{
+				"Id": "plant72",
+				"Name": "Pervenche de Madagascar",
+				"Link": "http://www.wikiphyto.org/wiki/Pervenche_de_Madagascar",
+				"Properties": null
+			},
+			{
+				"Id": "plant73",
+				"Name": "Petite pervenche",
+				"Link": "http://www.wikiphyto.org/wiki/Petite_pervenche",
+				"Properties": null
+			},
+			{
+				"Id": "plant74",
+				"Name": "Quebracho",
+				"Link": "http://www.wikiphyto.org/wiki/Quebracho",
+				"Properties": null
+			},
+			{
+				"Id": "plant75",
+				"Name": "Rauwolfia",
+				"Link": "http://www.wikiphyto.org/wiki/Rauwolfia",
+				"Properties": null
+			},
+			{
+				"Id": "plant76",
+				"Name": "Strophanthus",
+				"Link": "http://www.wikiphyto.org/wiki/Strophanthus",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Apocynaceae"
+	},
+	{
+		"Id": "cat13",
+		"Name": "Aquifoliaceae",
+		"Plants": [
+			{
+				"Id": "plant77",
+				"Name": "Houx",
+				"Link": "http://www.wikiphyto.org/wiki/Houx",
+				"Properties": null
+			},
+			{
+				"Id": "plant78",
+				"Name": "Maté",
+				"Link": "http://www.wikiphyto.org/wiki/Mat%C3%A9",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Aquifoliaceae"
+	},
+	{
+		"Id": "cat14",
+		"Name": "Araceae",
+		"Plants": [
+			{
+				"Id": "plant79",
+				"Name": "Acore vrai",
+				"Link": "http://www.wikiphyto.org/wiki/Acore_vrai",
+				"Properties": null
+			},
+			{
+				"Id": "plant80",
+				"Name": "Arum tacheté",
+				"Link": "http://www.wikiphyto.org/wiki/Arum_tachet%C3%A9",
+				"Properties": null
+			},
+			{
+				"Id": "plant81",
+				"Name": "Konjac",
+				"Link": "http://www.wikiphyto.org/wiki/Konjac",
+				"Properties": null
+			},
+			{
+				"Id": "plant82",
+				"Name": "Taro vrai",
+				"Link": "http://www.wikiphyto.org/wiki/Taro_vrai",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Araceae"
+	},
+	{
+		"Id": "cat15",
+		"Name": "Araliaceae",
+		"Plants": [
+			{
+				"Id": "plant83",
+				"Name": "Aralia à grappes",
+				"Link": "http://www.wikiphyto.org/wiki/Aralia_%C3%A0_grappes",
+				"Properties": null
+			},
+			{
+				"Id": "plant84",
+				"Name": "Ginseng",
+				"Link": "http://www.wikiphyto.org/wiki/Ginseng",
+				"Properties": null
+			},
+			{
+				"Id": "plant85",
+				"Name": "Lierre grimpant",
+				"Link": "http://www.wikiphyto.org/wiki/Lierre_grimpant",
+				"Properties": null
+			},
+			{
+				"Id": "plant86",
+				"Name": "Éleuthérocoque",
+				"Link": "http://www.wikiphyto.org/wiki/%C3%89leuth%C3%A9rocoque",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Araliaceae"
+	},
+	{
+		"Id": "cat16",
+		"Name": "Areacaceae",
+		"Plants": [],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Areacaceae"
+	},
+	{
+		"Id": "cat17",
+		"Name": "Arecaceae",
+		"Plants": [
+			{
+				"Id": "plant87",
+				"Name": "Aréquier",
+				"Link": "http://www.wikiphyto.org/wiki/Ar%C3%A9quier",
+				"Properties": null
+			},
+			{
+				"Id": "plant88",
+				"Name": "Palmier de Floride",
+				"Link": "http://www.wikiphyto.org/wiki/Palmier_de_Floride",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Arecaceae"
+	},
+	{
+		"Id": "cat18",
+		"Name": "Aristolochiaceae",
+		"Plants": [
+			{
+				"Id": "plant89",
+				"Name": "Aristoloche",
+				"Link": "http://www.wikiphyto.org/wiki/Aristoloche",
+				"Properties": null
+			},
+			{
+				"Id": "plant90",
+				"Name": "Asaret",
+				"Link": "http://www.wikiphyto.org/wiki/Asaret",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Aristolochiaceae"
+	},
+	{
+		"Id": "cat19",
+		"Name": "Asclepiadaceae",
+		"Plants": [
+			{
+				"Id": "plant91",
+				"Name": "Asclépiade de Curaçao",
+				"Link": "http://www.wikiphyto.org/wiki/Ascl%C3%A9piade_de_Cura%C3%A7ao",
+				"Properties": null
+			},
+			{
+				"Id": "plant92",
+				"Name": "Asclépiade tubéreuse",
+				"Link": "http://www.wikiphyto.org/wiki/Ascl%C3%A9piade_tub%C3%A9reuse",
+				"Properties": null
+			},
+			{
+				"Id": "plant93",
+				"Name": "Calotropis procera",
+				"Link": "http://www.wikiphyto.org/wiki/Calotropis_procera",
+				"Properties": null
+			},
+			{
+				"Id": "plant94",
+				"Name": "Caralluma",
+				"Link": "http://www.wikiphyto.org/wiki/Caralluma",
+				"Properties": null
+			},
+			{
+				"Id": "plant95",
+				"Name": "Condurango",
+				"Link": "http://www.wikiphyto.org/wiki/Condurango",
+				"Properties": null
+			},
+			{
+				"Id": "plant96",
+				"Name": "Dompte-venin",
+				"Link": "http://www.wikiphyto.org/wiki/Dompte-venin",
+				"Properties": null
+			},
+			{
+				"Id": "plant97",
+				"Name": "Gymnema",
+				"Link": "http://www.wikiphyto.org/wiki/Gymnema",
+				"Properties": null
+			},
+			{
+				"Id": "plant98",
+				"Name": "Jivanti",
+				"Link": "http://www.wikiphyto.org/wiki/Jivanti",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Asclepiadaceae"
+	},
+	{
+		"Id": "cat20",
+		"Name": "Aspleniaceae",
+		"Plants": [
+			{
+				"Id": "plant99",
+				"Name": "Cétérach",
+				"Link": "http://www.wikiphyto.org/wiki/C%C3%A9t%C3%A9rach",
+				"Properties": null
+			},
+			{
+				"Id": "plant100",
+				"Name": "Scolopendre",
+				"Link": "http://www.wikiphyto.org/wiki/Scolopendre",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Aspleniaceae"
+	},
+	{
+		"Id": "cat21",
+		"Name": "Association symbiotique de micro-organismes",
+		"Plants": [
+			{
+				"Id": "plant101",
+				"Name": "Kombucha",
+				"Link": "http://www.wikiphyto.org/wiki/Kombucha",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Association_symbiotique_de_micro-organismes"
+	},
+	{
+		"Id": "cat22",
+		"Name": "Asteraceae",
+		"Plants": [
+			{
+				"Id": "plant102",
+				"Name": "Absinthe",
+				"Link": "http://www.wikiphyto.org/wiki/Absinthe",
+				"Properties": null
+			},
+			{
+				"Id": "plant103",
+				"Name": "Absinthe blanche",
+				"Link": "http://www.wikiphyto.org/wiki/Absinthe_blanche",
+				"Properties": null
+			},
+			{
+				"Id": "plant104",
+				"Name": "Absinthe chinoise",
+				"Link": "http://www.wikiphyto.org/wiki/Absinthe_chinoise",
+				"Properties": null
+			},
+			{
+				"Id": "plant105",
+				"Name": "Achillée mille-feuille",
+				"Link": "http://www.wikiphyto.org/wiki/Achill%C3%A9e_mille-feuille",
+				"Properties": null
+			},
+			{
+				"Id": "plant106",
+				"Name": "Ageratum",
+				"Link": "http://www.wikiphyto.org/wiki/Ageratum",
+				"Properties": null
+			},
+			{
+				"Id": "plant107",
+				"Name": "Ambaville",
+				"Link": "http://www.wikiphyto.org/wiki/Ambaville",
+				"Properties": null
+			},
+			{
+				"Id": "plant108",
+				"Name": "Ambroisie annuelle",
+				"Link": "http://www.wikiphyto.org/wiki/Ambroisie_annuelle",
+				"Properties": null
+			},
+			{
+				"Id": "plant109",
+				"Name": "Armoise commune",
+				"Link": "http://www.wikiphyto.org/wiki/Armoise_commune",
+				"Properties": null
+			},
+			{
+				"Id": "plant110",
+				"Name": "Arnica",
+				"Link": "http://www.wikiphyto.org/wiki/Arnica",
+				"Properties": null
+			},
+			{
+				"Id": "plant111",
+				"Name": "Artichaut",
+				"Link": "http://www.wikiphyto.org/wiki/Artichaut",
+				"Properties": null
+			},
+			{
+				"Id": "plant112",
+				"Name": "Aunée",
+				"Link": "http://www.wikiphyto.org/wiki/Aun%C3%A9e",
+				"Properties": null
+			},
+			{
+				"Id": "plant113",
+				"Name": "Aurone",
+				"Link": "http://www.wikiphyto.org/wiki/Aurone",
+				"Properties": null
+			},
+			{
+				"Id": "plant114",
+				"Name": "Ayapana",
+				"Link": "http://www.wikiphyto.org/wiki/Ayapana",
+				"Properties": null
+			},
+			{
+				"Id": "plant115",
+				"Name": "Baccharis trimera",
+				"Link": "http://www.wikiphyto.org/wiki/Baccharis_trimera",
+				"Properties": null
+			},
+			{
+				"Id": "plant116",
+				"Name": "Bardane",
+				"Link": "http://www.wikiphyto.org/wiki/Bardane",
+				"Properties": null
+			},
+			{
+				"Id": "plant117",
+				"Name": "Bleuet",
+				"Link": "http://www.wikiphyto.org/wiki/Bleuet",
+				"Properties": null
+			},
+			{
+				"Id": "plant118",
+				"Name": "Camomille romaine",
+				"Link": "http://www.wikiphyto.org/wiki/Camomille_romaine",
+				"Properties": null
+			},
+			{
+				"Id": "plant119",
+				"Name": "Carline",
+				"Link": "http://www.wikiphyto.org/wiki/Carline",
+				"Properties": null
+			},
+			{
+				"Id": "plant120",
+				"Name": "Carthame",
+				"Link": "http://www.wikiphyto.org/wiki/Carthame",
+				"Properties": null
+			},
+			{
+				"Id": "plant121",
+				"Name": "Carthame laineux",
+				"Link": "http://www.wikiphyto.org/wiki/Carthame_laineux",
+				"Properties": null
+			},
+			{
+				"Id": "plant122",
+				"Name": "Chardon béni",
+				"Link": "http://www.wikiphyto.org/wiki/Chardon_b%C3%A9ni",
+				"Properties": null
+			},
+			{
+				"Id": "plant123",
+				"Name": "Chardon roulant",
+				"Link": "http://www.wikiphyto.org/wiki/Chardon_roulant",
+				"Properties": null
+			},
+			{
+				"Id": "plant124",
+				"Name": "Chardon à feuilles d’Acanthe",
+				"Link": "http://www.wikiphyto.org/wiki/Chardon_%C3%A0_feuilles_d%E2%80%99Acanthe",
+				"Properties": null
+			},
+			{
+				"Id": "plant125",
+				"Name": "Chardon étoilé",
+				"Link": "http://www.wikiphyto.org/wiki/Chardon_%C3%A9toil%C3%A9",
+				"Properties": null
+			},
+			{
+				"Id": "plant126",
+				"Name": "Chardon-Marie",
+				"Link": "http://www.wikiphyto.org/wiki/Chardon-Marie",
+				"Properties": null
+			},
+			{
+				"Id": "plant127",
+				"Name": "Chicorée sauvage",
+				"Link": "http://www.wikiphyto.org/wiki/Chicor%C3%A9e_sauvage",
+				"Properties": null
+			},
+			{
+				"Id": "plant128",
+				"Name": "Chrysanthellum",
+				"Link": "http://www.wikiphyto.org/wiki/Chrysanthellum",
+				"Properties": null
+			},
+			{
+				"Id": "plant129",
+				"Name": "Echinops",
+				"Link": "http://www.wikiphyto.org/wiki/Echinops",
+				"Properties": null
+			},
+			{
+				"Id": "plant130",
+				"Name": "Eclipte blanche",
+				"Link": "http://www.wikiphyto.org/wiki/Eclipte_blanche",
+				"Properties": null
+			},
+			{
+				"Id": "plant131",
+				"Name": "Estragon",
+				"Link": "http://www.wikiphyto.org/wiki/Estragon",
+				"Properties": null
+			},
+			{
+				"Id": "plant132",
+				"Name": "Eupatoire chanvrine",
+				"Link": "http://www.wikiphyto.org/wiki/Eupatoire_chanvrine",
+				"Properties": null
+			},
+			{
+				"Id": "plant133",
+				"Name": "Eupatoire perfoliée",
+				"Link": "http://www.wikiphyto.org/wiki/Eupatoire_perfoli%C3%A9e",
+				"Properties": null
+			},
+			{
+				"Id": "plant134",
+				"Name": "Genépi noir",
+				"Link": "http://www.wikiphyto.org/wiki/Gen%C3%A9pi_noir",
+				"Properties": null
+			},
+			{
+				"Id": "plant135",
+				"Name": "Grande Camomille",
+				"Link": "http://www.wikiphyto.org/wiki/Grande_Camomille",
+				"Properties": null
+			},
+			{
+				"Id": "plant136",
+				"Name": "Grindelias",
+				"Link": "http://www.wikiphyto.org/wiki/Grindelias",
+				"Properties": null
+			},
+			{
+				"Id": "plant137",
+				"Name": "Herbe à la gravelle",
+				"Link": "http://www.wikiphyto.org/wiki/Herbe_%C3%A0_la_gravelle",
+				"Properties": null
+			},
+			{
+				"Id": "plant138",
+				"Name": "Herbe à pic",
+				"Link": "http://www.wikiphyto.org/wiki/Herbe_%C3%A0_pic",
+				"Properties": null
+			},
+			{
+				"Id": "plant139",
+				"Name": "Hélichryse italienne",
+				"Link": "http://www.wikiphyto.org/wiki/H%C3%A9lichryse_italienne",
+				"Properties": null
+			},
+			{
+				"Id": "plant140",
+				"Name": "Immortelle jaune",
+				"Link": "http://www.wikiphyto.org/wiki/Immortelle_jaune",
+				"Properties": null
+			},
+			{
+				"Id": "plant141",
+				"Name": "Inule odorante",
+				"Link": "http://www.wikiphyto.org/wiki/Inule_odorante",
+				"Properties": null
+			},
+			{
+				"Id": "plant142",
+				"Name": "Laitue vireuse",
+				"Link": "http://www.wikiphyto.org/wiki/Laitue_vireuse",
+				"Properties": null
+			},
+			{
+				"Id": "plant143",
+				"Name": "Lampourde",
+				"Link": "http://www.wikiphyto.org/wiki/Lampourde",
+				"Properties": null
+			},
+			{
+				"Id": "plant144",
+				"Name": "Lampourde épineuse",
+				"Link": "http://www.wikiphyto.org/wiki/Lampourde_%C3%A9pineuse",
+				"Properties": null
+			},
+			{
+				"Id": "plant145",
+				"Name": "Lampsane commune",
+				"Link": "http://www.wikiphyto.org/wiki/Lampsane_commune",
+				"Properties": null
+			},
+			{
+				"Id": "plant146",
+				"Name": "Leuzea",
+				"Link": "http://www.wikiphyto.org/wiki/Leuzea",
+				"Properties": null
+			},
+			{
+				"Id": "plant147",
+				"Name": "Matricaire",
+				"Link": "http://www.wikiphyto.org/wiki/Matricaire",
+				"Properties": null
+			},
+			{
+				"Id": "plant148",
+				"Name": "Pied de chat",
+				"Link": "http://www.wikiphyto.org/wiki/Pied_de_chat",
+				"Properties": null
+			},
+			{
+				"Id": "plant149",
+				"Name": "Piloselle",
+				"Link": "http://www.wikiphyto.org/wiki/Piloselle",
+				"Properties": null
+			},
+			{
+				"Id": "plant150",
+				"Name": "Pissenlit",
+				"Link": "http://www.wikiphyto.org/wiki/Pissenlit",
+				"Properties": null
+			},
+			{
+				"Id": "plant151",
+				"Name": "Pulicaire odorante",
+				"Link": "http://www.wikiphyto.org/wiki/Pulicaire_odorante",
+				"Properties": null
+			},
+			{
+				"Id": "plant152",
+				"Name": "Pâquerette",
+				"Link": "http://www.wikiphyto.org/wiki/P%C3%A2querette",
+				"Properties": null
+			},
+			{
+				"Id": "plant153",
+				"Name": "Pétasite",
+				"Link": "http://www.wikiphyto.org/wiki/P%C3%A9tasite",
+				"Properties": null
+			},
+			{
+				"Id": "plant154",
+				"Name": "Rose d&#039;Inde",
+				"Link": "http://www.wikiphyto.org/wiki/Rose_d%27Inde",
+				"Properties": null
+			},
+			{
+				"Id": "plant155",
+				"Name": "Semen-contra",
+				"Link": "http://www.wikiphyto.org/wiki/Semen-contra",
+				"Properties": null
+			},
+			{
+				"Id": "plant156",
+				"Name": "Sigesbeckia",
+				"Link": "http://www.wikiphyto.org/wiki/Sigesbeckia",
+				"Properties": null
+			},
+			{
+				"Id": "plant157",
+				"Name": "Solidage",
+				"Link": "http://www.wikiphyto.org/wiki/Solidage",
+				"Properties": null
+			},
+			{
+				"Id": "plant158",
+				"Name": "Souci des jardins",
+				"Link": "http://www.wikiphyto.org/wiki/Souci_des_jardins",
+				"Properties": null
+			},
+			{
+				"Id": "plant159",
+				"Name": "Séneçon commun",
+				"Link": "http://www.wikiphyto.org/wiki/S%C3%A9ne%C3%A7on_commun",
+				"Properties": null
+			},
+			{
+				"Id": "plant160",
+				"Name": "Tanaisie bleue",
+				"Link": "http://www.wikiphyto.org/wiki/Tanaisie_bleue",
+				"Properties": null
+			},
+			{
+				"Id": "plant161",
+				"Name": "Tanaisie commune",
+				"Link": "http://www.wikiphyto.org/wiki/Tanaisie_commune",
+				"Properties": null
+			},
+			{
+				"Id": "plant162",
+				"Name": "Topinambour",
+				"Link": "http://www.wikiphyto.org/wiki/Topinambour",
+				"Properties": null
+			},
+			{
+				"Id": "plant163",
+				"Name": "Tussilage",
+				"Link": "http://www.wikiphyto.org/wiki/Tussilage",
+				"Properties": null
+			},
+			{
+				"Id": "plant164",
+				"Name": "Vergerette du Canada",
+				"Link": "http://www.wikiphyto.org/wiki/Vergerette_du_Canada",
+				"Properties": null
+			},
+			{
+				"Id": "plant165",
+				"Name": "Échinacée",
+				"Link": "http://www.wikiphyto.org/wiki/%C3%89chinac%C3%A9e",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Asteraceae"
+	},
+	{
+		"Id": "cat23",
+		"Name": "Balanophoraceae",
+		"Plants": [
+			{
+				"Id": "plant166",
+				"Name": "Lophophytum",
+				"Link": "http://www.wikiphyto.org/wiki/Lophophytum",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Balanophoraceae"
+	},
+	{
+		"Id": "cat24",
+		"Name": "Berberidaceae",
+		"Plants": [
+			{
+				"Id": "plant167",
+				"Name": "Caulophyllum",
+				"Link": "http://www.wikiphyto.org/wiki/Caulophyllum",
+				"Properties": null
+			},
+			{
+				"Id": "plant168",
+				"Name": "Podophylle",
+				"Link": "http://www.wikiphyto.org/wiki/Podophylle",
+				"Properties": null
+			},
+			{
+				"Id": "plant169",
+				"Name": "Épimède",
+				"Link": "http://www.wikiphyto.org/wiki/%C3%89pim%C3%A8de",
+				"Properties": null
+			},
+			{
+				"Id": "plant170",
+				"Name": "Épine-vinette",
+				"Link": "http://www.wikiphyto.org/wiki/%C3%89pine-vinette",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Berberidaceae"
+	},
+	{
+		"Id": "cat25",
+		"Name": "Betulaceae",
+		"Plants": [
+			{
+				"Id": "plant171",
+				"Name": "Aulne glutineux",
+				"Link": "http://www.wikiphyto.org/wiki/Aulne_glutineux",
+				"Properties": null
+			},
+			{
+				"Id": "plant172",
+				"Name": "Bouleau blanc",
+				"Link": "http://www.wikiphyto.org/wiki/Bouleau_blanc",
+				"Properties": null
+			},
+			{
+				"Id": "plant173",
+				"Name": "Bouleau verruqueux",
+				"Link": "http://www.wikiphyto.org/wiki/Bouleau_verruqueux",
+				"Properties": null
+			},
+			{
+				"Id": "plant174",
+				"Name": "Charme",
+				"Link": "http://www.wikiphyto.org/wiki/Charme",
+				"Properties": null
+			},
+			{
+				"Id": "plant175",
+				"Name": "Noisetier",
+				"Link": "http://www.wikiphyto.org/wiki/Noisetier",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Betulaceae"
+	},
+	{
+		"Id": "cat26",
+		"Name": "Bignonaceae",
+		"Plants": [],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Bignonaceae"
+	},
+	{
+		"Id": "cat27",
+		"Name": "Bignoniaceae",
+		"Plants": [
+			{
+				"Id": "plant176",
+				"Name": "Clavo huasca",
+				"Link": "http://www.wikiphyto.org/wiki/Clavo_huasca",
+				"Properties": null
+			},
+			{
+				"Id": "plant177",
+				"Name": "Kigelia Africana",
+				"Link": "http://www.wikiphyto.org/wiki/Kigelia_Africana",
+				"Properties": null
+			},
+			{
+				"Id": "plant178",
+				"Name": "Lapacho",
+				"Link": "http://www.wikiphyto.org/wiki/Lapacho",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Bignoniaceae"
+	},
+	{
+		"Id": "cat28",
+		"Name": "Bombacaceae",
+		"Plants": [
+			{
+				"Id": "plant179",
+				"Name": "Baobab",
+				"Link": "http://www.wikiphyto.org/wiki/Baobab",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Bombacaceae"
+	},
+	{
+		"Id": "cat29",
+		"Name": "Boraginaceae",
+		"Plants": [
+			{
+				"Id": "plant180",
+				"Name": "Bourrache",
+				"Link": "http://www.wikiphyto.org/wiki/Bourrache",
+				"Properties": null
+			},
+			{
+				"Id": "plant181",
+				"Name": "Buglosse",
+				"Link": "http://www.wikiphyto.org/wiki/Buglosse",
+				"Properties": null
+			},
+			{
+				"Id": "plant182",
+				"Name": "Consoude",
+				"Link": "http://www.wikiphyto.org/wiki/Consoude",
+				"Properties": null
+			},
+			{
+				"Id": "plant183",
+				"Name": "Cynoglosse",
+				"Link": "http://www.wikiphyto.org/wiki/Cynoglosse",
+				"Properties": null
+			},
+			{
+				"Id": "plant184",
+				"Name": "Grémil",
+				"Link": "http://www.wikiphyto.org/wiki/Gr%C3%A9mil",
+				"Properties": null
+			},
+			{
+				"Id": "plant185",
+				"Name": "Pulmonaire",
+				"Link": "http://www.wikiphyto.org/wiki/Pulmonaire",
+				"Properties": null
+			},
+			{
+				"Id": "plant186",
+				"Name": "Vipérine",
+				"Link": "http://www.wikiphyto.org/wiki/Vip%C3%A9rine",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Boraginaceae"
+	},
+	{
+		"Id": "cat30",
+		"Name": "Brassicaceae",
+		"Plants": [
+			{
+				"Id": "plant187",
+				"Name": "Alliaire",
+				"Link": "http://www.wikiphyto.org/wiki/Alliaire",
+				"Properties": null
+			},
+			{
+				"Id": "plant188",
+				"Name": "Bourse à pasteur",
+				"Link": "http://www.wikiphyto.org/wiki/Bourse_%C3%A0_pasteur",
+				"Properties": null
+			},
+			{
+				"Id": "plant189",
+				"Name": "Cameline",
+				"Link": "http://www.wikiphyto.org/wiki/Cameline",
+				"Properties": null
+			},
+			{
+				"Id": "plant190",
+				"Name": "Chou vert",
+				"Link": "http://www.wikiphyto.org/wiki/Chou_vert",
+				"Properties": null
+			},
+			{
+				"Id": "plant191",
+				"Name": "Cochléaire",
+				"Link": "http://www.wikiphyto.org/wiki/Cochl%C3%A9aire",
+				"Properties": null
+			},
+			{
+				"Id": "plant192",
+				"Name": "Colza",
+				"Link": "http://www.wikiphyto.org/wiki/Colza",
+				"Properties": null
+			},
+			{
+				"Id": "plant193",
+				"Name": "Cresson alénois",
+				"Link": "http://www.wikiphyto.org/wiki/Cresson_al%C3%A9nois",
+				"Properties": null
+			},
+			{
+				"Id": "plant194",
+				"Name": "Cresson de fontaine",
+				"Link": "http://www.wikiphyto.org/wiki/Cresson_de_fontaine",
+				"Properties": null
+			},
+			{
+				"Id": "plant195",
+				"Name": "Diplotaxe",
+				"Link": "http://www.wikiphyto.org/wiki/Diplotaxe",
+				"Properties": null
+			},
+			{
+				"Id": "plant196",
+				"Name": "Herbe aux chantres",
+				"Link": "http://www.wikiphyto.org/wiki/Herbe_aux_chantres",
+				"Properties": null
+			},
+			{
+				"Id": "plant197",
+				"Name": "Maca",
+				"Link": "http://www.wikiphyto.org/wiki/Maca",
+				"Properties": null
+			},
+			{
+				"Id": "plant198",
+				"Name": "Moutarde blanche",
+				"Link": "http://www.wikiphyto.org/wiki/Moutarde_blanche",
+				"Properties": null
+			},
+			{
+				"Id": "plant199",
+				"Name": "Moutarde brune",
+				"Link": "http://www.wikiphyto.org/wiki/Moutarde_brune",
+				"Properties": null
+			},
+			{
+				"Id": "plant200",
+				"Name": "Moutarde noire",
+				"Link": "http://www.wikiphyto.org/wiki/Moutarde_noire",
+				"Properties": null
+			},
+			{
+				"Id": "plant201",
+				"Name": "Radis noir",
+				"Link": "http://www.wikiphyto.org/wiki/Radis_noir",
+				"Properties": null
+			},
+			{
+				"Id": "plant202",
+				"Name": "Raifort sauvage",
+				"Link": "http://www.wikiphyto.org/wiki/Raifort_sauvage",
+				"Properties": null
+			},
+			{
+				"Id": "plant203",
+				"Name": "Roquette",
+				"Link": "http://www.wikiphyto.org/wiki/Roquette",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Brassicaceae"
+	},
+	{
+		"Id": "cat31",
+		"Name": "Bromeliaceae",
+		"Plants": [
+			{
+				"Id": "plant204",
+				"Name": "Ananas",
+				"Link": "http://www.wikiphyto.org/wiki/Ananas",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Bromeliaceae"
+	},
+	{
+		"Id": "cat32",
+		"Name": "Burseraceae",
+		"Plants": [
+			{
+				"Id": "plant205",
+				"Name": "Breu branco",
+				"Link": "http://www.wikiphyto.org/wiki/Breu_branco",
+				"Properties": null
+			},
+			{
+				"Id": "plant206",
+				"Name": "Encens indien",
+				"Link": "http://www.wikiphyto.org/wiki/Encens_indien",
+				"Properties": null
+			},
+			{
+				"Id": "plant207",
+				"Name": "Encens véritable",
+				"Link": "http://www.wikiphyto.org/wiki/Encens_v%C3%A9ritable",
+				"Properties": null
+			},
+			{
+				"Id": "plant208",
+				"Name": "Guggul",
+				"Link": "http://www.wikiphyto.org/wiki/Guggul",
+				"Properties": null
+			},
+			{
+				"Id": "plant209",
+				"Name": "Myrrhe du Balsamier",
+				"Link": "http://www.wikiphyto.org/wiki/Myrrhe_du_Balsamier",
+				"Properties": null
+			},
+			{
+				"Id": "plant210",
+				"Name": "Palo santo",
+				"Link": "http://www.wikiphyto.org/wiki/Palo_santo",
+				"Properties": null
+			},
+			{
+				"Id": "plant211",
+				"Name": "Élémi",
+				"Link": "http://www.wikiphyto.org/wiki/%C3%89l%C3%A9mi",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Burseraceae"
+	},
+	{
+		"Id": "cat33",
+		"Name": "Buxaceae",
+		"Plants": [
+			{
+				"Id": "plant212",
+				"Name": "Buis",
+				"Link": "http://www.wikiphyto.org/wiki/Buis",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Buxaceae"
+	},
+	{
+		"Id": "cat34",
+		"Name": "Cactaceae",
+		"Plants": [
+			{
+				"Id": "plant213",
+				"Name": "Cactus à grandes fleurs",
+				"Link": "http://www.wikiphyto.org/wiki/Cactus_%C3%A0_grandes_fleurs",
+				"Properties": null
+			},
+			{
+				"Id": "plant214",
+				"Name": "Figuier de Barbarie",
+				"Link": "http://www.wikiphyto.org/wiki/Figuier_de_Barbarie",
+				"Properties": null
+			},
+			{
+				"Id": "plant215",
+				"Name": "Peyotl",
+				"Link": "http://www.wikiphyto.org/wiki/Peyotl",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Cactaceae"
+	},
+	{
+		"Id": "cat35",
+		"Name": "Campanulaceae",
+		"Plants": [
+			{
+				"Id": "plant216",
+				"Name": "Codonopsis",
+				"Link": "http://www.wikiphyto.org/wiki/Codonopsis",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Campanulaceae"
+	},
+	{
+		"Id": "cat36",
+		"Name": "Canellaceae",
+		"Plants": [
+			{
+				"Id": "plant217",
+				"Name": "Cinnamosma",
+				"Link": "http://www.wikiphyto.org/wiki/Cinnamosma",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Canellaceae"
+	},
+	{
+		"Id": "cat37",
+		"Name": "Cannabaceae",
+		"Plants": [
+			{
+				"Id": "plant218",
+				"Name": "Chanvre indien",
+				"Link": "http://www.wikiphyto.org/wiki/Chanvre_indien",
+				"Properties": null
+			},
+			{
+				"Id": "plant219",
+				"Name": "Houblon",
+				"Link": "http://www.wikiphyto.org/wiki/Houblon",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Cannabaceae"
+	},
+	{
+		"Id": "cat38",
+		"Name": "Capparaceae",
+		"Plants": [
+			{
+				"Id": "plant220",
+				"Name": "Câprier épineux",
+				"Link": "http://www.wikiphyto.org/wiki/C%C3%A2prier_%C3%A9pineux",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Capparaceae"
+	},
+	{
+		"Id": "cat39",
+		"Name": "Caprifoliaceae",
+		"Plants": [
+			{
+				"Id": "plant221",
+				"Name": "Chèvrefeuille des jardins",
+				"Link": "http://www.wikiphyto.org/wiki/Ch%C3%A8vrefeuille_des_jardins",
+				"Properties": null
+			},
+			{
+				"Id": "plant222",
+				"Name": "Chèvrefeuille noir",
+				"Link": "http://www.wikiphyto.org/wiki/Ch%C3%A8vrefeuille_noir",
+				"Properties": null
+			},
+			{
+				"Id": "plant223",
+				"Name": "Sureau hièble",
+				"Link": "http://www.wikiphyto.org/wiki/Sureau_hi%C3%A8ble",
+				"Properties": null
+			},
+			{
+				"Id": "plant224",
+				"Name": "Sureau noir",
+				"Link": "http://www.wikiphyto.org/wiki/Sureau_noir",
+				"Properties": null
+			},
+			{
+				"Id": "plant225",
+				"Name": "Viorne douce",
+				"Link": "http://www.wikiphyto.org/wiki/Viorne_douce",
+				"Properties": null
+			},
+			{
+				"Id": "plant226",
+				"Name": "Viorne mancienne",
+				"Link": "http://www.wikiphyto.org/wiki/Viorne_mancienne",
+				"Properties": null
+			},
+			{
+				"Id": "plant227",
+				"Name": "Viorne obier",
+				"Link": "http://www.wikiphyto.org/wiki/Viorne_obier",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Caprifoliaceae"
+	},
+	{
+		"Id": "cat40",
+		"Name": "Caricaceae",
+		"Plants": [
+			{
+				"Id": "plant228",
+				"Name": "Papayer",
+				"Link": "http://www.wikiphyto.org/wiki/Papayer",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Caricaceae"
+	},
+	{
+		"Id": "cat41",
+		"Name": "Caryophyllaceae",
+		"Plants": [
+			{
+				"Id": "plant229",
+				"Name": "Herniaire",
+				"Link": "http://www.wikiphyto.org/wiki/Herniaire",
+				"Properties": null
+			},
+			{
+				"Id": "plant230",
+				"Name": "Mouron des oiseaux",
+				"Link": "http://www.wikiphyto.org/wiki/Mouron_des_oiseaux",
+				"Properties": null
+			},
+			{
+				"Id": "plant231",
+				"Name": "Nielle des blés",
+				"Link": "http://www.wikiphyto.org/wiki/Nielle_des_bl%C3%A9s",
+				"Properties": null
+			},
+			{
+				"Id": "plant232",
+				"Name": "Paronyque argentée",
+				"Link": "http://www.wikiphyto.org/wiki/Paronyque_argent%C3%A9e",
+				"Properties": null
+			},
+			{
+				"Id": "plant233",
+				"Name": "Sabline rouge",
+				"Link": "http://www.wikiphyto.org/wiki/Sabline_rouge",
+				"Properties": null
+			},
+			{
+				"Id": "plant234",
+				"Name": "Saponaire",
+				"Link": "http://www.wikiphyto.org/wiki/Saponaire",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Caryophyllaceae"
+	},
+	{
+		"Id": "cat42",
+		"Name": "Celastraceae",
+		"Plants": [
+			{
+				"Id": "plant235",
+				"Name": "Fusain d’Europe",
+				"Link": "http://www.wikiphyto.org/wiki/Fusain_d%E2%80%99Europe",
+				"Properties": null
+			},
+			{
+				"Id": "plant236",
+				"Name": "Quât",
+				"Link": "http://www.wikiphyto.org/wiki/Qu%C3%A2t",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Celastraceae"
+	},
+	{
+		"Id": "cat43",
+		"Name": "Cercideae",
+		"Plants": [
+			{
+				"Id": "plant237",
+				"Name": "Griffonia simplicifolia",
+				"Link": "http://www.wikiphyto.org/wiki/Griffonia_simplicifolia",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Cercideae"
+	},
+	{
+		"Id": "cat44",
+		"Name": "Chenopodiaceae",
+		"Plants": [
+			{
+				"Id": "plant238",
+				"Name": "Chénopode vermifuge",
+				"Link": "http://www.wikiphyto.org/wiki/Ch%C3%A9nopode_vermifuge",
+				"Properties": null
+			},
+			{
+				"Id": "plant239",
+				"Name": "Quinoa",
+				"Link": "http://www.wikiphyto.org/wiki/Quinoa",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Chenopodiaceae"
+	},
+	{
+		"Id": "cat45",
+		"Name": "Chloranthaceae",
+		"Plants": [
+			{
+				"Id": "plant240",
+				"Name": "Sarcandra",
+				"Link": "http://www.wikiphyto.org/wiki/Sarcandra",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Chloranthaceae"
+	},
+	{
+		"Id": "cat46",
+		"Name": "Chlorellaceae",
+		"Plants": [
+			{
+				"Id": "plant241",
+				"Name": "Chlorella",
+				"Link": "http://www.wikiphyto.org/wiki/Chlorella",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Chlorellaceae"
+	},
+	{
+		"Id": "cat47",
+		"Name": "Cistaceae",
+		"Plants": [
+			{
+				"Id": "plant242",
+				"Name": "Ciste labdanifère",
+				"Link": "http://www.wikiphyto.org/wiki/Ciste_labdanif%C3%A8re",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Cistaceae"
+	},
+	{
+		"Id": "cat48",
+		"Name": "Clavicipitaceae",
+		"Plants": [
+			{
+				"Id": "plant243",
+				"Name": "Cordyceps",
+				"Link": "http://www.wikiphyto.org/wiki/Cordyceps",
+				"Properties": null
+			},
+			{
+				"Id": "plant244",
+				"Name": "Ergot de seigle",
+				"Link": "http://www.wikiphyto.org/wiki/Ergot_de_seigle",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Clavicipitaceae"
+	},
+	{
+		"Id": "cat49",
+		"Name": "Clusiaceae",
+		"Plants": [
+			{
+				"Id": "plant245",
+				"Name": "Calophylle",
+				"Link": "http://www.wikiphyto.org/wiki/Calophylle",
+				"Properties": null
+			},
+			{
+				"Id": "plant246",
+				"Name": "Garcinia",
+				"Link": "http://www.wikiphyto.org/wiki/Garcinia",
+				"Properties": null
+			},
+			{
+				"Id": "plant247",
+				"Name": "Millepertuis",
+				"Link": "http://www.wikiphyto.org/wiki/Millepertuis",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Clusiaceae"
+	},
+	{
+		"Id": "cat50",
+		"Name": "Cochlospermaceae",
+		"Plants": [
+			{
+				"Id": "plant248",
+				"Name": "Cochlospermum",
+				"Link": "http://www.wikiphyto.org/wiki/Cochlospermum",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Cochlospermaceae"
+	},
+	{
+		"Id": "cat51",
+		"Name": "Combretaceae",
+		"Plants": [
+			{
+				"Id": "plant249",
+				"Name": "Kinkeliba",
+				"Link": "http://www.wikiphyto.org/wiki/Kinkeliba",
+				"Properties": null
+			},
+			{
+				"Id": "plant250",
+				"Name": "Terminalia arjuna",
+				"Link": "http://www.wikiphyto.org/wiki/Terminalia_arjuna",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Combretaceae"
+	},
+	{
+		"Id": "cat52",
+		"Name": "Convolvulaceae",
+		"Plants": [
+			{
+				"Id": "plant251",
+				"Name": "Convolvulus pluricaulis",
+				"Link": "http://www.wikiphyto.org/wiki/Convolvulus_pluricaulis",
+				"Properties": null
+			},
+			{
+				"Id": "plant252",
+				"Name": "Evolvulus alsinoides",
+				"Link": "http://www.wikiphyto.org/wiki/Evolvulus_alsinoides",
+				"Properties": null
+			},
+			{
+				"Id": "plant253",
+				"Name": "Jalap tubéreux",
+				"Link": "http://www.wikiphyto.org/wiki/Jalap_tub%C3%A9reux",
+				"Properties": null
+			},
+			{
+				"Id": "plant254",
+				"Name": "Patate douce",
+				"Link": "http://www.wikiphyto.org/wiki/Patate_douce",
+				"Properties": null
+			},
+			{
+				"Id": "plant255",
+				"Name": "Scammonée",
+				"Link": "http://www.wikiphyto.org/wiki/Scammon%C3%A9e",
+				"Properties": null
+			},
+			{
+				"Id": "plant256",
+				"Name": "Volubilis sacré du Mexique",
+				"Link": "http://www.wikiphyto.org/wiki/Volubilis_sacr%C3%A9_du_Mexique",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Convolvulaceae"
+	},
+	{
+		"Id": "cat53",
+		"Name": "Corallinaceae",
+		"Plants": [
+			{
+				"Id": "plant257",
+				"Name": "Lithothamne",
+				"Link": "http://www.wikiphyto.org/wiki/Lithothamne",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Corallinaceae"
+	},
+	{
+		"Id": "cat54",
+		"Name": "Cordycipitaceae",
+		"Plants": [
+			{
+				"Id": "plant258",
+				"Name": "Cordyceps",
+				"Link": "http://www.wikiphyto.org/wiki/Cordyceps",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Cordycipitaceae"
+	},
+	{
+		"Id": "cat55",
+		"Name": "Coriariaceae",
+		"Plants": [
+			{
+				"Id": "plant259",
+				"Name": "Coriaria myrtifolia",
+				"Link": "http://www.wikiphyto.org/wiki/Coriaria_myrtifolia",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Coriariaceae"
+	},
+	{
+		"Id": "cat56",
+		"Name": "Cornaceae",
+		"Plants": [
+			{
+				"Id": "plant260",
+				"Name": "Cornouillier sanguin",
+				"Link": "http://www.wikiphyto.org/wiki/Cornouillier_sanguin",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Cornaceae"
+	},
+	{
+		"Id": "cat57",
+		"Name": "Crassulaceae",
+		"Plants": [
+			{
+				"Id": "plant261",
+				"Name": "Kalanchoe",
+				"Link": "http://www.wikiphyto.org/wiki/Kalanchoe",
+				"Properties": null
+			},
+			{
+				"Id": "plant262",
+				"Name": "Rhodiola rosea",
+				"Link": "http://www.wikiphyto.org/wiki/Rhodiola_rosea",
+				"Properties": null
+			},
+			{
+				"Id": "plant263",
+				"Name": "Sédum",
+				"Link": "http://www.wikiphyto.org/wiki/S%C3%A9dum",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Crassulaceae"
+	},
+	{
+		"Id": "cat58",
+		"Name": "Cucurbitaceae",
+		"Plants": [
+			{
+				"Id": "plant264",
+				"Name": "Bryone",
+				"Link": "http://www.wikiphyto.org/wiki/Bryone",
+				"Properties": null
+			},
+			{
+				"Id": "plant265",
+				"Name": "Citrouille",
+				"Link": "http://www.wikiphyto.org/wiki/Citrouille",
+				"Properties": null
+			},
+			{
+				"Id": "plant266",
+				"Name": "Coloquinte",
+				"Link": "http://www.wikiphyto.org/wiki/Coloquinte",
+				"Properties": null
+			},
+			{
+				"Id": "plant267",
+				"Name": "Concombre d’âne",
+				"Link": "http://www.wikiphyto.org/wiki/Concombre_d%E2%80%99%C3%A2ne",
+				"Properties": null
+			},
+			{
+				"Id": "plant268",
+				"Name": "Gynostemma",
+				"Link": "http://www.wikiphyto.org/wiki/Gynostemma",
+				"Properties": null
+			},
+			{
+				"Id": "plant269",
+				"Name": "Margose à piquants",
+				"Link": "http://www.wikiphyto.org/wiki/Margose_%C3%A0_piquants",
+				"Properties": null
+			},
+			{
+				"Id": "plant270",
+				"Name": "Tayuya",
+				"Link": "http://www.wikiphyto.org/wiki/Tayuya",
+				"Properties": null
+			},
+			{
+				"Id": "plant271",
+				"Name": "Trichosanthes",
+				"Link": "http://www.wikiphyto.org/wiki/Trichosanthes",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Cucurbitaceae"
+	},
+	{
+		"Id": "cat59",
+		"Name": "Cupressaceae",
+		"Plants": [
+			{
+				"Id": "plant272",
+				"Name": "Bois de Siam",
+				"Link": "http://www.wikiphyto.org/wiki/Bois_de_Siam",
+				"Properties": null
+			},
+			{
+				"Id": "plant273",
+				"Name": "Cade",
+				"Link": "http://www.wikiphyto.org/wiki/Cade",
+				"Properties": null
+			},
+			{
+				"Id": "plant274",
+				"Name": "Cyprès",
+				"Link": "http://www.wikiphyto.org/wiki/Cypr%C3%A8s",
+				"Properties": null
+			},
+			{
+				"Id": "plant275",
+				"Name": "Genévrier commun",
+				"Link": "http://www.wikiphyto.org/wiki/Gen%C3%A9vrier_commun",
+				"Properties": null
+			},
+			{
+				"Id": "plant276",
+				"Name": "Sabine",
+				"Link": "http://www.wikiphyto.org/wiki/Sabine",
+				"Properties": null
+			},
+			{
+				"Id": "plant277",
+				"Name": "Thuya",
+				"Link": "http://www.wikiphyto.org/wiki/Thuya",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Cupressaceae"
+	},
+	{
+		"Id": "cat60",
+		"Name": "Cyanophyceae",
+		"Plants": [
+			{
+				"Id": "plant278",
+				"Name": "Aphanizomenon",
+				"Link": "http://www.wikiphyto.org/wiki/Aphanizomenon",
+				"Properties": null
+			},
+			{
+				"Id": "plant279",
+				"Name": "Spiruline",
+				"Link": "http://www.wikiphyto.org/wiki/Spiruline",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Cyanophyceae"
+	},
+	{
+		"Id": "cat61",
+		"Name": "Cystoseiraceae",
+		"Plants": [
+			{
+				"Id": "plant280",
+				"Name": "Cystoseira fibrosa",
+				"Link": "http://www.wikiphyto.org/wiki/Cystoseira_fibrosa",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Cystoseiraceae"
+	},
+	{
+		"Id": "cat62",
+		"Name": "Dictyotaceae",
+		"Plants": [
+			{
+				"Id": "plant281",
+				"Name": "Padine “queue de paon”",
+				"Link": "http://www.wikiphyto.org/wiki/Padine_%E2%80%9Cqueue_de_paon%E2%80%9D",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Dictyotaceae"
+	},
+	{
+		"Id": "cat63",
+		"Name": "Dioscoreaceae",
+		"Plants": [
+			{
+				"Id": "plant282",
+				"Name": "Igname",
+				"Link": "http://www.wikiphyto.org/wiki/Igname",
+				"Properties": null
+			},
+			{
+				"Id": "plant283",
+				"Name": "Tamier",
+				"Link": "http://www.wikiphyto.org/wiki/Tamier",
+				"Properties": null
+			},
+			{
+				"Id": "plant284",
+				"Name": "Yam",
+				"Link": "http://www.wikiphyto.org/wiki/Yam",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Dioscoreaceae"
+	},
+	{
+		"Id": "cat64",
+		"Name": "Dipsacaceae",
+		"Plants": [
+			{
+				"Id": "plant285",
+				"Name": "Cardère sauvage",
+				"Link": "http://www.wikiphyto.org/wiki/Card%C3%A8re_sauvage",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Dipsacaceae"
+	},
+	{
+		"Id": "cat65",
+		"Name": "Dipterocarpaceae",
+		"Plants": [
+			{
+				"Id": "plant286",
+				"Name": "Camphre de Bornéo",
+				"Link": "http://www.wikiphyto.org/wiki/Camphre_de_Born%C3%A9o",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Dipterocarpaceae"
+	},
+	{
+		"Id": "cat66",
+		"Name": "Droseraceae",
+		"Plants": [
+			{
+				"Id": "plant287",
+				"Name": "Droseras",
+				"Link": "http://www.wikiphyto.org/wiki/Droseras",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Droseraceae"
+	},
+	{
+		"Id": "cat67",
+		"Name": "Elaeagnaceae",
+		"Plants": [
+			{
+				"Id": "plant288",
+				"Name": "Argousier",
+				"Link": "http://www.wikiphyto.org/wiki/Argousier",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Elaeagnaceae"
+	},
+	{
+		"Id": "cat68",
+		"Name": "Ephedraceae",
+		"Plants": [
+			{
+				"Id": "plant289",
+				"Name": "Ephedras",
+				"Link": "http://www.wikiphyto.org/wiki/Ephedras",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Ephedraceae"
+	},
+	{
+		"Id": "cat69",
+		"Name": "Equisetaceae",
+		"Plants": [
+			{
+				"Id": "plant290",
+				"Name": "Prêle des champs",
+				"Link": "http://www.wikiphyto.org/wiki/Pr%C3%AAle_des_champs",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Equisetaceae"
+	},
+	{
+		"Id": "cat70",
+		"Name": "Ericaceae",
+		"Plants": [
+			{
+				"Id": "plant291",
+				"Name": "Airelle rouge",
+				"Link": "http://www.wikiphyto.org/wiki/Airelle_rouge",
+				"Properties": null
+			},
+			{
+				"Id": "plant292",
+				"Name": "Arbousier",
+				"Link": "http://www.wikiphyto.org/wiki/Arbousier",
+				"Properties": null
+			},
+			{
+				"Id": "plant293",
+				"Name": "Bruyère callune",
+				"Link": "http://www.wikiphyto.org/wiki/Bruy%C3%A8re_callune",
+				"Properties": null
+			},
+			{
+				"Id": "plant294",
+				"Name": "Bruyère cendrée",
+				"Link": "http://www.wikiphyto.org/wiki/Bruy%C3%A8re_cendr%C3%A9e",
+				"Properties": null
+			},
+			{
+				"Id": "plant295",
+				"Name": "Busserole",
+				"Link": "http://www.wikiphyto.org/wiki/Busserole",
+				"Properties": null
+			},
+			{
+				"Id": "plant296",
+				"Name": "Canneberge",
+				"Link": "http://www.wikiphyto.org/wiki/Canneberge",
+				"Properties": null
+			},
+			{
+				"Id": "plant297",
+				"Name": "Gaulthérie",
+				"Link": "http://www.wikiphyto.org/wiki/Gaulth%C3%A9rie",
+				"Properties": null
+			},
+			{
+				"Id": "plant298",
+				"Name": "Laurier de montagne",
+				"Link": "http://www.wikiphyto.org/wiki/Laurier_de_montagne",
+				"Properties": null
+			},
+			{
+				"Id": "plant299",
+				"Name": "Lédon des marais",
+				"Link": "http://www.wikiphyto.org/wiki/L%C3%A9don_des_marais",
+				"Properties": null
+			},
+			{
+				"Id": "plant300",
+				"Name": "Lédon du Groenland",
+				"Link": "http://www.wikiphyto.org/wiki/L%C3%A9don_du_Groenland",
+				"Properties": null
+			},
+			{
+				"Id": "plant301",
+				"Name": "Monotrope suce-pin",
+				"Link": "http://www.wikiphyto.org/wiki/Monotrope_suce-pin",
+				"Properties": null
+			},
+			{
+				"Id": "plant302",
+				"Name": "Myrtille",
+				"Link": "http://www.wikiphyto.org/wiki/Myrtille",
+				"Properties": null
+			},
+			{
+				"Id": "plant303",
+				"Name": "Rhododendron ferrugineux",
+				"Link": "http://www.wikiphyto.org/wiki/Rhododendron_ferrugineux",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Ericaceae"
+	},
+	{
+		"Id": "cat71",
+		"Name": "Erythroxylaceae",
+		"Plants": [
+			{
+				"Id": "plant304",
+				"Name": "Cocaïer",
+				"Link": "http://www.wikiphyto.org/wiki/Coca%C3%AFer",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Erythroxylaceae"
+	},
+	{
+		"Id": "cat72",
+		"Name": "Euphorbiaceae",
+		"Plants": [
+			{
+				"Id": "plant305",
+				"Name": "Bois bandé",
+				"Link": "http://www.wikiphyto.org/wiki/Bois_band%C3%A9",
+				"Properties": null
+			},
+			{
+				"Id": "plant306",
+				"Name": "Croton cathartique",
+				"Link": "http://www.wikiphyto.org/wiki/Croton_cathartique",
+				"Properties": null
+			},
+			{
+				"Id": "plant307",
+				"Name": "Euphorbe indienne",
+				"Link": "http://www.wikiphyto.org/wiki/Euphorbe_indienne",
+				"Properties": null
+			},
+			{
+				"Id": "plant308",
+				"Name": "Hévéa",
+				"Link": "http://www.wikiphyto.org/wiki/H%C3%A9v%C3%A9a",
+				"Properties": null
+			},
+			{
+				"Id": "plant309",
+				"Name": "Inca inchi",
+				"Link": "http://www.wikiphyto.org/wiki/Inca_inchi",
+				"Properties": null
+			},
+			{
+				"Id": "plant310",
+				"Name": "Manioc",
+				"Link": "http://www.wikiphyto.org/wiki/Manioc",
+				"Properties": null
+			},
+			{
+				"Id": "plant311",
+				"Name": "Mercuriale annuelle",
+				"Link": "http://www.wikiphyto.org/wiki/Mercuriale_annuelle",
+				"Properties": null
+			},
+			{
+				"Id": "plant312",
+				"Name": "Médecinier des Barbades",
+				"Link": "http://www.wikiphyto.org/wiki/M%C3%A9decinier_des_Barbades",
+				"Properties": null
+			},
+			{
+				"Id": "plant313",
+				"Name": "Phyllanthus",
+				"Link": "http://www.wikiphyto.org/wiki/Phyllanthus",
+				"Properties": null
+			},
+			{
+				"Id": "plant314",
+				"Name": "Phyllanthus emblica",
+				"Link": "http://www.wikiphyto.org/wiki/Phyllanthus_emblica",
+				"Properties": null
+			},
+			{
+				"Id": "plant315",
+				"Name": "Ricin",
+				"Link": "http://www.wikiphyto.org/wiki/Ricin",
+				"Properties": null
+			},
+			{
+				"Id": "plant316",
+				"Name": "Sang-Dragon (Croton)",
+				"Link": "http://www.wikiphyto.org/wiki/Sang-Dragon_(Croton)",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Euphorbiaceae"
+	},
+	{
+		"Id": "cat73",
+		"Name": "Fabaceae",
+		"Plants": [
+			{
+				"Id": "plant317",
+				"Name": "Acacia à cachou",
+				"Link": "http://www.wikiphyto.org/wiki/Acacia_%C3%A0_cachou",
+				"Properties": null
+			},
+			{
+				"Id": "plant318",
+				"Name": "Anthyllide vulnéraire",
+				"Link": "http://www.wikiphyto.org/wiki/Anthyllide_vuln%C3%A9raire",
+				"Properties": null
+			},
+			{
+				"Id": "plant319",
+				"Name": "Arachide",
+				"Link": "http://www.wikiphyto.org/wiki/Arachide",
+				"Properties": null
+			},
+			{
+				"Id": "plant320",
+				"Name": "Arbre de Judée",
+				"Link": "http://www.wikiphyto.org/wiki/Arbre_de_Jud%C3%A9e",
+				"Properties": null
+			},
+			{
+				"Id": "plant321",
+				"Name": "Astragale",
+				"Link": "http://www.wikiphyto.org/wiki/Astragale",
+				"Properties": null
+			},
+			{
+				"Id": "plant322",
+				"Name": "Baptisia",
+				"Link": "http://www.wikiphyto.org/wiki/Baptisia",
+				"Properties": null
+			},
+			{
+				"Id": "plant323",
+				"Name": "Baumier de Tolu",
+				"Link": "http://www.wikiphyto.org/wiki/Baumier_de_Tolu",
+				"Properties": null
+			},
+			{
+				"Id": "plant324",
+				"Name": "Baumier du Pérou",
+				"Link": "http://www.wikiphyto.org/wiki/Baumier_du_P%C3%A9rou",
+				"Properties": null
+			},
+			{
+				"Id": "plant325",
+				"Name": "Bugrane",
+				"Link": "http://www.wikiphyto.org/wiki/Bugrane",
+				"Properties": null
+			},
+			{
+				"Id": "plant326",
+				"Name": "Caroubier",
+				"Link": "http://www.wikiphyto.org/wiki/Caroubier",
+				"Properties": null
+			},
+			{
+				"Id": "plant327",
+				"Name": "Copahier",
+				"Link": "http://www.wikiphyto.org/wiki/Copahier",
+				"Properties": null
+			},
+			{
+				"Id": "plant328",
+				"Name": "Courbaril",
+				"Link": "http://www.wikiphyto.org/wiki/Courbaril",
+				"Properties": null
+			},
+			{
+				"Id": "plant329",
+				"Name": "Dartrier",
+				"Link": "http://www.wikiphyto.org/wiki/Dartrier",
+				"Properties": null
+			},
+			{
+				"Id": "plant330",
+				"Name": "Desmodium",
+				"Link": "http://www.wikiphyto.org/wiki/Desmodium",
+				"Properties": null
+			},
+			{
+				"Id": "plant331",
+				"Name": "Fabaceae",
+				"Link": "http://www.wikiphyto.orgredirect-in-category",
+				"Properties": null
+			},
+			{
+				"Id": "plant332",
+				"Name": "Fève de Calabar",
+				"Link": "http://www.wikiphyto.org/wiki/F%C3%A8ve_de_Calabar",
+				"Properties": null
+			},
+			{
+				"Id": "plant333",
+				"Name": "Fève Tonka",
+				"Link": "http://www.wikiphyto.org/wiki/F%C3%A8ve_Tonka",
+				"Properties": null
+			},
+			{
+				"Id": "plant334",
+				"Name": "Fénugrec",
+				"Link": "http://www.wikiphyto.org/wiki/F%C3%A9nugrec",
+				"Properties": null
+			},
+			{
+				"Id": "plant335",
+				"Name": "Galega",
+				"Link": "http://www.wikiphyto.org/wiki/Galega",
+				"Properties": null
+			},
+			{
+				"Id": "plant336",
+				"Name": "Genêt à balais",
+				"Link": "http://www.wikiphyto.org/wiki/Gen%C3%AAt_%C3%A0_balais",
+				"Properties": null
+			},
+			{
+				"Id": "plant337",
+				"Name": "Gomme adragante",
+				"Link": "http://www.wikiphyto.org/wiki/Gomme_adragante",
+				"Properties": null
+			},
+			{
+				"Id": "plant338",
+				"Name": "Gomme arabique",
+				"Link": "http://www.wikiphyto.org/wiki/Gomme_arabique",
+				"Properties": null
+			},
+			{
+				"Id": "plant339",
+				"Name": "Griffonia simplicifolia",
+				"Link": "http://www.wikiphyto.org/wiki/Griffonia_simplicifolia",
+				"Properties": null
+			},
+			{
+				"Id": "plant340",
+				"Name": "Guar",
+				"Link": "http://www.wikiphyto.org/wiki/Guar",
+				"Properties": null
+			},
+			{
+				"Id": "plant341",
+				"Name": "Kudzu",
+				"Link": "http://www.wikiphyto.org/wiki/Kudzu",
+				"Properties": null
+			},
+			{
+				"Id": "plant342",
+				"Name": "Lespedeza",
+				"Link": "http://www.wikiphyto.org/wiki/Lespedeza",
+				"Properties": null
+			},
+			{
+				"Id": "plant343",
+				"Name": "Lotier corniculé",
+				"Link": "http://www.wikiphyto.org/wiki/Lotier_cornicul%C3%A9",
+				"Properties": null
+			},
+			{
+				"Id": "plant344",
+				"Name": "Luzerne",
+				"Link": "http://www.wikiphyto.org/wiki/Luzerne",
+				"Properties": null
+			},
+			{
+				"Id": "plant345",
+				"Name": "Mélilot",
+				"Link": "http://www.wikiphyto.org/wiki/M%C3%A9lilot",
+				"Properties": null
+			},
+			{
+				"Id": "plant346",
+				"Name": "Piscidie",
+				"Link": "http://www.wikiphyto.org/wiki/Piscidie",
+				"Properties": null
+			},
+			{
+				"Id": "plant347",
+				"Name": "Pois d’Angole",
+				"Link": "http://www.wikiphyto.org/wiki/Pois_d%E2%80%99Angole",
+				"Properties": null
+			},
+			{
+				"Id": "plant348",
+				"Name": "Pois mascate",
+				"Link": "http://www.wikiphyto.org/wiki/Pois_mascate",
+				"Properties": null
+			},
+			{
+				"Id": "plant349",
+				"Name": "Pois rouge",
+				"Link": "http://www.wikiphyto.org/wiki/Pois_rouge",
+				"Properties": null
+			},
+			{
+				"Id": "plant350",
+				"Name": "Robinier faux acacia",
+				"Link": "http://www.wikiphyto.org/wiki/Robinier_faux_acacia",
+				"Properties": null
+			},
+			{
+				"Id": "plant351",
+				"Name": "Réglisse",
+				"Link": "http://www.wikiphyto.org/wiki/R%C3%A9glisse",
+				"Properties": null
+			},
+			{
+				"Id": "plant352",
+				"Name": "Sang-Dragon (Antilles)",
+				"Link": "http://www.wikiphyto.org/wiki/Sang-Dragon_(Antilles)",
+				"Properties": null
+			},
+			{
+				"Id": "plant353",
+				"Name": "Santal rouge",
+				"Link": "http://www.wikiphyto.org/wiki/Santal_rouge",
+				"Properties": null
+			},
+			{
+				"Id": "plant354",
+				"Name": "Soja jaune",
+				"Link": "http://www.wikiphyto.org/wiki/Soja_jaune",
+				"Properties": null
+			},
+			{
+				"Id": "plant355",
+				"Name": "Sophora du Japon",
+				"Link": "http://www.wikiphyto.org/wiki/Sophora_du_Japon",
+				"Properties": null
+			},
+			{
+				"Id": "plant356",
+				"Name": "Sutherlandia",
+				"Link": "http://www.wikiphyto.org/wiki/Sutherlandia",
+				"Properties": null
+			},
+			{
+				"Id": "plant357",
+				"Name": "Séné d’Alexandrie",
+				"Link": "http://www.wikiphyto.org/wiki/S%C3%A9n%C3%A9_d%E2%80%99Alexandrie",
+				"Properties": null
+			},
+			{
+				"Id": "plant358",
+				"Name": "Tamarin",
+				"Link": "http://www.wikiphyto.org/wiki/Tamarin",
+				"Properties": null
+			},
+			{
+				"Id": "plant359",
+				"Name": "Tepescohuite",
+				"Link": "http://www.wikiphyto.org/wiki/Tepescohuite",
+				"Properties": null
+			},
+			{
+				"Id": "plant360",
+				"Name": "Trèfle rouge",
+				"Link": "http://www.wikiphyto.org/wiki/Tr%C3%A8fle_rouge",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Fabaceae"
+	},
+	{
+		"Id": "cat74",
+		"Name": "Fagaceae",
+		"Plants": [
+			{
+				"Id": "plant361",
+				"Name": "Châtaignier",
+				"Link": "http://www.wikiphyto.org/wiki/Ch%C3%A2taignier",
+				"Properties": null
+			},
+			{
+				"Id": "plant362",
+				"Name": "Chêne rouvre",
+				"Link": "http://www.wikiphyto.org/wiki/Ch%C3%AAne_rouvre",
+				"Properties": null
+			},
+			{
+				"Id": "plant363",
+				"Name": "Hêtre",
+				"Link": "http://www.wikiphyto.org/wiki/H%C3%AAtre",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Fagaceae"
+	},
+	{
+		"Id": "cat75",
+		"Name": "Flacourtiaceae",
+		"Plants": [
+			{
+				"Id": "plant364",
+				"Name": "Change-écorce",
+				"Link": "http://www.wikiphyto.org/wiki/Change-%C3%A9corce",
+				"Properties": null
+			},
+			{
+				"Id": "plant365",
+				"Name": "Hydnocarpus (chaulmoogra)",
+				"Link": "http://www.wikiphyto.org/wiki/Hydnocarpus_(chaulmoogra)",
+				"Properties": null
+			},
+			{
+				"Id": "plant366",
+				"Name": "Hydnocarpus inebrians",
+				"Link": "http://www.wikiphyto.org/wiki/Hydnocarpus_inebrians",
+				"Properties": null
+			},
+			{
+				"Id": "plant367",
+				"Name": "Hydnocarpus Kurzii",
+				"Link": "http://www.wikiphyto.org/wiki/Hydnocarpus_Kurzii",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Flacourtiaceae"
+	},
+	{
+		"Id": "cat76",
+		"Name": "Florideae",
+		"Plants": [
+			{
+				"Id": "plant368",
+				"Name": "Palmaria palmata",
+				"Link": "http://www.wikiphyto.org/wiki/Palmaria_palmata",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Florideae"
+	},
+	{
+		"Id": "cat77",
+		"Name": "Fucaceae",
+		"Plants": [
+			{
+				"Id": "plant369",
+				"Name": "Fucus vésiculeux",
+				"Link": "http://www.wikiphyto.org/wiki/Fucus_v%C3%A9siculeux",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Fucaceae"
+	},
+	{
+		"Id": "cat78",
+		"Name": "Fumariaceae",
+		"Plants": [
+			{
+				"Id": "plant370",
+				"Name": "Corydalis",
+				"Link": "http://www.wikiphyto.org/wiki/Corydalis",
+				"Properties": null
+			},
+			{
+				"Id": "plant371",
+				"Name": "Fumeterre",
+				"Link": "http://www.wikiphyto.org/wiki/Fumeterre",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Fumariaceae"
+	},
+	{
+		"Id": "cat79",
+		"Name": "Ganodermataceae",
+		"Plants": [
+			{
+				"Id": "plant372",
+				"Name": "Lingzhi",
+				"Link": "http://www.wikiphyto.org/wiki/Lingzhi",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Ganodermataceae"
+	},
+	{
+		"Id": "cat80",
+		"Name": "Gentianaceae",
+		"Plants": [
+			{
+				"Id": "plant373",
+				"Name": "Chlore perfoliée",
+				"Link": "http://www.wikiphyto.org/wiki/Chlore_perfoli%C3%A9e",
+				"Properties": null
+			},
+			{
+				"Id": "plant374",
+				"Name": "Gentiane jaune",
+				"Link": "http://www.wikiphyto.org/wiki/Gentiane_jaune",
+				"Properties": null
+			},
+			{
+				"Id": "plant375",
+				"Name": "Petite Centaurée",
+				"Link": "http://www.wikiphyto.org/wiki/Petite_Centaur%C3%A9e",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Gentianaceae"
+	},
+	{
+		"Id": "cat81",
+		"Name": "Geraniaceae",
+		"Plants": [
+			{
+				"Id": "plant376",
+				"Name": "Géranium robert",
+				"Link": "http://www.wikiphyto.org/wiki/G%C3%A9ranium_robert",
+				"Properties": null
+			},
+			{
+				"Id": "plant377",
+				"Name": "Géranium rosat",
+				"Link": "http://www.wikiphyto.org/wiki/G%C3%A9ranium_rosat",
+				"Properties": null
+			},
+			{
+				"Id": "plant378",
+				"Name": "Géranium umckaloabo",
+				"Link": "http://www.wikiphyto.org/wiki/G%C3%A9ranium_umckaloabo",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Geraniaceae"
+	},
+	{
+		"Id": "cat82",
+		"Name": "Gigartinaceae",
+		"Plants": [
+			{
+				"Id": "plant379",
+				"Name": "Mousse d’Irlande",
+				"Link": "http://www.wikiphyto.org/wiki/Mousse_d%E2%80%99Irlande",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Gigartinaceae"
+	},
+	{
+		"Id": "cat83",
+		"Name": "Ginkgoaceae",
+		"Plants": [
+			{
+				"Id": "plant380",
+				"Name": "Ginkgo",
+				"Link": "http://www.wikiphyto.org/wiki/Ginkgo",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Ginkgoaceae"
+	},
+	{
+		"Id": "cat84",
+		"Name": "Globulariaceae",
+		"Plants": [
+			{
+				"Id": "plant381",
+				"Name": "Globulaire",
+				"Link": "http://www.wikiphyto.org/wiki/Globulaire",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Globulariaceae"
+	},
+	{
+		"Id": "cat85",
+		"Name": "Grossulariaceae",
+		"Plants": [
+			{
+				"Id": "plant382",
+				"Name": "Cassis",
+				"Link": "http://www.wikiphyto.org/wiki/Cassis",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Grossulariaceae"
+	},
+	{
+		"Id": "cat86",
+		"Name": "Haemodoraceae",
+		"Plants": [
+			{
+				"Id": "plant383",
+				"Name": "Narcisse rouge",
+				"Link": "http://www.wikiphyto.org/wiki/Narcisse_rouge",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Haemodoraceae"
+	},
+	{
+		"Id": "cat87",
+		"Name": "Hamamelidaceae",
+		"Plants": [
+			{
+				"Id": "plant384",
+				"Name": "Hamamelis de Virginie",
+				"Link": "http://www.wikiphyto.org/wiki/Hamamelis_de_Virginie",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Hamamelidaceae"
+	},
+	{
+		"Id": "cat88",
+		"Name": "Hericiaceae",
+		"Plants": [
+			{
+				"Id": "plant385",
+				"Name": "Hericium erinaceus",
+				"Link": "http://www.wikiphyto.org/wiki/Hericium_erinaceus",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Hericiaceae"
+	},
+	{
+		"Id": "cat89",
+		"Name": "Hippocastanaceae",
+		"Plants": [
+			{
+				"Id": "plant386",
+				"Name": "Marronnier d’Inde",
+				"Link": "http://www.wikiphyto.org/wiki/Marronnier_d%E2%80%99Inde",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Hippocastanaceae"
+	},
+	{
+		"Id": "cat90",
+		"Name": "Huperziaceae",
+		"Plants": [
+			{
+				"Id": "plant387",
+				"Name": "Lycopode",
+				"Link": "http://www.wikiphyto.org/wiki/Lycopode",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Huperziaceae"
+	},
+	{
+		"Id": "cat91",
+		"Name": "Hyacinthaceae",
+		"Plants": [],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Hyacinthaceae"
+	},
+	{
+		"Id": "cat92",
+		"Name": "Hydrophyllaceae",
+		"Plants": [
+			{
+				"Id": "plant388",
+				"Name": "Yerba santa",
+				"Link": "http://www.wikiphyto.org/wiki/Yerba_santa",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Hydrophyllaceae"
+	},
+	{
+		"Id": "cat93",
+		"Name": "Hymenochaetaceae",
+		"Plants": [
+			{
+				"Id": "plant389",
+				"Name": "Phellinus linteus",
+				"Link": "http://www.wikiphyto.org/wiki/Phellinus_linteus",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Hymenochaetaceae"
+	},
+	{
+		"Id": "cat94",
+		"Name": "Illiciaeae",
+		"Plants": [
+			{
+				"Id": "plant390",
+				"Name": "Badianier de Chine",
+				"Link": "http://www.wikiphyto.org/wiki/Badianier_de_Chine",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Illiciaeae"
+	},
+	{
+		"Id": "cat95",
+		"Name": "Iridaceae",
+		"Plants": [
+			{
+				"Id": "plant391",
+				"Name": "Iris de Florence",
+				"Link": "http://www.wikiphyto.org/wiki/Iris_de_Florence",
+				"Properties": null
+			},
+			{
+				"Id": "plant392",
+				"Name": "Safran cultivé",
+				"Link": "http://www.wikiphyto.org/wiki/Safran_cultiv%C3%A9",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Iridaceae"
+	},
+	{
+		"Id": "cat96",
+		"Name": "Juglandaceae",
+		"Plants": [
+			{
+				"Id": "plant393",
+				"Name": "Noyer",
+				"Link": "http://www.wikiphyto.org/wiki/Noyer",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Juglandaceae"
+	},
+	{
+		"Id": "cat97",
+		"Name": "Krameriaceae",
+		"Plants": [
+			{
+				"Id": "plant394",
+				"Name": "Ratanhia du Chili",
+				"Link": "http://www.wikiphyto.org/wiki/Ratanhia_du_Chili",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Krameriaceae"
+	},
+	{
+		"Id": "cat98",
+		"Name": "Lamiaceae",
+		"Plants": [
+			{
+				"Id": "plant395",
+				"Name": "Agripaume",
+				"Link": "http://www.wikiphyto.org/wiki/Agripaume",
+				"Properties": null
+			},
+			{
+				"Id": "plant396",
+				"Name": "Ballote fétide",
+				"Link": "http://www.wikiphyto.org/wiki/Ballote_f%C3%A9tide",
+				"Properties": null
+			},
+			{
+				"Id": "plant397",
+				"Name": "Basilic",
+				"Link": "http://www.wikiphyto.org/wiki/Basilic",
+				"Properties": null
+			},
+			{
+				"Id": "plant398",
+				"Name": "Basilic de Ceylan",
+				"Link": "http://www.wikiphyto.org/wiki/Basilic_de_Ceylan",
+				"Properties": null
+			},
+			{
+				"Id": "plant399",
+				"Name": "Basilic sacré",
+				"Link": "http://www.wikiphyto.org/wiki/Basilic_sacr%C3%A9",
+				"Properties": null
+			},
+			{
+				"Id": "plant400",
+				"Name": "Brunelle commune",
+				"Link": "http://www.wikiphyto.org/wiki/Brunelle_commune",
+				"Properties": null
+			},
+			{
+				"Id": "plant401",
+				"Name": "Bugle ivette",
+				"Link": "http://www.wikiphyto.org/wiki/Bugle_ivette",
+				"Properties": null
+			},
+			{
+				"Id": "plant402",
+				"Name": "Bugle rampante",
+				"Link": "http://www.wikiphyto.org/wiki/Bugle_rampante",
+				"Properties": null
+			},
+			{
+				"Id": "plant403",
+				"Name": "Bétoine",
+				"Link": "http://www.wikiphyto.org/wiki/B%C3%A9toine",
+				"Properties": null
+			},
+			{
+				"Id": "plant404",
+				"Name": "Calament",
+				"Link": "http://www.wikiphyto.org/wiki/Calament",
+				"Properties": null
+			},
+			{
+				"Id": "plant405",
+				"Name": "Cataire",
+				"Link": "http://www.wikiphyto.org/wiki/Cataire",
+				"Properties": null
+			},
+			{
+				"Id": "plant406",
+				"Name": "Chia",
+				"Link": "http://www.wikiphyto.org/wiki/Chia",
+				"Properties": null
+			},
+			{
+				"Id": "plant407",
+				"Name": "Clinopode",
+				"Link": "http://www.wikiphyto.org/wiki/Clinopode",
+				"Properties": null
+			},
+			{
+				"Id": "plant408",
+				"Name": "Collinsonie",
+				"Link": "http://www.wikiphyto.org/wiki/Collinsonie",
+				"Properties": null
+			},
+			{
+				"Id": "plant409",
+				"Name": "Coléus",
+				"Link": "http://www.wikiphyto.org/wiki/Col%C3%A9us",
+				"Properties": null
+			},
+			{
+				"Id": "plant410",
+				"Name": "Dictamne de Crète",
+				"Link": "http://www.wikiphyto.org/wiki/Dictamne_de_Cr%C3%A8te",
+				"Properties": null
+			},
+			{
+				"Id": "plant411",
+				"Name": "Galeopsis",
+				"Link": "http://www.wikiphyto.org/wiki/Galeopsis",
+				"Properties": null
+			},
+			{
+				"Id": "plant412",
+				"Name": "Galéopsis douteux",
+				"Link": "http://www.wikiphyto.org/wiki/Gal%C3%A9opsis_douteux",
+				"Properties": null
+			},
+			{
+				"Id": "plant413",
+				"Name": "Germandrée des bois",
+				"Link": "http://www.wikiphyto.org/wiki/Germandr%C3%A9e_des_bois",
+				"Properties": null
+			},
+			{
+				"Id": "plant414",
+				"Name": "Germandrée maritime",
+				"Link": "http://www.wikiphyto.org/wiki/Germandr%C3%A9e_maritime",
+				"Properties": null
+			},
+			{
+				"Id": "plant415",
+				"Name": "Germandrée petit-chêne",
+				"Link": "http://www.wikiphyto.org/wiki/Germandr%C3%A9e_petit-ch%C3%AAne",
+				"Properties": null
+			},
+			{
+				"Id": "plant416",
+				"Name": "Hysope",
+				"Link": "http://www.wikiphyto.org/wiki/Hysope",
+				"Properties": null
+			},
+			{
+				"Id": "plant417",
+				"Name": "Lamier blanc",
+				"Link": "http://www.wikiphyto.org/wiki/Lamier_blanc",
+				"Properties": null
+			},
+			{
+				"Id": "plant418",
+				"Name": "Lavande aspic",
+				"Link": "http://www.wikiphyto.org/wiki/Lavande_aspic",
+				"Properties": null
+			},
+			{
+				"Id": "plant419",
+				"Name": "Lavande stœchade",
+				"Link": "http://www.wikiphyto.org/wiki/Lavande_st%C5%93chade",
+				"Properties": null
+			},
+			{
+				"Id": "plant420",
+				"Name": "Lavande vraie",
+				"Link": "http://www.wikiphyto.org/wiki/Lavande_vraie",
+				"Properties": null
+			},
+			{
+				"Id": "plant421",
+				"Name": "Lavandin",
+				"Link": "http://www.wikiphyto.org/wiki/Lavandin",
+				"Properties": null
+			},
+			{
+				"Id": "plant422",
+				"Name": "Lierre terrestre",
+				"Link": "http://www.wikiphyto.org/wiki/Lierre_terrestre",
+				"Properties": null
+			},
+			{
+				"Id": "plant423",
+				"Name": "Lycope",
+				"Link": "http://www.wikiphyto.org/wiki/Lycope",
+				"Properties": null
+			},
+			{
+				"Id": "plant424",
+				"Name": "Marjolaine",
+				"Link": "http://www.wikiphyto.org/wiki/Marjolaine",
+				"Properties": null
+			},
+			{
+				"Id": "plant425",
+				"Name": "Marrube blanc",
+				"Link": "http://www.wikiphyto.org/wiki/Marrube_blanc",
+				"Properties": null
+			},
+			{
+				"Id": "plant426",
+				"Name": "Menthe poivrée",
+				"Link": "http://www.wikiphyto.org/wiki/Menthe_poivr%C3%A9e",
+				"Properties": null
+			},
+			{
+				"Id": "plant427",
+				"Name": "Menthe pouliot",
+				"Link": "http://www.wikiphyto.org/wiki/Menthe_pouliot",
+				"Properties": null
+			},
+			{
+				"Id": "plant428",
+				"Name": "Menthe verte",
+				"Link": "http://www.wikiphyto.org/wiki/Menthe_verte",
+				"Properties": null
+			},
+			{
+				"Id": "plant429",
+				"Name": "Monarde",
+				"Link": "http://www.wikiphyto.org/wiki/Monarde",
+				"Properties": null
+			},
+			{
+				"Id": "plant430",
+				"Name": "Mélisse",
+				"Link": "http://www.wikiphyto.org/wiki/M%C3%A9lisse",
+				"Properties": null
+			},
+			{
+				"Id": "plant431",
+				"Name": "Mélitte",
+				"Link": "http://www.wikiphyto.org/wiki/M%C3%A9litte",
+				"Properties": null
+			},
+			{
+				"Id": "plant432",
+				"Name": "Origan d’Espagne",
+				"Link": "http://www.wikiphyto.org/wiki/Origan_d%E2%80%99Espagne",
+				"Properties": null
+			},
+			{
+				"Id": "plant433",
+				"Name": "Origan vert",
+				"Link": "http://www.wikiphyto.org/wiki/Origan_vert",
+				"Properties": null
+			},
+			{
+				"Id": "plant434",
+				"Name": "Origan vulgaire",
+				"Link": "http://www.wikiphyto.org/wiki/Origan_vulgaire",
+				"Properties": null
+			},
+			{
+				"Id": "plant435",
+				"Name": "Origan à inflorescences compactes",
+				"Link": "http://www.wikiphyto.org/wiki/Origan_%C3%A0_inflorescences_compactes",
+				"Properties": null
+			},
+			{
+				"Id": "plant436",
+				"Name": "Orthosiphon",
+				"Link": "http://www.wikiphyto.org/wiki/Orthosiphon",
+				"Properties": null
+			},
+			{
+				"Id": "plant437",
+				"Name": "Patchouly",
+				"Link": "http://www.wikiphyto.org/wiki/Patchouly",
+				"Properties": null
+			},
+			{
+				"Id": "plant438",
+				"Name": "Périlla",
+				"Link": "http://www.wikiphyto.org/wiki/P%C3%A9rilla",
+				"Properties": null
+			},
+			{
+				"Id": "plant439",
+				"Name": "Romarin",
+				"Link": "http://www.wikiphyto.org/wiki/Romarin",
+				"Properties": null
+			},
+			{
+				"Id": "plant440",
+				"Name": "Sarriette des montagnes",
+				"Link": "http://www.wikiphyto.org/wiki/Sarriette_des_montagnes",
+				"Properties": null
+			},
+			{
+				"Id": "plant441",
+				"Name": "Sauge d’Espagne",
+				"Link": "http://www.wikiphyto.org/wiki/Sauge_d%E2%80%99Espagne",
+				"Properties": null
+			},
+			{
+				"Id": "plant442",
+				"Name": "Sauge officinale",
+				"Link": "http://www.wikiphyto.org/wiki/Sauge_officinale",
+				"Properties": null
+			},
+			{
+				"Id": "plant443",
+				"Name": "Sauge sclarée",
+				"Link": "http://www.wikiphyto.org/wiki/Sauge_sclar%C3%A9e",
+				"Properties": null
+			},
+			{
+				"Id": "plant444",
+				"Name": "Scutellaire américaine",
+				"Link": "http://www.wikiphyto.org/wiki/Scutellaire_am%C3%A9ricaine",
+				"Properties": null
+			},
+			{
+				"Id": "plant445",
+				"Name": "Scutellaire casquée",
+				"Link": "http://www.wikiphyto.org/wiki/Scutellaire_casqu%C3%A9e",
+				"Properties": null
+			},
+			{
+				"Id": "plant446",
+				"Name": "Scutellaire du Baïkal",
+				"Link": "http://www.wikiphyto.org/wiki/Scutellaire_du_Ba%C3%AFkal",
+				"Properties": null
+			},
+			{
+				"Id": "plant447",
+				"Name": "Serpolet",
+				"Link": "http://www.wikiphyto.org/wiki/Serpolet",
+				"Properties": null
+			},
+			{
+				"Id": "plant448",
+				"Name": "Thym citron",
+				"Link": "http://www.wikiphyto.org/wiki/Thym_citron",
+				"Properties": null
+			},
+			{
+				"Id": "plant449",
+				"Name": "Thym faux pouliot",
+				"Link": "http://www.wikiphyto.org/wiki/Thym_faux_pouliot",
+				"Properties": null
+			},
+			{
+				"Id": "plant450",
+				"Name": "Thym saturéoïde",
+				"Link": "http://www.wikiphyto.org/wiki/Thym_satur%C3%A9o%C3%AFde",
+				"Properties": null
+			},
+			{
+				"Id": "plant451",
+				"Name": "Thym vulgaire",
+				"Link": "http://www.wikiphyto.org/wiki/Thym_vulgaire",
+				"Properties": null
+			},
+			{
+				"Id": "plant452",
+				"Name": "Thym à thuyanol",
+				"Link": "http://www.wikiphyto.org/wiki/Thym_%C3%A0_thuyanol",
+				"Properties": null
+			},
+			{
+				"Id": "plant453",
+				"Name": "Épiaire des bois",
+				"Link": "http://www.wikiphyto.org/wiki/%C3%89piaire_des_bois",
+				"Properties": null
+			},
+			{
+				"Id": "plant454",
+				"Name": "Épiaire des marais",
+				"Link": "http://www.wikiphyto.org/wiki/%C3%89piaire_des_marais",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Lamiaceae"
+	},
+	{
+		"Id": "cat99",
+		"Name": "Laminariaceae",
+		"Plants": [
+			{
+				"Id": "plant455",
+				"Name": "Laminaire",
+				"Link": "http://www.wikiphyto.org/wiki/Laminaire",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Laminariaceae"
+	},
+	{
+		"Id": "cat100",
+		"Name": "Lauraceae",
+		"Plants": [
+			{
+				"Id": "plant456",
+				"Name": "Bois de rose",
+				"Link": "http://www.wikiphyto.org/wiki/Bois_de_rose",
+				"Properties": null
+			},
+			{
+				"Id": "plant457",
+				"Name": "Camphrier du Japon",
+				"Link": "http://www.wikiphyto.org/wiki/Camphrier_du_Japon",
+				"Properties": null
+			},
+			{
+				"Id": "plant458",
+				"Name": "Cannelle de Ceylan",
+				"Link": "http://www.wikiphyto.org/wiki/Cannelle_de_Ceylan",
+				"Properties": null
+			},
+			{
+				"Id": "plant459",
+				"Name": "Cannelle de Chine",
+				"Link": "http://www.wikiphyto.org/wiki/Cannelle_de_Chine",
+				"Properties": null
+			},
+			{
+				"Id": "plant460",
+				"Name": "Ishpingo",
+				"Link": "http://www.wikiphyto.org/wiki/Ishpingo",
+				"Properties": null
+			},
+			{
+				"Id": "plant461",
+				"Name": "Laurier commun",
+				"Link": "http://www.wikiphyto.org/wiki/Laurier_commun",
+				"Properties": null
+			},
+			{
+				"Id": "plant462",
+				"Name": "Litsée citronnée",
+				"Link": "http://www.wikiphyto.org/wiki/Lits%C3%A9e_citronn%C3%A9e",
+				"Properties": null
+			},
+			{
+				"Id": "plant463",
+				"Name": "Ravensare",
+				"Link": "http://www.wikiphyto.org/wiki/Ravensare",
+				"Properties": null
+			},
+			{
+				"Id": "plant464",
+				"Name": "Sassafras américain",
+				"Link": "http://www.wikiphyto.org/wiki/Sassafras_am%C3%A9ricain",
+				"Properties": null
+			},
+			{
+				"Id": "plant465",
+				"Name": "Sassafras du Brésil",
+				"Link": "http://www.wikiphyto.org/wiki/Sassafras_du_Br%C3%A9sil",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Lauraceae"
+	},
+	{
+		"Id": "cat101",
+		"Name": "Leguminosaeae",
+		"Plants": [],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Leguminosaeae"
+	},
+	{
+		"Id": "cat102",
+		"Name": "Liliaceae",
+		"Plants": [
+			{
+				"Id": "plant466",
+				"Name": "Ail",
+				"Link": "http://www.wikiphyto.org/wiki/Ail",
+				"Properties": null
+			},
+			{
+				"Id": "plant467",
+				"Name": "Ail des ours",
+				"Link": "http://www.wikiphyto.org/wiki/Ail_des_ours",
+				"Properties": null
+			},
+			{
+				"Id": "plant468",
+				"Name": "Aletris",
+				"Link": "http://www.wikiphyto.org/wiki/Aletris",
+				"Properties": null
+			},
+			{
+				"Id": "plant469",
+				"Name": "Aloès arborescent",
+				"Link": "http://www.wikiphyto.org/wiki/Alo%C3%A8s_arborescent",
+				"Properties": null
+			},
+			{
+				"Id": "plant470",
+				"Name": "Asperge",
+				"Link": "http://www.wikiphyto.org/wiki/Asperge",
+				"Properties": null
+			},
+			{
+				"Id": "plant471",
+				"Name": "Colchique",
+				"Link": "http://www.wikiphyto.org/wiki/Colchique",
+				"Properties": null
+			},
+			{
+				"Id": "plant472",
+				"Name": "Cévadille",
+				"Link": "http://www.wikiphyto.org/wiki/C%C3%A9vadille",
+				"Properties": null
+			},
+			{
+				"Id": "plant473",
+				"Name": "Hélonias",
+				"Link": "http://www.wikiphyto.org/wiki/H%C3%A9lonias",
+				"Properties": null
+			},
+			{
+				"Id": "plant474",
+				"Name": "Jacinthe des bois",
+				"Link": "http://www.wikiphyto.org/wiki/Jacinthe_des_bois",
+				"Properties": null
+			},
+			{
+				"Id": "plant475",
+				"Name": "Lis tigré",
+				"Link": "http://www.wikiphyto.org/wiki/Lis_tigr%C3%A9",
+				"Properties": null
+			},
+			{
+				"Id": "plant476",
+				"Name": "Muguet des bois",
+				"Link": "http://www.wikiphyto.org/wiki/Muguet_des_bois",
+				"Properties": null
+			},
+			{
+				"Id": "plant477",
+				"Name": "Oignon",
+				"Link": "http://www.wikiphyto.org/wiki/Oignon",
+				"Properties": null
+			},
+			{
+				"Id": "plant478",
+				"Name": "Parisette",
+				"Link": "http://www.wikiphyto.org/wiki/Parisette",
+				"Properties": null
+			},
+			{
+				"Id": "plant479",
+				"Name": "Perce-Neige",
+				"Link": "http://www.wikiphyto.org/wiki/Perce-Neige",
+				"Properties": null
+			},
+			{
+				"Id": "plant480",
+				"Name": "Petit houx",
+				"Link": "http://www.wikiphyto.org/wiki/Petit_houx",
+				"Properties": null
+			},
+			{
+				"Id": "plant481",
+				"Name": "Salsepareille",
+				"Link": "http://www.wikiphyto.org/wiki/Salsepareille",
+				"Properties": null
+			},
+			{
+				"Id": "plant482",
+				"Name": "Sceau de Salomon",
+				"Link": "http://www.wikiphyto.org/wiki/Sceau_de_Salomon",
+				"Properties": null
+			},
+			{
+				"Id": "plant483",
+				"Name": "Scille",
+				"Link": "http://www.wikiphyto.org/wiki/Scille",
+				"Properties": null
+			},
+			{
+				"Id": "plant484",
+				"Name": "Vérâtre",
+				"Link": "http://www.wikiphyto.org/wiki/V%C3%A9r%C3%A2tre",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Liliaceae"
+	},
+	{
+		"Id": "cat103",
+		"Name": "Linaceae",
+		"Plants": [
+			{
+				"Id": "plant485",
+				"Name": "Lin",
+				"Link": "http://www.wikiphyto.org/wiki/Lin",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Linaceae"
+	},
+	{
+		"Id": "cat104",
+		"Name": "Lobeliaceae",
+		"Plants": [
+			{
+				"Id": "plant486",
+				"Name": "Lobélie enflée",
+				"Link": "http://www.wikiphyto.org/wiki/Lob%C3%A9lie_enfl%C3%A9e",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Lobeliaceae"
+	},
+	{
+		"Id": "cat105",
+		"Name": "Loganiaceae",
+		"Plants": [
+			{
+				"Id": "plant487",
+				"Name": "Fève de Saint Ignace",
+				"Link": "http://www.wikiphyto.org/wiki/F%C3%A8ve_de_Saint_Ignace",
+				"Properties": null
+			},
+			{
+				"Id": "plant488",
+				"Name": "Jasmin de Virginie",
+				"Link": "http://www.wikiphyto.org/wiki/Jasmin_de_Virginie",
+				"Properties": null
+			},
+			{
+				"Id": "plant489",
+				"Name": "Noix vomique du Vomiquier",
+				"Link": "http://www.wikiphyto.org/wiki/Noix_vomique_du_Vomiquier",
+				"Properties": null
+			},
+			{
+				"Id": "plant490",
+				"Name": "Spigélie",
+				"Link": "http://www.wikiphyto.org/wiki/Spig%C3%A9lie",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Loganiaceae"
+	},
+	{
+		"Id": "cat106",
+		"Name": "Lycoperdaceae",
+		"Plants": [
+			{
+				"Id": "plant491",
+				"Name": "Vesse de loup géante",
+				"Link": "http://www.wikiphyto.org/wiki/Vesse_de_loup_g%C3%A9ante",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Lycoperdaceae"
+	},
+	{
+		"Id": "cat107",
+		"Name": "Lycopodiaceae",
+		"Plants": [
+			{
+				"Id": "plant492",
+				"Name": "Lycopode",
+				"Link": "http://www.wikiphyto.org/wiki/Lycopode",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Lycopodiaceae"
+	},
+	{
+		"Id": "cat108",
+		"Name": "Lythraceae",
+		"Plants": [
+			{
+				"Id": "plant493",
+				"Name": "Henné",
+				"Link": "http://www.wikiphyto.org/wiki/Henn%C3%A9",
+				"Properties": null
+			},
+			{
+				"Id": "plant494",
+				"Name": "Lagerstroemia",
+				"Link": "http://www.wikiphyto.org/wiki/Lagerstroemia",
+				"Properties": null
+			},
+			{
+				"Id": "plant495",
+				"Name": "Salicaire",
+				"Link": "http://www.wikiphyto.org/wiki/Salicaire",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Lythraceae"
+	},
+	{
+		"Id": "cat109",
+		"Name": "Malaceae",
+		"Plants": [],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Malaceae"
+	},
+	{
+		"Id": "cat110",
+		"Name": "Malpighiaceae",
+		"Plants": [
+			{
+				"Id": "plant496",
+				"Name": "Acérola",
+				"Link": "http://www.wikiphyto.org/wiki/Ac%C3%A9rola",
+				"Properties": null
+			},
+			{
+				"Id": "plant497",
+				"Name": "Ayahuasca",
+				"Link": "http://www.wikiphyto.org/wiki/Ayahuasca",
+				"Properties": null
+			},
+			{
+				"Id": "plant498",
+				"Name": "Heteropterys aphrodisiaca",
+				"Link": "http://www.wikiphyto.org/wiki/Heteropterys_aphrodisiaca",
+				"Properties": null
+			},
+			{
+				"Id": "plant499",
+				"Name": "Réséda jaune",
+				"Link": "http://www.wikiphyto.org/wiki/R%C3%A9s%C3%A9da_jaune",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Malpighiaceae"
+	},
+	{
+		"Id": "cat111",
+		"Name": "Malvaceae",
+		"Plants": [
+			{
+				"Id": "plant500",
+				"Name": "Ambrette",
+				"Link": "http://www.wikiphyto.org/wiki/Ambrette",
+				"Properties": null
+			},
+			{
+				"Id": "plant501",
+				"Name": "Cotonnier",
+				"Link": "http://www.wikiphyto.org/wiki/Cotonnier",
+				"Properties": null
+			},
+			{
+				"Id": "plant502",
+				"Name": "Guimauve",
+				"Link": "http://www.wikiphyto.org/wiki/Guimauve",
+				"Properties": null
+			},
+			{
+				"Id": "plant503",
+				"Name": "Karkadé",
+				"Link": "http://www.wikiphyto.org/wiki/Karkad%C3%A9",
+				"Properties": null
+			},
+			{
+				"Id": "plant504",
+				"Name": "Mauve",
+				"Link": "http://www.wikiphyto.org/wiki/Mauve",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Malvaceae"
+	},
+	{
+		"Id": "cat112",
+		"Name": "Marantaceae",
+		"Plants": [
+			{
+				"Id": "plant505",
+				"Name": "Dictame",
+				"Link": "http://www.wikiphyto.org/wiki/Dictame",
+				"Properties": null
+			},
+			{
+				"Id": "plant506",
+				"Name": "Thaumatococcus",
+				"Link": "http://www.wikiphyto.org/wiki/Thaumatococcus",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Marantaceae"
+	},
+	{
+		"Id": "cat113",
+		"Name": "Marasmiaceae",
+		"Plants": [
+			{
+				"Id": "plant507",
+				"Name": "Shii-Také",
+				"Link": "http://www.wikiphyto.org/wiki/Shii-Tak%C3%A9",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Marasmiaceae"
+	},
+	{
+		"Id": "cat114",
+		"Name": "Meliaceae",
+		"Plants": [
+			{
+				"Id": "plant508",
+				"Name": "Andiroba",
+				"Link": "http://www.wikiphyto.org/wiki/Andiroba",
+				"Properties": null
+			},
+			{
+				"Id": "plant509",
+				"Name": "Azadirachta",
+				"Link": "http://www.wikiphyto.org/wiki/Azadirachta",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Meliaceae"
+	},
+	{
+		"Id": "cat115",
+		"Name": "Menispermaceae",
+		"Plants": [
+			{
+				"Id": "plant510",
+				"Name": "Arbre à monelline",
+				"Link": "http://www.wikiphyto.org/wiki/Arbre_%C3%A0_monelline",
+				"Properties": null
+			},
+			{
+				"Id": "plant511",
+				"Name": "Arbres à curare en tube",
+				"Link": "http://www.wikiphyto.org/wiki/Arbres_%C3%A0_curare_en_tube",
+				"Properties": null
+			},
+			{
+				"Id": "plant512",
+				"Name": "Colombo",
+				"Link": "http://www.wikiphyto.org/wiki/Colombo",
+				"Properties": null
+			},
+			{
+				"Id": "plant513",
+				"Name": "Coque du Levant",
+				"Link": "http://www.wikiphyto.org/wiki/Coque_du_Levant",
+				"Properties": null
+			},
+			{
+				"Id": "plant514",
+				"Name": "Guduchi",
+				"Link": "http://www.wikiphyto.org/wiki/Guduchi",
+				"Properties": null
+			},
+			{
+				"Id": "plant515",
+				"Name": "Stephania",
+				"Link": "http://www.wikiphyto.org/wiki/Stephania",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Menispermaceae"
+	},
+	{
+		"Id": "cat116",
+		"Name": "Menyanthaceae",
+		"Plants": [
+			{
+				"Id": "plant516",
+				"Name": "Ményanthe",
+				"Link": "http://www.wikiphyto.org/wiki/M%C3%A9nyanthe",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Menyanthaceae"
+	},
+	{
+		"Id": "cat117",
+		"Name": "Monascaceae",
+		"Plants": [
+			{
+				"Id": "plant517",
+				"Name": "Levure de riz rouge",
+				"Link": "http://www.wikiphyto.org/wiki/Levure_de_riz_rouge",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Monascaceae"
+	},
+	{
+		"Id": "cat118",
+		"Name": "Monimiaceae",
+		"Plants": [
+			{
+				"Id": "plant518",
+				"Name": "Boldo",
+				"Link": "http://www.wikiphyto.org/wiki/Boldo",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Monimiaceae"
+	},
+	{
+		"Id": "cat119",
+		"Name": "Moraceae",
+		"Plants": [
+			{
+				"Id": "plant519",
+				"Name": "Figuier",
+				"Link": "http://www.wikiphyto.org/wiki/Figuier",
+				"Properties": null
+			},
+			{
+				"Id": "plant520",
+				"Name": "Mûrier blanc",
+				"Link": "http://www.wikiphyto.org/wiki/M%C3%BBrier_blanc",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Moraceae"
+	},
+	{
+		"Id": "cat120",
+		"Name": "Moringaceae",
+		"Plants": [
+			{
+				"Id": "plant521",
+				"Name": "Moringa",
+				"Link": "http://www.wikiphyto.org/wiki/Moringa",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Moringaceae"
+	},
+	{
+		"Id": "cat121",
+		"Name": "Musaceae",
+		"Plants": [
+			{
+				"Id": "plant522",
+				"Name": "Bananier",
+				"Link": "http://www.wikiphyto.org/wiki/Bananier",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Musaceae"
+	},
+	{
+		"Id": "cat122",
+		"Name": "Myricaceae",
+		"Plants": [
+			{
+				"Id": "plant523",
+				"Name": "Myrte des marais",
+				"Link": "http://www.wikiphyto.org/wiki/Myrte_des_marais",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Myricaceae"
+	},
+	{
+		"Id": "cat123",
+		"Name": "Myristicaceae",
+		"Plants": [
+			{
+				"Id": "plant524",
+				"Name": "Muscadier",
+				"Link": "http://www.wikiphyto.org/wiki/Muscadier",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Myristicaceae"
+	},
+	{
+		"Id": "cat124",
+		"Name": "Myrsinaceae",
+		"Plants": [
+			{
+				"Id": "plant525",
+				"Name": "Lysimaque commune",
+				"Link": "http://www.wikiphyto.org/wiki/Lysimaque_commune",
+				"Properties": null
+			},
+			{
+				"Id": "plant526",
+				"Name": "Lysimaque nummulaire",
+				"Link": "http://www.wikiphyto.org/wiki/Lysimaque_nummulaire",
+				"Properties": null
+			},
+			{
+				"Id": "plant527",
+				"Name": "Vidanga",
+				"Link": "http://www.wikiphyto.org/wiki/Vidanga",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Myrsinaceae"
+	},
+	{
+		"Id": "cat125",
+		"Name": "Myrtaceae",
+		"Plants": [
+			{
+				"Id": "plant528",
+				"Name": "Arbre à thé",
+				"Link": "http://www.wikiphyto.org/wiki/Arbre_%C3%A0_th%C3%A9",
+				"Properties": null
+			},
+			{
+				"Id": "plant529",
+				"Name": "Backhousia",
+				"Link": "http://www.wikiphyto.org/wiki/Backhousia",
+				"Properties": null
+			},
+			{
+				"Id": "plant530",
+				"Name": "Bois d’Inde",
+				"Link": "http://www.wikiphyto.org/wiki/Bois_d%E2%80%99Inde",
+				"Properties": null
+			},
+			{
+				"Id": "plant531",
+				"Name": "Cajeput",
+				"Link": "http://www.wikiphyto.org/wiki/Cajeput",
+				"Properties": null
+			},
+			{
+				"Id": "plant532",
+				"Name": "Camu-camu",
+				"Link": "http://www.wikiphyto.org/wiki/Camu-camu",
+				"Properties": null
+			},
+			{
+				"Id": "plant533",
+				"Name": "Eucalyptus citrin",
+				"Link": "http://www.wikiphyto.org/wiki/Eucalyptus_citrin",
+				"Properties": null
+			},
+			{
+				"Id": "plant534",
+				"Name": "Eucalyptus globuleux",
+				"Link": "http://www.wikiphyto.org/wiki/Eucalyptus_globuleux",
+				"Properties": null
+			},
+			{
+				"Id": "plant535",
+				"Name": "Eucalyptus mentholé",
+				"Link": "http://www.wikiphyto.org/wiki/Eucalyptus_menthol%C3%A9",
+				"Properties": null
+			},
+			{
+				"Id": "plant536",
+				"Name": "Eucalyptus radié",
+				"Link": "http://www.wikiphyto.org/wiki/Eucalyptus_radi%C3%A9",
+				"Properties": null
+			},
+			{
+				"Id": "plant537",
+				"Name": "Eucalyptus à bractées multiples",
+				"Link": "http://www.wikiphyto.org/wiki/Eucalyptus_%C3%A0_bract%C3%A9es_multiples",
+				"Properties": null
+			},
+			{
+				"Id": "plant538",
+				"Name": "Fragonia",
+				"Link": "http://www.wikiphyto.org/wiki/Fragonia",
+				"Properties": null
+			},
+			{
+				"Id": "plant539",
+				"Name": "Giroflier",
+				"Link": "http://www.wikiphyto.org/wiki/Giroflier",
+				"Properties": null
+			},
+			{
+				"Id": "plant540",
+				"Name": "Goyavier",
+				"Link": "http://www.wikiphyto.org/wiki/Goyavier",
+				"Properties": null
+			},
+			{
+				"Id": "plant541",
+				"Name": "Jamblon",
+				"Link": "http://www.wikiphyto.org/wiki/Jamblon",
+				"Properties": null
+			},
+			{
+				"Id": "plant542",
+				"Name": "Kanuka",
+				"Link": "http://www.wikiphyto.org/wiki/Kanuka",
+				"Properties": null
+			},
+			{
+				"Id": "plant543",
+				"Name": "Myrte",
+				"Link": "http://www.wikiphyto.org/wiki/Myrte",
+				"Properties": null
+			},
+			{
+				"Id": "plant544",
+				"Name": "Niaouli",
+				"Link": "http://www.wikiphyto.org/wiki/Niaouli",
+				"Properties": null
+			},
+			{
+				"Id": "plant545",
+				"Name": "Piment de la Jamaïque",
+				"Link": "http://www.wikiphyto.org/wiki/Piment_de_la_Jama%C3%AFque",
+				"Properties": null
+			},
+			{
+				"Id": "plant546",
+				"Name": "Victoria",
+				"Link": "http://www.wikiphyto.org/wiki/Victoria",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Myrtaceae"
+	},
+	{
+		"Id": "cat126",
+		"Name": "Nymphaeaceae",
+		"Plants": [
+			{
+				"Id": "plant547",
+				"Name": "Nénuphar",
+				"Link": "http://www.wikiphyto.org/wiki/N%C3%A9nuphar",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Nymphaeaceae"
+	},
+	{
+		"Id": "cat127",
+		"Name": "Oenotheraceae",
+		"Plants": [
+			{
+				"Id": "plant548",
+				"Name": "Épilobe à feuille étroite",
+				"Link": "http://www.wikiphyto.org/wiki/%C3%89pilobe_%C3%A0_feuille_%C3%A9troite",
+				"Properties": null
+			},
+			{
+				"Id": "plant549",
+				"Name": "Épilobe à petites fleurs",
+				"Link": "http://www.wikiphyto.org/wiki/%C3%89pilobe_%C3%A0_petites_fleurs",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Oenotheraceae"
+	},
+	{
+		"Id": "cat128",
+		"Name": "Olacaceae",
+		"Plants": [
+			{
+				"Id": "plant550",
+				"Name": "Muira puama",
+				"Link": "http://www.wikiphyto.org/wiki/Muira_puama",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Olacaceae"
+	},
+	{
+		"Id": "cat129",
+		"Name": "Oleaceae",
+		"Plants": [
+			{
+				"Id": "plant551",
+				"Name": "Frêne élevé",
+				"Link": "http://www.wikiphyto.org/wiki/Fr%C3%AAne_%C3%A9lev%C3%A9",
+				"Properties": null
+			},
+			{
+				"Id": "plant552",
+				"Name": "Jasmin de nuit",
+				"Link": "http://www.wikiphyto.org/wiki/Jasmin_de_nuit",
+				"Properties": null
+			},
+			{
+				"Id": "plant553",
+				"Name": "Jasmin à grandes fleurs",
+				"Link": "http://www.wikiphyto.org/wiki/Jasmin_%C3%A0_grandes_fleurs",
+				"Properties": null
+			},
+			{
+				"Id": "plant554",
+				"Name": "Olivier",
+				"Link": "http://www.wikiphyto.org/wiki/Olivier",
+				"Properties": null
+			},
+			{
+				"Id": "plant555",
+				"Name": "Troène d’Europe",
+				"Link": "http://www.wikiphyto.org/wiki/Tro%C3%A8ne_d%E2%80%99Europe",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Oleaceae"
+	},
+	{
+		"Id": "cat130",
+		"Name": "Onagraceae",
+		"Plants": [
+			{
+				"Id": "plant556",
+				"Name": "Onagre bisannuelle",
+				"Link": "http://www.wikiphyto.org/wiki/Onagre_bisannuelle",
+				"Properties": null
+			},
+			{
+				"Id": "plant557",
+				"Name": "Épilobe à feuille étroite",
+				"Link": "http://www.wikiphyto.org/wiki/%C3%89pilobe_%C3%A0_feuille_%C3%A9troite",
+				"Properties": null
+			},
+			{
+				"Id": "plant558",
+				"Name": "Épilobe à petites fleurs",
+				"Link": "http://www.wikiphyto.org/wiki/%C3%89pilobe_%C3%A0_petites_fleurs",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Onagraceae"
+	},
+	{
+		"Id": "cat131",
+		"Name": "Orchidaceae",
+		"Plants": [
+			{
+				"Id": "plant559",
+				"Name": "Faham",
+				"Link": "http://www.wikiphyto.org/wiki/Faham",
+				"Properties": null
+			},
+			{
+				"Id": "plant560",
+				"Name": "Vanille de Bourbon",
+				"Link": "http://www.wikiphyto.org/wiki/Vanille_de_Bourbon",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Orchidaceae"
+	},
+	{
+		"Id": "cat132",
+		"Name": "Oxalidaceae",
+		"Plants": [
+			{
+				"Id": "plant561",
+				"Name": "Carembole",
+				"Link": "http://www.wikiphyto.org/wiki/Carembole",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Oxalidaceae"
+	},
+	{
+		"Id": "cat133",
+		"Name": "Paeoniaceae",
+		"Plants": [
+			{
+				"Id": "plant562",
+				"Name": "Pivoine",
+				"Link": "http://www.wikiphyto.org/wiki/Pivoine",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Paeoniaceae"
+	},
+	{
+		"Id": "cat134",
+		"Name": "Palmae",
+		"Plants": [
+			{
+				"Id": "plant563",
+				"Name": "Carnauba",
+				"Link": "http://www.wikiphyto.org/wiki/Carnauba",
+				"Properties": null
+			},
+			{
+				"Id": "plant564",
+				"Name": "Cocotier",
+				"Link": "http://www.wikiphyto.org/wiki/Cocotier",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Palmae"
+	},
+	{
+		"Id": "cat135",
+		"Name": "Papaveraceae",
+		"Plants": [
+			{
+				"Id": "plant565",
+				"Name": "Argémone du Mexique",
+				"Link": "http://www.wikiphyto.org/wiki/Arg%C3%A9mone_du_Mexique",
+				"Properties": null
+			},
+			{
+				"Id": "plant566",
+				"Name": "Chélidoine",
+				"Link": "http://www.wikiphyto.org/wiki/Ch%C3%A9lidoine",
+				"Properties": null
+			},
+			{
+				"Id": "plant567",
+				"Name": "Coquelicot",
+				"Link": "http://www.wikiphyto.org/wiki/Coquelicot",
+				"Properties": null
+			},
+			{
+				"Id": "plant568",
+				"Name": "Eschscholtzia",
+				"Link": "http://www.wikiphyto.org/wiki/Eschscholtzia",
+				"Properties": null
+			},
+			{
+				"Id": "plant569",
+				"Name": "Pavot à opium",
+				"Link": "http://www.wikiphyto.org/wiki/Pavot_%C3%A0_opium",
+				"Properties": null
+			},
+			{
+				"Id": "plant570",
+				"Name": "Sanguinaire",
+				"Link": "http://www.wikiphyto.org/wiki/Sanguinaire",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Papaveraceae"
+	},
+	{
+		"Id": "cat136",
+		"Name": "Parmeliaceae",
+		"Plants": [
+			{
+				"Id": "plant571",
+				"Name": "Lichen d’Islande",
+				"Link": "http://www.wikiphyto.org/wiki/Lichen_d%E2%80%99Islande",
+				"Properties": null
+			},
+			{
+				"Id": "plant572",
+				"Name": "Lichen pulmonaire",
+				"Link": "http://www.wikiphyto.org/wiki/Lichen_pulmonaire",
+				"Properties": null
+			},
+			{
+				"Id": "plant573",
+				"Name": "Usnée barbue",
+				"Link": "http://www.wikiphyto.org/wiki/Usn%C3%A9e_barbue",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Parmeliaceae"
+	},
+	{
+		"Id": "cat137",
+		"Name": "Passifloraceae",
+		"Plants": [
+			{
+				"Id": "plant574",
+				"Name": "Passiflore officinale",
+				"Link": "http://www.wikiphyto.org/wiki/Passiflore_officinale",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Passifloraceae"
+	},
+	{
+		"Id": "cat138",
+		"Name": "Pedaliaceae",
+		"Plants": [
+			{
+				"Id": "plant575",
+				"Name": "Harpagophyton",
+				"Link": "http://www.wikiphyto.org/wiki/Harpagophyton",
+				"Properties": null
+			},
+			{
+				"Id": "plant576",
+				"Name": "Sésame",
+				"Link": "http://www.wikiphyto.org/wiki/S%C3%A9same",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Pedaliaceae"
+	},
+	{
+		"Id": "cat139",
+		"Name": "Phaecophyceae",
+		"Plants": [
+			{
+				"Id": "plant577",
+				"Name": "Palmaria palmata",
+				"Link": "http://www.wikiphyto.org/wiki/Palmaria_palmata",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Phaecophyceae"
+	},
+	{
+		"Id": "cat140",
+		"Name": "Phaeophyceae",
+		"Plants": [
+			{
+				"Id": "plant578",
+				"Name": "Fucus vésiculeux",
+				"Link": "http://www.wikiphyto.org/wiki/Fucus_v%C3%A9siculeux",
+				"Properties": null
+			},
+			{
+				"Id": "plant579",
+				"Name": "Kombu",
+				"Link": "http://www.wikiphyto.org/wiki/Kombu",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Phaeophyceae"
+	},
+	{
+		"Id": "cat141",
+		"Name": "Phytolaccaceae",
+		"Plants": [
+			{
+				"Id": "plant580",
+				"Name": "Raisin d’Amérique",
+				"Link": "http://www.wikiphyto.org/wiki/Raisin_d%E2%80%99Am%C3%A9rique",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Phytolaccaceae"
+	},
+	{
+		"Id": "cat142",
+		"Name": "Pinaceae",
+		"Plants": [
+			{
+				"Id": "plant581",
+				"Name": "Cèdre de l&#039;Atlas",
+				"Link": "http://www.wikiphyto.org/wiki/C%C3%A8dre_de_l%27Atlas",
+				"Properties": null
+			},
+			{
+				"Id": "plant582",
+				"Name": "Cèdre de l&#039;Himalaya",
+				"Link": "http://www.wikiphyto.org/wiki/C%C3%A8dre_de_l%27Himalaya",
+				"Properties": null
+			},
+			{
+				"Id": "plant583",
+				"Name": "Cèdre du Liban",
+				"Link": "http://www.wikiphyto.org/wiki/C%C3%A8dre_du_Liban",
+				"Properties": null
+			},
+			{
+				"Id": "plant584",
+				"Name": "Pin de montagne",
+				"Link": "http://www.wikiphyto.org/wiki/Pin_de_montagne",
+				"Properties": null
+			},
+			{
+				"Id": "plant585",
+				"Name": "Pin de Patagonie",
+				"Link": "http://www.wikiphyto.org/wiki/Pin_de_Patagonie",
+				"Properties": null
+			},
+			{
+				"Id": "plant586",
+				"Name": "Pin sylvestre",
+				"Link": "http://www.wikiphyto.org/wiki/Pin_sylvestre",
+				"Properties": null
+			},
+			{
+				"Id": "plant587",
+				"Name": "Sapin baumier",
+				"Link": "http://www.wikiphyto.org/wiki/Sapin_baumier",
+				"Properties": null
+			},
+			{
+				"Id": "plant588",
+				"Name": "Sapin de Sibérie",
+				"Link": "http://www.wikiphyto.org/wiki/Sapin_de_Sib%C3%A9rie",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Pinaceae"
+	},
+	{
+		"Id": "cat143",
+		"Name": "Piperaceae",
+		"Plants": [
+			{
+				"Id": "plant589",
+				"Name": "Cubèbe",
+				"Link": "http://www.wikiphyto.org/wiki/Cub%C3%A8be",
+				"Properties": null
+			},
+			{
+				"Id": "plant590",
+				"Name": "Kawa",
+				"Link": "http://www.wikiphyto.org/wiki/Kawa",
+				"Properties": null
+			},
+			{
+				"Id": "plant591",
+				"Name": "Poivrier commun",
+				"Link": "http://www.wikiphyto.org/wiki/Poivrier_commun",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Piperaceae"
+	},
+	{
+		"Id": "cat144",
+		"Name": "Plantaginaceae",
+		"Plants": [
+			{
+				"Id": "plant592",
+				"Name": "Ispaghul",
+				"Link": "http://www.wikiphyto.org/wiki/Ispaghul",
+				"Properties": null
+			},
+			{
+				"Id": "plant593",
+				"Name": "Plantain",
+				"Link": "http://www.wikiphyto.org/wiki/Plantain",
+				"Properties": null
+			},
+			{
+				"Id": "plant594",
+				"Name": "Psyllium",
+				"Link": "http://www.wikiphyto.org/wiki/Psyllium",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Plantaginaceae"
+	},
+	{
+		"Id": "cat145",
+		"Name": "Platanaceae",
+		"Plants": [
+			{
+				"Id": "plant595",
+				"Name": "Platane",
+				"Link": "http://www.wikiphyto.org/wiki/Platane",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Platanaceae"
+	},
+	{
+		"Id": "cat146",
+		"Name": "Plumbaginaceae",
+		"Plants": [
+			{
+				"Id": "plant596",
+				"Name": "Dentelaire",
+				"Link": "http://www.wikiphyto.org/wiki/Dentelaire",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Plumbaginaceae"
+	},
+	{
+		"Id": "cat147",
+		"Name": "Poaceae",
+		"Plants": [
+			{
+				"Id": "plant597",
+				"Name": "Avoine",
+				"Link": "http://www.wikiphyto.org/wiki/Avoine",
+				"Properties": null
+			},
+			{
+				"Id": "plant598",
+				"Name": "Bambou",
+				"Link": "http://www.wikiphyto.org/wiki/Bambou",
+				"Properties": null
+			},
+			{
+				"Id": "plant599",
+				"Name": "Blé cultivé",
+				"Link": "http://www.wikiphyto.org/wiki/Bl%C3%A9_cultiv%C3%A9",
+				"Properties": null
+			},
+			{
+				"Id": "plant600",
+				"Name": "Canne de Provence",
+				"Link": "http://www.wikiphyto.org/wiki/Canne_de_Provence",
+				"Properties": null
+			},
+			{
+				"Id": "plant601",
+				"Name": "Canne à sucre",
+				"Link": "http://www.wikiphyto.org/wiki/Canne_%C3%A0_sucre",
+				"Properties": null
+			},
+			{
+				"Id": "plant602",
+				"Name": "Chiendent commun",
+				"Link": "http://www.wikiphyto.org/wiki/Chiendent_commun",
+				"Properties": null
+			},
+			{
+				"Id": "plant603",
+				"Name": "Chiendent pied de poule",
+				"Link": "http://www.wikiphyto.org/wiki/Chiendent_pied_de_poule",
+				"Properties": null
+			},
+			{
+				"Id": "plant604",
+				"Name": "Citronnelle de brousse",
+				"Link": "http://www.wikiphyto.org/wiki/Citronnelle_de_brousse",
+				"Properties": null
+			},
+			{
+				"Id": "plant605",
+				"Name": "Citronnelle de Ceylan",
+				"Link": "http://www.wikiphyto.org/wiki/Citronnelle_de_Ceylan",
+				"Properties": null
+			},
+			{
+				"Id": "plant606",
+				"Name": "Citronnelle des Indes",
+				"Link": "http://www.wikiphyto.org/wiki/Citronnelle_des_Indes",
+				"Properties": null
+			},
+			{
+				"Id": "plant607",
+				"Name": "Lemongrass",
+				"Link": "http://www.wikiphyto.org/wiki/Lemongrass",
+				"Properties": null
+			},
+			{
+				"Id": "plant608",
+				"Name": "Maïs",
+				"Link": "http://www.wikiphyto.org/wiki/Ma%C3%AFs",
+				"Properties": null
+			},
+			{
+				"Id": "plant609",
+				"Name": "Millet",
+				"Link": "http://www.wikiphyto.org/wiki/Millet",
+				"Properties": null
+			},
+			{
+				"Id": "plant610",
+				"Name": "Palmarosa",
+				"Link": "http://www.wikiphyto.org/wiki/Palmarosa",
+				"Properties": null
+			},
+			{
+				"Id": "plant611",
+				"Name": "Vétiver",
+				"Link": "http://www.wikiphyto.org/wiki/V%C3%A9tiver",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Poaceae"
+	},
+	{
+		"Id": "cat148",
+		"Name": "Polygalaceae",
+		"Plants": [
+			{
+				"Id": "plant612",
+				"Name": "Polygala de Virginie",
+				"Link": "http://www.wikiphyto.org/wiki/Polygala_de_Virginie",
+				"Properties": null
+			},
+			{
+				"Id": "plant613",
+				"Name": "Securidaca",
+				"Link": "http://www.wikiphyto.org/wiki/Securidaca",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Polygalaceae"
+	},
+	{
+		"Id": "cat149",
+		"Name": "Polygonaceae",
+		"Plants": [
+			{
+				"Id": "plant614",
+				"Name": "Bistorte",
+				"Link": "http://www.wikiphyto.org/wiki/Bistorte",
+				"Properties": null
+			},
+			{
+				"Id": "plant615",
+				"Name": "Patiences",
+				"Link": "http://www.wikiphyto.org/wiki/Patiences",
+				"Properties": null
+			},
+			{
+				"Id": "plant616",
+				"Name": "Renouée des oiseaux",
+				"Link": "http://www.wikiphyto.org/wiki/Renou%C3%A9e_des_oiseaux",
+				"Properties": null
+			},
+			{
+				"Id": "plant617",
+				"Name": "Renouée poivre d’eau",
+				"Link": "http://www.wikiphyto.org/wiki/Renou%C3%A9e_poivre_d%E2%80%99eau",
+				"Properties": null
+			},
+			{
+				"Id": "plant618",
+				"Name": "Rhubarbe médicinale",
+				"Link": "http://www.wikiphyto.org/wiki/Rhubarbe_m%C3%A9dicinale",
+				"Properties": null
+			},
+			{
+				"Id": "plant619",
+				"Name": "Sarrasin",
+				"Link": "http://www.wikiphyto.org/wiki/Sarrasin",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Polygonaceae"
+	},
+	{
+		"Id": "cat150",
+		"Name": "Polyporaceae",
+		"Plants": [
+			{
+				"Id": "plant620",
+				"Name": "Maitake",
+				"Link": "http://www.wikiphyto.org/wiki/Maitake",
+				"Properties": null
+			},
+			{
+				"Id": "plant621",
+				"Name": "Polypore versicolor",
+				"Link": "http://www.wikiphyto.org/wiki/Polypore_versicolor",
+				"Properties": null
+			},
+			{
+				"Id": "plant622",
+				"Name": "Shii-Také",
+				"Link": "http://www.wikiphyto.org/wiki/Shii-Tak%C3%A9",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Polyporaceae"
+	},
+	{
+		"Id": "cat151",
+		"Name": "Portulacaceae",
+		"Plants": [
+			{
+				"Id": "plant623",
+				"Name": "Pourpier commun",
+				"Link": "http://www.wikiphyto.org/wiki/Pourpier_commun",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Portulacaceae"
+	},
+	{
+		"Id": "cat152",
+		"Name": "Portulaceae",
+		"Plants": [
+			{
+				"Id": "plant624",
+				"Name": "Pourpier commun",
+				"Link": "http://www.wikiphyto.org/wiki/Pourpier_commun",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Portulaceae"
+	},
+	{
+		"Id": "cat153",
+		"Name": "Primulaceae",
+		"Plants": [
+			{
+				"Id": "plant625",
+				"Name": "Lysimaque commune",
+				"Link": "http://www.wikiphyto.org/wiki/Lysimaque_commune",
+				"Properties": null
+			},
+			{
+				"Id": "plant626",
+				"Name": "Lysimaque nummulaire",
+				"Link": "http://www.wikiphyto.org/wiki/Lysimaque_nummulaire",
+				"Properties": null
+			},
+			{
+				"Id": "plant627",
+				"Name": "Mouron rouge",
+				"Link": "http://www.wikiphyto.org/wiki/Mouron_rouge",
+				"Properties": null
+			},
+			{
+				"Id": "plant628",
+				"Name": "Primevère",
+				"Link": "http://www.wikiphyto.org/wiki/Primev%C3%A8re",
+				"Properties": null
+			},
+			{
+				"Id": "plant629",
+				"Name": "Vidanga",
+				"Link": "http://www.wikiphyto.org/wiki/Vidanga",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Primulaceae"
+	},
+	{
+		"Id": "cat154",
+		"Name": "Proteaceae",
+		"Plants": [
+			{
+				"Id": "plant630",
+				"Name": "Macadamia",
+				"Link": "http://www.wikiphyto.org/wiki/Macadamia",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Proteaceae"
+	},
+	{
+		"Id": "cat155",
+		"Name": "Pteridaceae",
+		"Plants": [
+			{
+				"Id": "plant631",
+				"Name": "Capillaire de Montpellier",
+				"Link": "http://www.wikiphyto.org/wiki/Capillaire_de_Montpellier",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Pteridaceae"
+	},
+	{
+		"Id": "cat156",
+		"Name": "Punicaceae",
+		"Plants": [
+			{
+				"Id": "plant632",
+				"Name": "Grenadier",
+				"Link": "http://www.wikiphyto.org/wiki/Grenadier",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Punicaceae"
+	},
+	{
+		"Id": "cat157",
+		"Name": "Pyrolaceae",
+		"Plants": [
+			{
+				"Id": "plant633",
+				"Name": "Chimaphile ombellée",
+				"Link": "http://www.wikiphyto.org/wiki/Chimaphile_ombell%C3%A9e",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Pyrolaceae"
+	},
+	{
+		"Id": "cat158",
+		"Name": "Ranunculaceae",
+		"Plants": [
+			{
+				"Id": "plant634",
+				"Name": "Aconit napel",
+				"Link": "http://www.wikiphyto.org/wiki/Aconit_napel",
+				"Properties": null
+			},
+			{
+				"Id": "plant635",
+				"Name": "Actée en épis",
+				"Link": "http://www.wikiphyto.org/wiki/Act%C3%A9e_en_%C3%A9pis",
+				"Properties": null
+			},
+			{
+				"Id": "plant636",
+				"Name": "Actée à grappes",
+				"Link": "http://www.wikiphyto.org/wiki/Act%C3%A9e_%C3%A0_grappes",
+				"Properties": null
+			},
+			{
+				"Id": "plant637",
+				"Name": "Adonis de printemps",
+				"Link": "http://www.wikiphyto.org/wiki/Adonis_de_printemps",
+				"Properties": null
+			},
+			{
+				"Id": "plant638",
+				"Name": "Ancolie vulgaire",
+				"Link": "http://www.wikiphyto.org/wiki/Ancolie_vulgaire",
+				"Properties": null
+			},
+			{
+				"Id": "plant639",
+				"Name": "Anémone pulsatile",
+				"Link": "http://www.wikiphyto.org/wiki/An%C3%A9mone_pulsatile",
+				"Properties": null
+			},
+			{
+				"Id": "plant640",
+				"Name": "Clématite des haies",
+				"Link": "http://www.wikiphyto.org/wiki/Cl%C3%A9matite_des_haies",
+				"Properties": null
+			},
+			{
+				"Id": "plant641",
+				"Name": "Coptis",
+				"Link": "http://www.wikiphyto.org/wiki/Coptis",
+				"Properties": null
+			},
+			{
+				"Id": "plant642",
+				"Name": "Ficaire",
+				"Link": "http://www.wikiphyto.org/wiki/Ficaire",
+				"Properties": null
+			},
+			{
+				"Id": "plant643",
+				"Name": "Hellébore",
+				"Link": "http://www.wikiphyto.org/wiki/Hell%C3%A9bore",
+				"Properties": null
+			},
+			{
+				"Id": "plant644",
+				"Name": "Hydrastis",
+				"Link": "http://www.wikiphyto.org/wiki/Hydrastis",
+				"Properties": null
+			},
+			{
+				"Id": "plant645",
+				"Name": "Hépatique à trois lobes",
+				"Link": "http://www.wikiphyto.org/wiki/H%C3%A9patique_%C3%A0_trois_lobes",
+				"Properties": null
+			},
+			{
+				"Id": "plant646",
+				"Name": "Nigelle aromatique",
+				"Link": "http://www.wikiphyto.org/wiki/Nigelle_aromatique",
+				"Properties": null
+			},
+			{
+				"Id": "plant647",
+				"Name": "Staphysaigre",
+				"Link": "http://www.wikiphyto.org/wiki/Staphysaigre",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Ranunculaceae"
+	},
+	{
+		"Id": "cat159",
+		"Name": "Rhamnaceae",
+		"Plants": [
+			{
+				"Id": "plant648",
+				"Name": "Bourdaine",
+				"Link": "http://www.wikiphyto.org/wiki/Bourdaine",
+				"Properties": null
+			},
+			{
+				"Id": "plant649",
+				"Name": "Cascara sagrada",
+				"Link": "http://www.wikiphyto.org/wiki/Cascara_sagrada",
+				"Properties": null
+			},
+			{
+				"Id": "plant650",
+				"Name": "Jujubier",
+				"Link": "http://www.wikiphyto.org/wiki/Jujubier",
+				"Properties": null
+			},
+			{
+				"Id": "plant651",
+				"Name": "Nerprun purgatif",
+				"Link": "http://www.wikiphyto.org/wiki/Nerprun_purgatif",
+				"Properties": null
+			},
+			{
+				"Id": "plant652",
+				"Name": "Paliure",
+				"Link": "http://www.wikiphyto.org/wiki/Paliure",
+				"Properties": null
+			},
+			{
+				"Id": "plant653",
+				"Name": "Épine du Christ",
+				"Link": "http://www.wikiphyto.org/wiki/%C3%89pine_du_Christ",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Rhamnaceae"
+	},
+	{
+		"Id": "cat160",
+		"Name": "Rhodophyceae",
+		"Plants": [
+			{
+				"Id": "plant654",
+				"Name": "Agar-agar",
+				"Link": "http://www.wikiphyto.org/wiki/Agar-agar",
+				"Properties": null
+			},
+			{
+				"Id": "plant655",
+				"Name": "Nori",
+				"Link": "http://www.wikiphyto.org/wiki/Nori",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Rhodophyceae"
+	},
+	{
+		"Id": "cat161",
+		"Name": "Rosaceae",
+		"Plants": [
+			{
+				"Id": "plant656",
+				"Name": "Abricotier",
+				"Link": "http://www.wikiphyto.org/wiki/Abricotier",
+				"Properties": null
+			},
+			{
+				"Id": "plant657",
+				"Name": "Aigremoine",
+				"Link": "http://www.wikiphyto.org/wiki/Aigremoine",
+				"Properties": null
+			},
+			{
+				"Id": "plant658",
+				"Name": "Alchémille",
+				"Link": "http://www.wikiphyto.org/wiki/Alch%C3%A9mille",
+				"Properties": null
+			},
+			{
+				"Id": "plant659",
+				"Name": "Amandier",
+				"Link": "http://www.wikiphyto.org/wiki/Amandier",
+				"Properties": null
+			},
+			{
+				"Id": "plant660",
+				"Name": "Aronie à fruits noirs",
+				"Link": "http://www.wikiphyto.org/wiki/Aronie_%C3%A0_fruits_noirs",
+				"Properties": null
+			},
+			{
+				"Id": "plant661",
+				"Name": "Aubépine",
+				"Link": "http://www.wikiphyto.org/wiki/Aub%C3%A9pine",
+				"Properties": null
+			},
+			{
+				"Id": "plant662",
+				"Name": "Benoite",
+				"Link": "http://www.wikiphyto.org/wiki/Benoite",
+				"Properties": null
+			},
+			{
+				"Id": "plant663",
+				"Name": "Bois de Panama",
+				"Link": "http://www.wikiphyto.org/wiki/Bois_de_Panama",
+				"Properties": null
+			},
+			{
+				"Id": "plant664",
+				"Name": "Cerisier griottier",
+				"Link": "http://www.wikiphyto.org/wiki/Cerisier_griottier",
+				"Properties": null
+			},
+			{
+				"Id": "plant665",
+				"Name": "Cognassier",
+				"Link": "http://www.wikiphyto.org/wiki/Cognassier",
+				"Properties": null
+			},
+			{
+				"Id": "plant666",
+				"Name": "Framboisier",
+				"Link": "http://www.wikiphyto.org/wiki/Framboisier",
+				"Properties": null
+			},
+			{
+				"Id": "plant667",
+				"Name": "Laurier-cerise",
+				"Link": "http://www.wikiphyto.org/wiki/Laurier-cerise",
+				"Properties": null
+			},
+			{
+				"Id": "plant668",
+				"Name": "Pimprenelle",
+				"Link": "http://www.wikiphyto.org/wiki/Pimprenelle",
+				"Properties": null
+			},
+			{
+				"Id": "plant669",
+				"Name": "Potentille ansérine",
+				"Link": "http://www.wikiphyto.org/wiki/Potentille_ans%C3%A9rine",
+				"Properties": null
+			},
+			{
+				"Id": "plant670",
+				"Name": "Potentille tormentille",
+				"Link": "http://www.wikiphyto.org/wiki/Potentille_tormentille",
+				"Properties": null
+			},
+			{
+				"Id": "plant671",
+				"Name": "Prunellier",
+				"Link": "http://www.wikiphyto.org/wiki/Prunellier",
+				"Properties": null
+			},
+			{
+				"Id": "plant672",
+				"Name": "Prunier d’Afrique",
+				"Link": "http://www.wikiphyto.org/wiki/Prunier_d%E2%80%99Afrique",
+				"Properties": null
+			},
+			{
+				"Id": "plant673",
+				"Name": "Reine des prés",
+				"Link": "http://www.wikiphyto.org/wiki/Reine_des_pr%C3%A9s",
+				"Properties": null
+			},
+			{
+				"Id": "plant674",
+				"Name": "Ronce",
+				"Link": "http://www.wikiphyto.org/wiki/Ronce",
+				"Properties": null
+			},
+			{
+				"Id": "plant675",
+				"Name": "Rosa damascena",
+				"Link": "http://www.wikiphyto.org/wiki/Rosa_damascena",
+				"Properties": null
+			},
+			{
+				"Id": "plant676",
+				"Name": "Rose musquée",
+				"Link": "http://www.wikiphyto.org/wiki/Rose_musqu%C3%A9e",
+				"Properties": null
+			},
+			{
+				"Id": "plant677",
+				"Name": "Rosier rouge",
+				"Link": "http://www.wikiphyto.org/wiki/Rosier_rouge",
+				"Properties": null
+			},
+			{
+				"Id": "plant678",
+				"Name": "Sanguisorbe",
+				"Link": "http://www.wikiphyto.org/wiki/Sanguisorbe",
+				"Properties": null
+			},
+			{
+				"Id": "plant679",
+				"Name": "Sorbier domestique",
+				"Link": "http://www.wikiphyto.org/wiki/Sorbier_domestique",
+				"Properties": null
+			},
+			{
+				"Id": "plant680",
+				"Name": "Églantier",
+				"Link": "http://www.wikiphyto.org/wiki/%C3%89glantier",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Rosaceae"
+	},
+	{
+		"Id": "cat162",
+		"Name": "Rubiaceae",
+		"Plants": [
+			{
+				"Id": "plant681",
+				"Name": "Aspérule odorante",
+				"Link": "http://www.wikiphyto.org/wiki/Asp%C3%A9rule_odorante",
+				"Properties": null
+			},
+			{
+				"Id": "plant682",
+				"Name": "Caféier",
+				"Link": "http://www.wikiphyto.org/wiki/Caf%C3%A9ier",
+				"Properties": null
+			},
+			{
+				"Id": "plant683",
+				"Name": "Gaillet grateron",
+				"Link": "http://www.wikiphyto.org/wiki/Gaillet_grateron",
+				"Properties": null
+			},
+			{
+				"Id": "plant684",
+				"Name": "Gaillet jaune",
+				"Link": "http://www.wikiphyto.org/wiki/Gaillet_jaune",
+				"Properties": null
+			},
+			{
+				"Id": "plant685",
+				"Name": "Gambir",
+				"Link": "http://www.wikiphyto.org/wiki/Gambir",
+				"Properties": null
+			},
+			{
+				"Id": "plant686",
+				"Name": "Garance des teinturiers",
+				"Link": "http://www.wikiphyto.org/wiki/Garance_des_teinturiers",
+				"Properties": null
+			},
+			{
+				"Id": "plant687",
+				"Name": "Griffe de chat",
+				"Link": "http://www.wikiphyto.org/wiki/Griffe_de_chat",
+				"Properties": null
+			},
+			{
+				"Id": "plant688",
+				"Name": "Ipeca de Matto Grosso",
+				"Link": "http://www.wikiphyto.org/wiki/Ipeca_de_Matto_Grosso",
+				"Properties": null
+			},
+			{
+				"Id": "plant689",
+				"Name": "Noni",
+				"Link": "http://www.wikiphyto.org/wiki/Noni",
+				"Properties": null
+			},
+			{
+				"Id": "plant690",
+				"Name": "Quinquina",
+				"Link": "http://www.wikiphyto.org/wiki/Quinquina",
+				"Properties": null
+			},
+			{
+				"Id": "plant691",
+				"Name": "Yohimbe",
+				"Link": "http://www.wikiphyto.org/wiki/Yohimbe",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Rubiaceae"
+	},
+	{
+		"Id": "cat163",
+		"Name": "Rutaceae",
+		"Plants": [
+			{
+				"Id": "plant692",
+				"Name": "Angusture",
+				"Link": "http://www.wikiphyto.org/wiki/Angusture",
+				"Properties": null
+			},
+			{
+				"Id": "plant693",
+				"Name": "Bergamote",
+				"Link": "http://www.wikiphyto.org/wiki/Bergamote",
+				"Properties": null
+			},
+			{
+				"Id": "plant694",
+				"Name": "Buchu",
+				"Link": "http://www.wikiphyto.org/wiki/Buchu",
+				"Properties": null
+			},
+			{
+				"Id": "plant695",
+				"Name": "Citronnier",
+				"Link": "http://www.wikiphyto.org/wiki/Citronnier",
+				"Properties": null
+			},
+			{
+				"Id": "plant696",
+				"Name": "Fagarier",
+				"Link": "http://www.wikiphyto.org/wiki/Fagarier",
+				"Properties": null
+			},
+			{
+				"Id": "plant697",
+				"Name": "Fraxinelle commune",
+				"Link": "http://www.wikiphyto.org/wiki/Fraxinelle_commune",
+				"Properties": null
+			},
+			{
+				"Id": "plant698",
+				"Name": "Jaborandi officinal",
+				"Link": "http://www.wikiphyto.org/wiki/Jaborandi_officinal",
+				"Properties": null
+			},
+			{
+				"Id": "plant699",
+				"Name": "Lime",
+				"Link": "http://www.wikiphyto.org/wiki/Lime",
+				"Properties": null
+			},
+			{
+				"Id": "plant700",
+				"Name": "Mandarinier",
+				"Link": "http://www.wikiphyto.org/wiki/Mandarinier",
+				"Properties": null
+			},
+			{
+				"Id": "plant701",
+				"Name": "Oranger amer",
+				"Link": "http://www.wikiphyto.org/wiki/Oranger_amer",
+				"Properties": null
+			},
+			{
+				"Id": "plant702",
+				"Name": "Oranger doux",
+				"Link": "http://www.wikiphyto.org/wiki/Oranger_doux",
+				"Properties": null
+			},
+			{
+				"Id": "plant703",
+				"Name": "Pamplemousse",
+				"Link": "http://www.wikiphyto.org/wiki/Pamplemousse",
+				"Properties": null
+			},
+			{
+				"Id": "plant704",
+				"Name": "Pêcher africain",
+				"Link": "http://www.wikiphyto.org/wiki/P%C3%AAcher_africain",
+				"Properties": null
+			},
+			{
+				"Id": "plant705",
+				"Name": "Rue officinale",
+				"Link": "http://www.wikiphyto.org/wiki/Rue_officinale",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Rutaceae"
+	},
+	{
+		"Id": "cat164",
+		"Name": "Saccharomycetaceae",
+		"Plants": [
+			{
+				"Id": "plant706",
+				"Name": "Levure de bière",
+				"Link": "http://www.wikiphyto.org/wiki/Levure_de_bi%C3%A8re",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Saccharomycetaceae"
+	},
+	{
+		"Id": "cat165",
+		"Name": "Salicaceae",
+		"Plants": [
+			{
+				"Id": "plant707",
+				"Name": "Peuplier noir",
+				"Link": "http://www.wikiphyto.org/wiki/Peuplier_noir",
+				"Properties": null
+			},
+			{
+				"Id": "plant708",
+				"Name": "Saule blanc",
+				"Link": "http://www.wikiphyto.org/wiki/Saule_blanc",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Salicaceae"
+	},
+	{
+		"Id": "cat166",
+		"Name": "Santalaceae",
+		"Plants": [
+			{
+				"Id": "plant709",
+				"Name": "Santal blanc",
+				"Link": "http://www.wikiphyto.org/wiki/Santal_blanc",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Santalaceae"
+	},
+	{
+		"Id": "cat167",
+		"Name": "Sapindaceae",
+		"Plants": [
+			{
+				"Id": "plant710",
+				"Name": "Guarana",
+				"Link": "http://www.wikiphyto.org/wiki/Guarana",
+				"Properties": null
+			},
+			{
+				"Id": "plant711",
+				"Name": "Liane Poc-Poc",
+				"Link": "http://www.wikiphyto.org/wiki/Liane_Poc-Poc",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Sapindaceae"
+	},
+	{
+		"Id": "cat168",
+		"Name": "Sapotaceae",
+		"Plants": [
+			{
+				"Id": "plant712",
+				"Name": "Arbuste à miraculine",
+				"Link": "http://www.wikiphyto.org/wiki/Arbuste_%C3%A0_miraculine",
+				"Properties": null
+			},
+			{
+				"Id": "plant713",
+				"Name": "Arganier",
+				"Link": "http://www.wikiphyto.org/wiki/Arganier",
+				"Properties": null
+			},
+			{
+				"Id": "plant714",
+				"Name": "Karité",
+				"Link": "http://www.wikiphyto.org/wiki/Karit%C3%A9",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Sapotaceae"
+	},
+	{
+		"Id": "cat169",
+		"Name": "Schizandraceae",
+		"Plants": [
+			{
+				"Id": "plant715",
+				"Name": "Schizandra",
+				"Link": "http://www.wikiphyto.org/wiki/Schizandra",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Schizandraceae"
+	},
+	{
+		"Id": "cat170",
+		"Name": "Scrophulariaceae",
+		"Plants": [
+			{
+				"Id": "plant716",
+				"Name": "Bacopa",
+				"Link": "http://www.wikiphyto.org/wiki/Bacopa",
+				"Properties": null
+			},
+			{
+				"Id": "plant717",
+				"Name": "Bouillon blanc",
+				"Link": "http://www.wikiphyto.org/wiki/Bouillon_blanc",
+				"Properties": null
+			},
+			{
+				"Id": "plant718",
+				"Name": "Digitale laineuse",
+				"Link": "http://www.wikiphyto.org/wiki/Digitale_laineuse",
+				"Properties": null
+			},
+			{
+				"Id": "plant719",
+				"Name": "Digitale pourpre",
+				"Link": "http://www.wikiphyto.org/wiki/Digitale_pourpre",
+				"Properties": null
+			},
+			{
+				"Id": "plant720",
+				"Name": "Euphraise",
+				"Link": "http://www.wikiphyto.org/wiki/Euphraise",
+				"Properties": null
+			},
+			{
+				"Id": "plant721",
+				"Name": "Gratiole",
+				"Link": "http://www.wikiphyto.org/wiki/Gratiole",
+				"Properties": null
+			},
+			{
+				"Id": "plant722",
+				"Name": "Linaire commune",
+				"Link": "http://www.wikiphyto.org/wiki/Linaire_commune",
+				"Properties": null
+			},
+			{
+				"Id": "plant723",
+				"Name": "Nyctérinie",
+				"Link": "http://www.wikiphyto.org/wiki/Nyct%C3%A9rinie",
+				"Properties": null
+			},
+			{
+				"Id": "plant724",
+				"Name": "Scrofulaire noueuse",
+				"Link": "http://www.wikiphyto.org/wiki/Scrofulaire_noueuse",
+				"Properties": null
+			},
+			{
+				"Id": "plant725",
+				"Name": "Véronique officinale",
+				"Link": "http://www.wikiphyto.org/wiki/V%C3%A9ronique_officinale",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Scrophulariaceae"
+	},
+	{
+		"Id": "cat171",
+		"Name": "Simarubaceae",
+		"Plants": [
+			{
+				"Id": "plant726",
+				"Name": "Ailanthe",
+				"Link": "http://www.wikiphyto.org/wiki/Ailanthe",
+				"Properties": null
+			},
+			{
+				"Id": "plant727",
+				"Name": "Cedron",
+				"Link": "http://www.wikiphyto.org/wiki/Cedron",
+				"Properties": null
+			},
+			{
+				"Id": "plant728",
+				"Name": "Quassia de la Jamaïque",
+				"Link": "http://www.wikiphyto.org/wiki/Quassia_de_la_Jama%C3%AFque",
+				"Properties": null
+			},
+			{
+				"Id": "plant729",
+				"Name": "Quassia de Surinam",
+				"Link": "http://www.wikiphyto.org/wiki/Quassia_de_Surinam",
+				"Properties": null
+			},
+			{
+				"Id": "plant730",
+				"Name": "Simarouba",
+				"Link": "http://www.wikiphyto.org/wiki/Simarouba",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Simarubaceae"
+	},
+	{
+		"Id": "cat172",
+		"Name": "Simmondsiaceae",
+		"Plants": [
+			{
+				"Id": "plant731",
+				"Name": "Jojoba",
+				"Link": "http://www.wikiphyto.org/wiki/Jojoba",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Simmondsiaceae"
+	},
+	{
+		"Id": "cat173",
+		"Name": "Solanaceae",
+		"Plants": [
+			{
+				"Id": "plant732",
+				"Name": "Alkékenge",
+				"Link": "http://www.wikiphyto.org/wiki/Alk%C3%A9kenge",
+				"Properties": null
+			},
+			{
+				"Id": "plant733",
+				"Name": "Belladone",
+				"Link": "http://www.wikiphyto.org/wiki/Belladone",
+				"Properties": null
+			},
+			{
+				"Id": "plant734",
+				"Name": "Douce-amère",
+				"Link": "http://www.wikiphyto.org/wiki/Douce-am%C3%A8re",
+				"Properties": null
+			},
+			{
+				"Id": "plant735",
+				"Name": "Duboisia",
+				"Link": "http://www.wikiphyto.org/wiki/Duboisia",
+				"Properties": null
+			},
+			{
+				"Id": "plant736",
+				"Name": "Gogi",
+				"Link": "http://www.wikiphyto.org/wiki/Gogi",
+				"Properties": null
+			},
+			{
+				"Id": "plant737",
+				"Name": "Jusquiame noire",
+				"Link": "http://www.wikiphyto.org/wiki/Jusquiame_noire",
+				"Properties": null
+			},
+			{
+				"Id": "plant738",
+				"Name": "Mandragore",
+				"Link": "http://www.wikiphyto.org/wiki/Mandragore",
+				"Properties": null
+			},
+			{
+				"Id": "plant739",
+				"Name": "Morelle noire",
+				"Link": "http://www.wikiphyto.org/wiki/Morelle_noire",
+				"Properties": null
+			},
+			{
+				"Id": "plant740",
+				"Name": "Pichi-pichi",
+				"Link": "http://www.wikiphyto.org/wiki/Pichi-pichi",
+				"Properties": null
+			},
+			{
+				"Id": "plant741",
+				"Name": "Piment de Cayenne",
+				"Link": "http://www.wikiphyto.org/wiki/Piment_de_Cayenne",
+				"Properties": null
+			},
+			{
+				"Id": "plant742",
+				"Name": "Solanum malacoxylon",
+				"Link": "http://www.wikiphyto.org/wiki/Solanum_malacoxylon",
+				"Properties": null
+			},
+			{
+				"Id": "plant743",
+				"Name": "Solanum surattense",
+				"Link": "http://www.wikiphyto.org/wiki/Solanum_surattense",
+				"Properties": null
+			},
+			{
+				"Id": "plant744",
+				"Name": "Stramoine",
+				"Link": "http://www.wikiphyto.org/wiki/Stramoine",
+				"Properties": null
+			},
+			{
+				"Id": "plant745",
+				"Name": "Tabac",
+				"Link": "http://www.wikiphyto.org/wiki/Tabac",
+				"Properties": null
+			},
+			{
+				"Id": "plant746",
+				"Name": "Withania somnifera",
+				"Link": "http://www.wikiphyto.org/wiki/Withania_somnifera",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Solanaceae"
+	},
+	{
+		"Id": "cat174",
+		"Name": "Spongillideae",
+		"Plants": [
+			{
+				"Id": "plant747",
+				"Name": "Éponge d’eau douce",
+				"Link": "http://www.wikiphyto.org/wiki/%C3%89ponge_d%E2%80%99eau_douce",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Spongillideae"
+	},
+	{
+		"Id": "cat175",
+		"Name": "Sterculiaceae",
+		"Plants": [
+			{
+				"Id": "plant748",
+				"Name": "Cacaoyer",
+				"Link": "http://www.wikiphyto.org/wiki/Cacaoyer",
+				"Properties": null
+			},
+			{
+				"Id": "plant749",
+				"Name": "Cola",
+				"Link": "http://www.wikiphyto.org/wiki/Cola",
+				"Properties": null
+			},
+			{
+				"Id": "plant750",
+				"Name": "Sterculia",
+				"Link": "http://www.wikiphyto.org/wiki/Sterculia",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Sterculiaceae"
+	},
+	{
+		"Id": "cat176",
+		"Name": "Styracaceae",
+		"Plants": [
+			{
+				"Id": "plant751",
+				"Name": "Aliboufier",
+				"Link": "http://www.wikiphyto.org/wiki/Aliboufier",
+				"Properties": null
+			},
+			{
+				"Id": "plant752",
+				"Name": "Benjoin de Sumatra",
+				"Link": "http://www.wikiphyto.org/wiki/Benjoin_de_Sumatra",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Styracaceae"
+	},
+	{
+		"Id": "cat177",
+		"Name": "Tamaricaceae",
+		"Plants": [
+			{
+				"Id": "plant753",
+				"Name": "Tamaris de France",
+				"Link": "http://www.wikiphyto.org/wiki/Tamaris_de_France",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Tamaricaceae"
+	},
+	{
+		"Id": "cat178",
+		"Name": "Taxaceae",
+		"Plants": [
+			{
+				"Id": "plant754",
+				"Name": "If d’Europe",
+				"Link": "http://www.wikiphyto.org/wiki/If_d%E2%80%99Europe",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Taxaceae"
+	},
+	{
+		"Id": "cat179",
+		"Name": "Taxodiaceae",
+		"Plants": [
+			{
+				"Id": "plant755",
+				"Name": "Sequoïa",
+				"Link": "http://www.wikiphyto.org/wiki/Sequo%C3%AFa",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Taxodiaceae"
+	},
+	{
+		"Id": "cat180",
+		"Name": "Theaceae",
+		"Plants": [
+			{
+				"Id": "plant756",
+				"Name": "Théier",
+				"Link": "http://www.wikiphyto.org/wiki/Th%C3%A9ier",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Theaceae"
+	},
+	{
+		"Id": "cat181",
+		"Name": "Thymelaeaceae",
+		"Plants": [
+			{
+				"Id": "plant757",
+				"Name": "Bois-gentil",
+				"Link": "http://www.wikiphyto.org/wiki/Bois-gentil",
+				"Properties": null
+			},
+			{
+				"Id": "plant758",
+				"Name": "Daphné garou",
+				"Link": "http://www.wikiphyto.org/wiki/Daphn%C3%A9_garou",
+				"Properties": null
+			},
+			{
+				"Id": "plant759",
+				"Name": "Gnidia kraussiana",
+				"Link": "http://www.wikiphyto.org/wiki/Gnidia_kraussiana",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Thymelaeaceae"
+	},
+	{
+		"Id": "cat182",
+		"Name": "Tiliaceae",
+		"Plants": [
+			{
+				"Id": "plant760",
+				"Name": "Tilleul",
+				"Link": "http://www.wikiphyto.org/wiki/Tilleul",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Tiliaceae"
+	},
+	{
+		"Id": "cat183",
+		"Name": "Trichocomaceae",
+		"Plants": [
+			{
+				"Id": "plant761",
+				"Name": "Aspergille noir",
+				"Link": "http://www.wikiphyto.org/wiki/Aspergille_noir",
+				"Properties": null
+			},
+			{
+				"Id": "plant762",
+				"Name": "Aspergillus oryzae",
+				"Link": "http://www.wikiphyto.org/wiki/Aspergillus_oryzae",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Trichocomaceae"
+	},
+	{
+		"Id": "cat184",
+		"Name": "Tropaeolaceae",
+		"Plants": [
+			{
+				"Id": "plant763",
+				"Name": "Capucine",
+				"Link": "http://www.wikiphyto.org/wiki/Capucine",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Tropaeolaceae"
+	},
+	{
+		"Id": "cat185",
+		"Name": "Turneraceae",
+		"Plants": [
+			{
+				"Id": "plant764",
+				"Name": "Damiana",
+				"Link": "http://www.wikiphyto.org/wiki/Damiana",
+				"Properties": null
+			},
+			{
+				"Id": "plant765",
+				"Name": "Turnera ulmifolia",
+				"Link": "http://www.wikiphyto.org/wiki/Turnera_ulmifolia",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Turneraceae"
+	},
+	{
+		"Id": "cat186",
+		"Name": "Typhaceae",
+		"Plants": [
+			{
+				"Id": "plant766",
+				"Name": "Massette",
+				"Link": "http://www.wikiphyto.org/wiki/Massette",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Typhaceae"
+	},
+	{
+		"Id": "cat187",
+		"Name": "Ulmaceae",
+		"Plants": [
+			{
+				"Id": "plant767",
+				"Name": "Orme champêtre",
+				"Link": "http://www.wikiphyto.org/wiki/Orme_champ%C3%AAtre",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Ulmaceae"
+	},
+	{
+		"Id": "cat188",
+		"Name": "Urticaceae",
+		"Plants": [
+			{
+				"Id": "plant768",
+				"Name": "Ortie",
+				"Link": "http://www.wikiphyto.org/wiki/Ortie",
+				"Properties": null
+			},
+			{
+				"Id": "plant769",
+				"Name": "Pariétaire",
+				"Link": "http://www.wikiphyto.org/wiki/Pari%C3%A9taire",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Urticaceae"
+	},
+	{
+		"Id": "cat189",
+		"Name": "Usneaceae",
+		"Plants": [
+			{
+				"Id": "plant770",
+				"Name": "Usnée barbue",
+				"Link": "http://www.wikiphyto.org/wiki/Usn%C3%A9e_barbue",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Usneaceae"
+	},
+	{
+		"Id": "cat190",
+		"Name": "Valerianaceae",
+		"Plants": [
+			{
+				"Id": "plant771",
+				"Name": "Nard de l&#039;Himalaya",
+				"Link": "http://www.wikiphyto.org/wiki/Nard_de_l%27Himalaya",
+				"Properties": null
+			},
+			{
+				"Id": "plant772",
+				"Name": "Valériane",
+				"Link": "http://www.wikiphyto.org/wiki/Val%C3%A9riane",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Valerianaceae"
+	},
+	{
+		"Id": "cat191",
+		"Name": "Verbenaceae",
+		"Plants": [
+			{
+				"Id": "plant773",
+				"Name": "Gattilier",
+				"Link": "http://www.wikiphyto.org/wiki/Gattilier",
+				"Properties": null
+			},
+			{
+				"Id": "plant774",
+				"Name": "Verveine blanche",
+				"Link": "http://www.wikiphyto.org/wiki/Verveine_blanche",
+				"Properties": null
+			},
+			{
+				"Id": "plant775",
+				"Name": "Verveine odorante",
+				"Link": "http://www.wikiphyto.org/wiki/Verveine_odorante",
+				"Properties": null
+			},
+			{
+				"Id": "plant776",
+				"Name": "Verveine officinale",
+				"Link": "http://www.wikiphyto.org/wiki/Verveine_officinale",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Verbenaceae"
+	},
+	{
+		"Id": "cat192",
+		"Name": "Violaceae",
+		"Plants": [
+			{
+				"Id": "plant777",
+				"Name": "Pensée sauvage",
+				"Link": "http://www.wikiphyto.org/wiki/Pens%C3%A9e_sauvage",
+				"Properties": null
+			},
+			{
+				"Id": "plant778",
+				"Name": "Violette odorante",
+				"Link": "http://www.wikiphyto.org/wiki/Violette_odorante",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Violaceae"
+	},
+	{
+		"Id": "cat193",
+		"Name": "Viscaceae",
+		"Plants": [
+			{
+				"Id": "plant779",
+				"Name": "Gui",
+				"Link": "http://www.wikiphyto.org/wiki/Gui",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Viscaceae"
+	},
+	{
+		"Id": "cat194",
+		"Name": "Vitaceae",
+		"Plants": [
+			{
+				"Id": "plant780",
+				"Name": "Vigne rouge",
+				"Link": "http://www.wikiphyto.org/wiki/Vigne_rouge",
+				"Properties": null
+			},
+			{
+				"Id": "plant781",
+				"Name": "Vigne vierge de Virginie",
+				"Link": "http://www.wikiphyto.org/wiki/Vigne_vierge_de_Virginie",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Vitaceae"
+	},
+	{
+		"Id": "cat195",
+		"Name": "Winteraceae",
+		"Plants": [
+			{
+				"Id": "plant782",
+				"Name": "Cannelle de Magellan",
+				"Link": "http://www.wikiphyto.org/wiki/Cannelle_de_Magellan",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Winteraceae"
+	},
+	{
+		"Id": "cat196",
+		"Name": "Zingiberaceae",
+		"Plants": [
+			{
+				"Id": "plant783",
+				"Name": "Cardamome",
+				"Link": "http://www.wikiphyto.org/wiki/Cardamome",
+				"Properties": null
+			},
+			{
+				"Id": "plant784",
+				"Name": "Curcuma",
+				"Link": "http://www.wikiphyto.org/wiki/Curcuma",
+				"Properties": null
+			},
+			{
+				"Id": "plant785",
+				"Name": "Galanga",
+				"Link": "http://www.wikiphyto.org/wiki/Galanga",
+				"Properties": null
+			},
+			{
+				"Id": "plant786",
+				"Name": "Gingembre",
+				"Link": "http://www.wikiphyto.org/wiki/Gingembre",
+				"Properties": null
+			},
+			{
+				"Id": "plant787",
+				"Name": "Poivre de Guinée",
+				"Link": "http://www.wikiphyto.org/wiki/Poivre_de_Guin%C3%A9e",
+				"Properties": null
+			},
+			{
+				"Id": "plant788",
+				"Name": "Temoe-Lawaq",
+				"Link": "http://www.wikiphyto.org/wiki/Temoe-Lawaq",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Zingiberaceae"
+	},
+	{
+		"Id": "cat197",
+		"Name": "Zygophyllaceae",
+		"Plants": [
+			{
+				"Id": "plant789",
+				"Name": "Croix de Malte",
+				"Link": "http://www.wikiphyto.org/wiki/Croix_de_Malte",
+				"Properties": null
+			},
+			{
+				"Id": "plant790",
+				"Name": "Gaïac",
+				"Link": "http://www.wikiphyto.org/wiki/Ga%C3%AFac",
+				"Properties": null
+			},
+			{
+				"Id": "plant791",
+				"Name": "Harmel",
+				"Link": "http://www.wikiphyto.org/wiki/Harmel",
+				"Properties": null
+			}
+		],
+		"Link": "http://www.wikiphyto.org/wiki/Cat%C3%A9gorie:Zygophyllaceae"
+	}
+]

@@ -1,0 +1,82 @@
+{
+  "Id": "plant246",
+  "Name": "Garcinia",
+  "Link": "http://www.wikiphyto.org/wiki/Garcinia",
+  "ImageLink": null,
+  "Properties": [
+    {
+      "Name": "Name",
+      "Content": [
+        "Garcinia, Cambogia, Tamarinier de Malabar, ou guttier"
+      ]
+    },
+    {
+      "Name": "Description",
+      "Content": [
+        "Plante arbustive du Sud-Est asiatique, feuilles simples et opposées, vert foncé brillant, fruit jaune, rouge lorsqu'il est mûr, comportant 6 à 8 sillons, qui ressemble à une toute petite citrouille (5&#160;cm de diamètre environ)"
+      ]
+    },
+    {
+      "Name": "History",
+      "Content": [
+        "Garcinia mangostana est le Mangoustan, dont on utilise la pulpe comme succédané du beurre",
+        "Garcinia mangostana est puissamment anti-oxydant et le fruit possède des propriétés protectrices vis-à-vis du cancer du colon , s'oppose à la stéatose induite par un régime riche en graisses  et anticancéreux par ses xanthones , ",
+        "Garcinia morella et Garcinia hanburgi fournissent la Gomme-gutte, purgatif violent qui n’est plus utilisé et matière colorante pour peintures"
+      ]
+    },
+    {
+      "Name": "Dosis",
+      "Content": [
+        "2 gélules dosées à 400 mg d’extrait sec, 1/2 heure avant les repas"
+      ]
+    },
+    {
+      "Name": "Composition",
+      "Content": [
+        "Composants principaux de la plante",
+        "Acide de fruit&#160;: acide hydroxycitrique (30&#160;%)",
+        "Composants principaux des bourgeons ou jeunes pousses",
+        "Composants principaux de l'huile essentielle"
+      ]
+    },
+    {
+      "Name": "HealthProperty",
+      "Content": [
+        "Propriétés de la plante",
+        "Agent régulateur de l’obésité ",
+        "L’acide hydroxycitrique agirait sur le métabolisme lipidique, inhiberait l’absorption des glucides et des lipides, et la transformation des sucres en graisse, induirait une perte pondérale , avec une bonne sécurité d'emploi ",
+        "Diminue la synthèse des acides gras, augmente l’oxydation des lipides",
+        "Antioxydant et anti-inflammatoire ",
+        "Protection vis-à-vis du syndrome métabolique, protection rénale vis-à-vis du stress oxydatif ",
+        "Antidiabétique, protection vis-à-vis de la toxicité hépatique induite par l'hyperglycémie chez le rat, en diminuant la réponse inflammatoire ",
+        "Hypocholestérolémiant ",
+        "Diminuerait l’appétit",
+        "Immunomodulant ",
+        "L'acide gambogique présent dans divers Garcinia possède un effet synergique avec le docetaxel sur l'apoptose, dans les cancers gastriques et du colon ",
+        "Propriétés du bourgeon",
+        "Propriétés de l'huile essentielle"
+      ]
+    },
+    {
+      "Name": "Indications",
+      "Content": [
+        "Indications de la plante entière (phytothérapie)",
+        "Obésité, mais les études sont décevantes , ",
+        "Adjuvant des régimes hypocaloriques",
+        "Diabète",
+        "Hypercholestérolémie",
+        "Indications du bourgeon (gemmothérapie)",
+        "Indications spécifiques de l'huile essentielle (aromathérapie)"
+      ]
+    },
+    {
+      "Name": "UndesirableEffects",
+      "Content": [
+        "Bonne sécurité d'emploi jusqu'à la dose de 3000 mg/jour d'extrait ",
+        "Toxicité testiculaire à haute dose ",
+        "Toxicité hépatique (risque d'hépatite fulminante à haute dose) ",
+        "Des rhabdomyolyses ont été décrites suite à la consommation de produits américains à base de Garcinia cambogia dont la composition exacte n’était pas connue"
+      ]
+    }
+  ]
+}
