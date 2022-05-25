@@ -9,6 +9,7 @@
     "@testing-library/jest-dom": "latest",
     "@testing-library/react": "latest",
     "@testing-library/user-event": "latest",
+    "fuse.js": "latest",
     "react": "latest",
     "react-dom": "latest",
     "react-scripts": "latest",
