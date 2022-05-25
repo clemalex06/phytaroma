@@ -6,8 +6,11 @@ React application in typescript to be able to search into a static json collecti
 
 ###React with MUI :
 https://mui.com/
+https://github.com/mui/material-ui
+
 ### Front search with Fuse.js
 https://fusejs.io/
+https://github.com/krisk/Fuse
 
 
 ## BackEnd
@@ -17,6 +20,7 @@ http://www.wikiphyto.org/wiki/Accueil
 ### Nuget used 
 #### HtmlAgilityPack for the scrapping web site
 https://html-agility-pack.net/
+
 #### NewtonJson for json serialization
 https://www.newtonsoft.com/json
 
