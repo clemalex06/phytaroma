@@ -85,11 +85,22 @@ namespace WikiPhytoScrapper.Services
                         Id = $"plant{i}",
                         Link = $"{BaseUrl}{link.FirstChild.Attributes[0].Value}",
                         Name = link.FirstChild.InnerText,
+                        Properties = new List<PlantProperty>()
                     };
+                    Console.WriteLine($"          Plant Name : {plant.Name}, PlantId : {plant.Id}");
 
-                    family.Plants.Add(plant);
-                    Console.WriteLine($"          Plant Name : {plant.Name}");
-                    i++;
+                    try 
+                    {
+                        //Uncomment there to get Plant Detail
+                        LoadPlantDetail(plant);
+
+                        family.Plants.Add(plant);
+                        i++;
+                    }
+
+                    catch 
+                    { 
+                    }
                 }
             }
             return i;
@@ -140,66 +151,78 @@ namespace WikiPhytoScrapper.Services
         }
 
         // Test To retrieve the details of a Plant
-        public static void LoadPlantDetail()
+        public static void LoadPlantDetail(Plant plant)
         {
             var sw = Stopwatch.StartNew();
             Console.WriteLine("Start Scrapping Plant detail");
-
-            var plant = GetPlantFromId("plant788");
-
-            var idDictionnary = GetHtmlIds();
-            var currentList = plant.Properties;
-
-            var responsePagePlantFamily = Scrapper.CallUrl(plant.Link).Result;
-            HtmlDocument htmlDoc = new HtmlDocument();
-            htmlDoc.LoadHtml(responsePagePlantFamily);
-            //TODO change implementation
-            var refNodes = htmlDoc.DocumentNode
-                    .Descendants("div")
-                    .Where(node => node.GetAttributeValue("id", "").Equals("toc"))
-                    .FirstOrDefault()?.Descendants("a").Select(n => n.GetAttributeValue("href", "")).ToList();
-            if (refNodes != null)
+            try
             {
-                foreach (var id in refNodes)
+                var idDictionnary = GetHtmlIds();
+                var currentList = plant.Properties;
+
+                var responsePagePlantFamily = Scrapper.CallUrl(plant.Link).Result;
+                HtmlDocument htmlDoc = new HtmlDocument();
+                htmlDoc.LoadHtml(responsePagePlantFamily);
+                //TODO change implementation
+                var refNodes = htmlDoc.DocumentNode
+                        .Descendants("div")
+                        .Where(node => node.GetAttributeValue("id", "").Equals("toc"))
+                        .FirstOrDefault()?.Descendants("a").Select(n => n.GetAttributeValue("href", "")).ToList();
+                if (refNodes != null)
                 {
-                    if (idDictionnary.ContainsKey(id))
+                    foreach (var id in refNodes)
                     {
-                        var plantNode = htmlDoc.DocumentNode.Descendants("span")
-                            .FirstOrDefault(node => node.GetAttributeValue("id", "").Equals(id.Replace("#", "")))
-                            .AncestorsAndSelf("h2").FirstOrDefault();
-
-                        if (plantNode != null)
+                        if (idDictionnary.ContainsKey(id))
                         {
-                            var plantProperty = new PlantProperty(idDictionnary[id])
+                            var plantNode = htmlDoc.DocumentNode.Descendants("span")
+                                .FirstOrDefault(node => node.GetAttributeValue("id", "").Equals(id.Replace("#", "")))
+                                .AncestorsAndSelf("h2").FirstOrDefault();
+
+                            if (plantNode != null)
                             {
-                                Content = new List<string>(),
-                            };
-                            do
-                            {   
-                                if (plantNode.Name != "h2")
+                                var plantProperty = new PlantProperty(idDictionnary[id])
                                 {
+                                    Content = new List<string>(),
+                                };
+                                do
+                                {
+                                    if (plantNode.Name != "h2")
+                                    {
 
-                                    var content = plantNode.InnerText
-                                        .Split('\n')
-                                        .Where( s => !string.IsNullOrWhiteSpace(s))
-                                        .Select(p=> RemoveEncodedCharacters(p)).ToList();
+                                        var content = plantNode.InnerText
+                                            .Split('\n')
+                                            .Where(s => !string.IsNullOrWhiteSpace(s))
+                                            .Select(p => RemoveEncodedCharacters(p)).ToList();
 
-                                    plantProperty.Content.AddRange(content);
+                                        plantProperty.Content.AddRange(content);
+                                    }
+
+                                    plantNode = plantNode.NextSibling;
+                                } while (plantNode.Name != "h2");
+
+                                if (plantProperty != null)
+                                {
+                                    plant.Properties.Add(plantProperty);
                                 }
-
-                                plantNode = plantNode.NextSibling;
-                            } while (plantNode.Name != "h2");
-
-                            plant.Properties.Add(plantProperty);
+                            }
                         }
                     }
-                }
 
-                DataSerializer.Serialize(plant);
+
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error Scrapping Plant detail");
+                Console.WriteLine(ex);
+            }
+            finally
+            {
+                // DataSerializer.Serialize(plant);
                 Console.WriteLine("End Scrapping Plant detail");
                 sw.Stop();
                 Console.WriteLine($"Time taken: {sw.Elapsed.TotalMilliseconds}ms");
-                Console.ReadLine();
+                // Console.ReadLine();
             }
         }
 
@@ -228,7 +251,7 @@ namespace WikiPhytoScrapper.Services
                 .Replace("&#160;", string.Empty);
         }
 
-        private static Plant GetPlantFromId(string id)
+        public static Plant GetPlantFromId(string id)
         {
             var plant = DataSerializer.Deserialize()?
                 .Select(p => p.Plants.SingleOrDefault(plant => string.Equals(plant.Id, id)))?
