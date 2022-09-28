@@ -4,7 +4,14 @@ make a huge website to search plant and herb used in aromatherapy, and see which
 ## FrontEnd 
 React application in typescript to be able to search into a static json collection
 ### React tutorial 
+
 https://react.school/
+
+https://reactjs.org/tutorial/tutorial.html
+
+https://www.w3schools.com/REACT/DEFAULT.ASP
+
+https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started
 
 ###React with MUI :
 https://mui.com/
