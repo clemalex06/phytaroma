@@ -1,8 +1,10 @@
 export default class PlantCategory {
     public id: string;
     public name: string;
-    constructor(id: string, name: string) {
+    public link: string;
+    constructor(id: string, name: string, link: string) {
         this.id = id;
-        this.name = name
+        this.name = name;
+        this.link = link;
     }
 }

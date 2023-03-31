@@ -1,15 +1,15 @@
 import { Button, Card, CardActions, CardContent, CardMedia, Container, Grid, Typography } from "@mui/material";
 import React from "react";
-
+import { instance as SearchPlantService } from '../services/search-plant-service';
 export default function PlantCategories() {
 
-    const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    const cards = SearchPlantService.getPlantCategories();
     return (
         <Container sx={{ py: 8 }} maxWidth="md">
             {/* End hero unit */}
             <Grid container spacing={4}>
                 {cards.map((card) => (
-                    <Grid item key={card} xs={12} sm={6} md={4}>
+                    <Grid item key={card.id} xs={12} sm={6} md={4}>
                         <Card
                             sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
                         >
@@ -24,7 +24,7 @@ export default function PlantCategories() {
                             />
                             <CardContent sx={{ flexGrow: 1 }}>
                                 <Typography gutterBottom variant="h5" component="h2">
-                                    Heading
+                                     {card.name}
                                 </Typography>
                                 <Typography>
                                     This is a media card. You can use this section to describe the
@@ -32,8 +32,7 @@ export default function PlantCategories() {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small">View</Button>
-                                <Button size="small">Edit</Button>
+                                <Button size="small">Voir la liste des plantes</Button>
                             </CardActions>
                         </Card>
                     </Grid>

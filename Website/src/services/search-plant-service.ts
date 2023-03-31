@@ -3,9 +3,11 @@ import PlantCategory from "../models/plant-category";
 
 export class SearchPlantService {
 
-    getPlantCategories() {
+    getPlantCategories():PlantCategory[] {
         return plantsData.map(x => {
-            new PlantCategory(x.Id, x.Name);
-        })
+            return new PlantCategory(x.Id, x.Name, x.Link);
+        });
     }
 }
+
+export const instance = new SearchPlantService();
