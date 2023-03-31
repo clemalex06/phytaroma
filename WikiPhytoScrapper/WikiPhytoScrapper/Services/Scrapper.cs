@@ -69,7 +69,7 @@ namespace WikiPhytoScrapper.Services
 
             return family;
         }
-        public static int GetAllPlantsByFamily(int starIndex, PlantFamily family)
+        public static int GetAllPlantsByFamily(int starIndex, PlantFamily family, bool withPlantDetail)
         {
             var html = CallUrl(family.Link).Result;
             var i = starIndex;
@@ -91,8 +91,10 @@ namespace WikiPhytoScrapper.Services
 
                     try 
                     {
-                        //Uncomment there to get Plant Detail
-                        LoadPlantDetail(plant);
+                        if (withPlantDetail)
+                        {
+                            LoadPlantDetail(plant);
+                        }
 
                         family.Plants.Add(plant);
                         i++;
@@ -106,13 +108,11 @@ namespace WikiPhytoScrapper.Services
             return i;
         }
 
-        public static void GetPlantDetail(int starIndex, PlantFamily family)
+        public static void LoadFamilies(bool withPlants, bool withPlantDetail)
         {
+            var fileName = "PlantFamilies";
 
-        }
-
-        public static void LoadFamilies()
-        {
+            fileName += withPlants ? withPlantDetail ? "WithPlantDetail" : "WithPlants" : string.Empty;
             var sw = Stopwatch.StartNew();
             Console.WriteLine("Start Scrapping WikiPhyto website");
             string url = Scrapper.BaseUrl + "/wiki/Cat%C3%A9gorie:Plantes_m%C3%A9dicinales";
@@ -127,19 +127,21 @@ namespace WikiPhytoScrapper.Services
 
             var i = 1;
             var countScrappedPlants = 0;
-
-            foreach (var fam in family)
+            if (withPlants)
             {
-                Console.WriteLine("");
-                Console.WriteLine($"Start Scrapping Plants From Family : {fam.Name}");
-                i = Scrapper.GetAllPlantsByFamily(i, fam);
-                Console.WriteLine("");
-                Console.WriteLine($"Total Plants Scrapped For This Family : {fam.Plants.Count}");
-                countScrappedPlants += fam.Plants.Count;
-                Console.WriteLine($"End Scrapping Plants From Family : {fam.Name}");
+                foreach (var fam in family)
+                {
+                    Console.WriteLine("");
+                    Console.WriteLine($"Start Scrapping Plants From Family : {fam.Name}");
+                    i = GetAllPlantsByFamily(i, fam, withPlantDetail);
+                    Console.WriteLine("");
+                    Console.WriteLine($"Total Plants Scrapped For This Family : {fam.Plants.Count}");
+                    countScrappedPlants += fam.Plants.Count;
+                    Console.WriteLine($"End Scrapping Plants From Family : {fam.Name}");
+                }
             }
 
-            DataSerializer.Serialize(family, "PlantFamily");
+            DataSerializer.Serialize(family, fileName);
 
             Console.WriteLine("");
             Console.WriteLine($"Total Family Plants Scrapped : {family.Count}");
@@ -249,32 +251,6 @@ namespace WikiPhytoScrapper.Services
             return result
                 .Replace("&#91;", string.Empty)
                 .Replace("&#160;", string.Empty);
-        }
-
-        public static Plant GetPlantFromId(string id)
-        {
-            var plant = DataSerializer.Deserialize()?
-                .Select(p => p.Plants.SingleOrDefault(plant => string.Equals(plant.Id, id)))?
-                .Where(p => p != null)?.SingleOrDefault();
-
-            if (plant != null && plant.Properties == null)
-            {
-                plant.Properties = new List<PlantProperty>();
-            }
-
-            if (plant == null)
-            {
-                plant = new Plant()
-                {
-                    Id = "plant772",
-                    Name = "Valériane",
-                    Link = "http://www.wikiphyto.org/wiki/Val%C3%A9riane",
-                    Properties = new List<PlantProperty>()
-                };
-            }
-
-            return plant;
-
         }
     }
 }

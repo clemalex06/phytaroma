@@ -8,10 +8,11 @@ namespace WikiPhytoScrapper.Services
 {
     public static class DataSerializer
     {
+
+        private static string ExeFolder => $"D:\\\\";//AppDomain.CurrentDomain.BaseDirectory;
         public static void Serialize(List<PlantFamily> family, string FileName)
         {
-            string exeFolder = AppDomain.CurrentDomain.BaseDirectory;
-            var outputPath = $"{exeFolder}\\Datas\\{FileName}.json";
+            var outputPath = $"{ExeFolder}\\{FileName}.json";
             using (StreamWriter outputFile = new StreamWriter(outputPath))
             {
                 JsonSerializer serializer = new JsonSerializer();
@@ -21,8 +22,7 @@ namespace WikiPhytoScrapper.Services
 
         public static void Serialize(Plant plant)
         {
-            string exeFolder = AppDomain.CurrentDomain.BaseDirectory;
-            var outputPath = $"{exeFolder}\\Datas\\{plant.Id}.json";
+            var outputPath = $"{ExeFolder}\\Datas\\{plant.Id}.json";
             using (StreamWriter outputFile = new StreamWriter(outputPath))
             {
                 JsonSerializer serializer = new JsonSerializer();
@@ -30,7 +30,7 @@ namespace WikiPhytoScrapper.Services
             }
         }
 
-        public static List<PlantFamily> Deserialize()
+        public static List<PlantFamily> Deserialize(string fileName)
         {
             using (StreamReader file = File.OpenText(@"D:\Dev\phytaroma\WikiPhytoScrapper\WikiPhytoScrapper\Datas\PlantFamilyWithoutPlants.json"))
             {
