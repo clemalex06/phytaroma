@@ -24,7 +24,7 @@ export default function TopDescription() {
                     {'PhytAroma est un moteur de recherche intuitif permettant de rechercher'
                         + 'de nombreuses plantes utilisées en phytothérapie et Aromathérapie.'
                         + 'Il propose une interface facile pour afficher les informations présentes sur '}
-                    <Link color="inherit" href="http://www.wikiphyto.org/wiki/Accueil">
+                    <Link color="inherit" target="_blank" rel="noopener" href="http://www.wikiphyto.org/wiki/Accueil">
                         WikiPhyto
                     </Link>.
                 </Typography>

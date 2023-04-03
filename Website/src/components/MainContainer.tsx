@@ -5,7 +5,7 @@ import { ThemeProvider } from '@mui/material/styles';
 import NavBar from './NavBar';
 import Footer from './Footer';
 import TopDescription from './TopDescription';
-import PlantCategories from './PlantCategories';
+import PlantFamilies from './PlantFamilies';
 
 export default function MainContainer() {
   return (
@@ -13,7 +13,7 @@ export default function MainContainer() {
       <CssBaseline></CssBaseline>
       <NavBar></NavBar>
       <TopDescription></TopDescription>
-      <PlantCategories></PlantCategories>
+      <PlantFamilies></PlantFamilies>
       <Footer></Footer>
     </ThemeProvider>
   );

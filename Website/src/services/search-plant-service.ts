@@ -1,11 +1,11 @@
 import plantsData from "../datas/PlantFamiliesWithPlantDetail.min.json";
-import PlantCategory from "../models/plant-category";
+import PlantFamily from "../models/plant-family";
 
 export class SearchPlantService {
 
-    getPlantCategories():PlantCategory[] {
+    getPlantFamilies():PlantFamily[] {
         return plantsData.map(x => {
-            return new PlantCategory(x.Id, x.Name, x.Link);
+            return new PlantFamily(x.Id, x.Name, x.Link);
         });
     }
 }

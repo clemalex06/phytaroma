@@ -1,4 +1,4 @@
-export default class PlantCategory {
+export default class PlantFamily {
     public id: string;
     public name: string;
     public link: string;
