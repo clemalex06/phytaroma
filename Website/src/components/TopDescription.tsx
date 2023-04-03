@@ -1,4 +1,4 @@
-import { Box, Button, Container, Link, Stack, Typography } from "@mui/material";
+import { Box, Button, CardContent, CardMedia, Container, Link, Stack, Typography } from "@mui/material";
 import React from "react";
 
 export default function TopDescription() {
@@ -28,6 +28,21 @@ export default function TopDescription() {
                         WikiPhyto
                     </Link>.
                 </Typography>
+                <Box
+                    display="flex"
+                    bgcolor="white"
+                    alignItems="center"
+                    justifyContent="center">
+                    <CardMedia
+                        component="img"
+                        src={require('../assets/img/wikiphyto-logo.png')}
+                        sx={{
+                            width: '20%'
+                        }}
+                    />
+
+                </Box>
+
                 <Stack
                     sx={{ pt: 4 }}
                     direction="row"
