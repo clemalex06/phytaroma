@@ -35,7 +35,7 @@ export default function TopDescription() {
                     justifyContent="center">
                     <CardMedia
                         component="img"
-                        src={require('../assets/img/wikiphyto-logo.png')}
+                        src={require('../../assets/img/wikiphyto-logo.png')}
                         sx={{
                             width: '20%'
                         }}

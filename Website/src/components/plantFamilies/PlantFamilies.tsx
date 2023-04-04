@@ -1,7 +1,7 @@
 import { Button, Card, CardActions, CardContent, CardMedia, Container, Grid, Typography } from "@mui/material";
 import React from "react";
-import { instance as SearchPlantService } from '../services/search-plant-service';
-import PlantFamily from "../models/plant-family";
+import { instance as SearchPlantService } from '../../services/search-plant-service';
+import PlantFamily from "../../models/plant-family";
 export default function PlantFamilies() {
 
     const cards = SearchPlantService.getPlantFamilies();
