@@ -1,7 +1,8 @@
-import { Box, Button, CardContent, CardMedia, Container, Link, Stack, Typography } from "@mui/material";
+import { Box, Button, CardMedia, Container, Link, Stack, Typography } from "@mui/material";
 import React from "react";
+import { IPhytaromaContext } from "../../models/phytaroma-context";
 
-export default function TopDescription() {
+const TopDescription: React.FC<IPhytaromaContext> = (props: IPhytaromaContext) => {
     return (
         <Box
             sx={{
@@ -49,10 +50,13 @@ export default function TopDescription() {
                     spacing={2}
                     justifyContent="center"
                 >
-                    <Button variant="contained">Nouvelle Recherche</Button>
-                    <Button variant="outlined">Revenir à la liste des catégories</Button>
+                    {props.searchActivated ?
+                        <Button variant="outlined" onClick={() => { props.setSearchActivated(false) }}>Revenir à la liste des catégories</Button>
+                        : <Button variant="contained" onClick={() => { props.setSearchActivated(true) }}>Nouvelle Recherche</Button>}
                 </Stack>
             </Container>
         </Box>
     );
-}
+};
+
+export default TopDescription;
