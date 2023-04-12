@@ -1,6 +1,7 @@
-import { Card, CardActions, Container, IconButton, TextField, Typography } from "@mui/material";
+import { Container, IconButton, InputAdornment, TextField } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import React, { useState } from "react";
+import { SearchOutlined } from "@mui/icons-material";
 
 const SearchContainer: React.FC = () => {
 
@@ -14,16 +15,25 @@ const SearchContainer: React.FC = () => {
     };
     return (
         <Container maxWidth="md">
-                <TextField
-                    id="search-bar"
-                    label="Entrez un mot clé de recherche"
-                    onChange={(e) => handleChange(e)}
-                    placeholder="Recherchez..."
-                />
-                <IconButton type="submit" aria-label="search" onClick={() => setSearchQuery(message)}>
-                    <SearchIcon style={{ fill: "green" }} />
-                </IconButton>
-
+            <TextField
+                fullWidth
+                id="search-bar"
+                label="Entrez un mot clé de recherche"
+                onChange={(e) => handleChange(e)}
+                onKeyDown={(e) => {
+                    if (e.key === "Enter") {
+                        setSearchQuery(message);
+                    }
+                 }}
+                placeholder="Entrez un mot clé de recherche"
+                InputProps={{
+                    endAdornment: (
+                        <IconButton type="submit" aria-label="search" onClick={() => setSearchQuery(message)}>
+                            <SearchIcon style={{ fill: "green" }} />
+                        </IconButton>
+                    ),
+                }}
+            />
         </Container>
 
     );

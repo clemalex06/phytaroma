@@ -3,6 +3,15 @@ import React from "react";
 import { IPhytaromaContext } from "../../models/phytaroma-context";
 
 const TopDescription: React.FC<IPhytaromaContext> = (props: IPhytaromaContext) => {
+
+    let despcriptionContent = 'PhytAroma est un moteur de recherche intuitif permettant de rechercher'
+        + 'de nombreuses plantes utilisées en phytothérapie et Aromathérapie.'
+        + 'Il propose une interface facile pour afficher les informations présentes sur ';
+
+    if (props.searchActivated) {
+        despcriptionContent = 'le moteur de recherche inspiré par '
+    }
+
     return (
         <Box
             sx={{
@@ -22,9 +31,7 @@ const TopDescription: React.FC<IPhytaromaContext> = (props: IPhytaromaContext) =
                     PhytAroma
                 </Typography>
                 <Typography variant="h5" align="center" color="text.secondary" paragraph>
-                    {'PhytAroma est un moteur de recherche intuitif permettant de rechercher'
-                        + 'de nombreuses plantes utilisées en phytothérapie et Aromathérapie.'
-                        + 'Il propose une interface facile pour afficher les informations présentes sur '}
+                    {despcriptionContent}
                     <Link color="inherit" target="_blank" rel="noopener" href="http://www.wikiphyto.org/wiki/Accueil">
                         WikiPhyto
                     </Link>.
@@ -51,7 +58,7 @@ const TopDescription: React.FC<IPhytaromaContext> = (props: IPhytaromaContext) =
                     justifyContent="center"
                 >
                     {props.searchActivated ?
-                        <Button variant="outlined" onClick={() => { props.setSearchActivated(false) }}>Revenir à la liste des catégories</Button>
+                        <Button variant="outlined" onClick={() => { props.setSearchActivated(false) }}>Afficher à la liste des catégories</Button>
                         : <Button variant="contained" onClick={() => { props.setSearchActivated(true) }}>Nouvelle Recherche</Button>}
                 </Stack>
             </Container>
