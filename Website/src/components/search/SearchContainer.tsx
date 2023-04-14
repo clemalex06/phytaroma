@@ -1,7 +1,6 @@
-import { Container, IconButton, InputAdornment, TextField } from "@mui/material";
+import { Container, IconButton, TextField } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import React, { useState } from "react";
-import { SearchOutlined } from "@mui/icons-material";
 
 const SearchContainer: React.FC = () => {
 

@@ -1,40 +1,40 @@
 import { Button, Card, CardActions, CardContent, Container, Grid, Typography } from "@mui/material";
 import React from "react";
 import { instance as SearchPlantService } from '../../services/search-plant-service';
-import PlantFamily from "../../models/plant-family";
 import { IPhytaromaContext } from "../../models/phytaroma-context";
+import PlantDetail from "../../models/plant-detail";
 
-const PlantFamilies: React.FC<IPhytaromaContext> = (props: IPhytaromaContext) => {
+const PlantFamilyDetail: React.FC<IPhytaromaContext> = (props: IPhytaromaContext) => {
 
-    const plantFamilies = SearchPlantService.getPlantFamilies();
+    const plantFamily = SearchPlantService.getPlantFamily(props.plantFamilyValue);
 
-    const onClickWikiphyto = (plantFamily: PlantFamily) => {
-        window.open(plantFamily.link, '_blank');
+    const onClickWikiphyto = (plant: PlantDetail) => {
+        window.open(plant.link, '_blank');
     };
 
-    const onClickPlantFamilyDetail = (plantFamily: PlantFamily) => {
-        props.setPlantFamilyValue(plantFamily.id);
+    const onClickPlantFamilyDetail = (plant: PlantDetail) => {
+        props.setPlantDetailValue(plant.id)
     };
 
     return (
         <Container maxWidth="md">
             <Typography variant="h5" align="center" color="text.secondary" paragraph>
-                {'Liste des familles de plantes'}
+                {plantFamily.name}
             </Typography>
             <Grid container spacing={4}>
-                {plantFamilies.map((plantFamily) => (
-                    <Grid item key={plantFamily.id} xs={12} sm={6} md={4}>
+                {plantFamily.plants.map((plant) => (
+                    <Grid item key={plant.id} xs={12} sm={6} md={4}>
                         <Card
                             sx={{ height: '100%', display: 'flex', flexDirection: 'column', textAlign: 'center', justifyContent: 'center' }}
                         >
                             <CardContent sx={{ flexGrow: 1 }}>
                                 <Typography gutterBottom variant="h5" component="h2">
-                                    {plantFamily.name}
+                                    {plant.name}
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small" onClick={() => { onClickPlantFamilyDetail(plantFamily) }}>Voir le détail</Button>
-                                <Button size="small" onClick={() => { onClickWikiphyto(plantFamily) }}>Ouvrir sur wikiphyto</Button>
+                                <Button size="small" onClick={() => { onClickPlantFamilyDetail(plant) }}>Voir le détail</Button>
+                                <Button size="small" onClick={() => { onClickWikiphyto(plant) }}>Ouvrir sur wikiphyto</Button>
                             </CardActions>
                         </Card>
                     </Grid>
@@ -44,4 +44,4 @@ const PlantFamilies: React.FC<IPhytaromaContext> = (props: IPhytaromaContext) =>
     );
 }
 
-export default PlantFamilies;
+export default PlantFamilyDetail;

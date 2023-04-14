@@ -12,6 +12,12 @@ const TopDescription: React.FC<IPhytaromaContext> = (props: IPhytaromaContext) =
         despcriptionContent = 'le moteur de recherche inspiré par '
     }
 
+    const activateNewSearch = (value: boolean) => {
+        props.setSearchActivated(value);
+        props.setPlantDetailValue('');
+        props.setPlantFamilyValue('');
+    };
+
     return (
         <Box
             sx={{
@@ -58,8 +64,8 @@ const TopDescription: React.FC<IPhytaromaContext> = (props: IPhytaromaContext) =
                     justifyContent="center"
                 >
                     {props.searchActivated ?
-                        <Button variant="outlined" onClick={() => { props.setSearchActivated(false) }}>Afficher à la liste des catégories</Button>
-                        : <Button variant="contained" onClick={() => { props.setSearchActivated(true) }}>Nouvelle Recherche</Button>}
+                        <Button variant="outlined" onClick={() => activateNewSearch(false)}>Afficher à la liste des famille de plantes</Button>
+                        : <Button variant="contained" onClick={() => activateNewSearch(true)}>Nouvelle Recherche</Button>}
                 </Stack>
             </Container>
         </Box>
