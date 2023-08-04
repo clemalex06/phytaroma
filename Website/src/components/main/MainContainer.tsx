@@ -8,8 +8,8 @@ import TopDescription from './TopDescription';
 import PlantFamilies from '../plantFamilies/PlantFamilies';
 import { IPhytaromaContext } from '../../models/phytaroma-context';
 import SearchContainer from '../search/SearchContainer';
-import PlantFamily from '../../models/plant-family';
 import PlantFamilyDetail from '../plantFamilies/PlantFamilyDetail';
+import PlantDetail from '../plantFamilies/PlantDetail';
 
 export default function MainContainer() {
   const [searchActivated, setSearchActivated] = React.useState<boolean>(false);
@@ -25,7 +25,11 @@ export default function MainContainer() {
   };
 
   const isPlantFamilyValueSelected: () => boolean = () => {
-    return phytaromaContext.plantFamilyValue.length === 0;
+    return phytaromaContext.plantFamilyValue.length !== 0;
+  }
+
+  const isPlantDetailSelected: () => boolean = () => {
+    return phytaromaContext.plantDetailValue.length !== 0;
   }
 
   return (
@@ -36,8 +40,10 @@ export default function MainContainer() {
       {searchActivated ?
         <SearchContainer></SearchContainer>
         : isPlantFamilyValueSelected() ?
-          <PlantFamilies {...phytaromaContext}></PlantFamilies>
-          : <PlantFamilyDetail {...phytaromaContext}></PlantFamilyDetail>}
+          isPlantDetailSelected() ?
+            <PlantDetail {...phytaromaContext}></PlantDetail>
+            : <PlantFamilyDetail {...phytaromaContext}></PlantFamilyDetail>
+          : <PlantFamilies {...phytaromaContext}></PlantFamilies>}
       <Footer></Footer>
     </ThemeProvider>
   );

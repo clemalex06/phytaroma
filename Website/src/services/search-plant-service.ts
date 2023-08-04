@@ -10,8 +10,8 @@ export class SearchPlantService {
         });
     };
 
-    getPlantFamily(id: string): PlantFamily {
-        const family = plantsData.find(x => x.Id === id);
+    getPlantFamily(familyId: string): PlantFamily {
+        const family = plantsData.find(x => x.Id === familyId);
         if (family) {
             const plantFamily = new PlantFamily(family.Id, family.Name, family.Link);
             plantFamily.plants = family.Plants.map(x => {
@@ -23,6 +23,18 @@ export class SearchPlantService {
         else {
             return new PlantFamily('', '', '');
         }
+    };
+
+    getPlantDetail(familyId: string, plantDetailId: string): PlantDetail {
+        let result = new PlantDetail('', '', '');
+        const family = plantsData.find(x => x.Id === familyId);
+        if (family) {
+            const detail = family.Plants.find(x => x.Id === plantDetailId);
+            if (detail) {
+                result = new PlantDetail(detail.Id, detail.Name, detail.Link);
+            }
+        }
+        return result;
     };
 }
 
