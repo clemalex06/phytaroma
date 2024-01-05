@@ -3,6 +3,7 @@ import { IPhytaromaContext } from "../models/phytaroma-context";
 import { PhytaromaTextResources } from "../resources/phytaroma-text-resources";
 import PlantDetail from "../models/plant-detail";
 import { instance as SearchPlantService } from "../services/search-plant-service";
+import PlantFamily from "../models/plant-family";
 
 export class PhytaromaContextEventHelper {
     static readonly resources = PhytaromaTextResources;
@@ -58,5 +59,13 @@ export class PhytaromaContextEventHelper {
 
     static plantDetailOnClickGoBackAction = (phytaromaContext: IPhytaromaContext) => {
         phytaromaContext.setPlantDetailIdValue('');
+    };
+
+    static getPlantFamilies(): PlantFamily[] {
+        return SearchPlantService.getPlantFamilies();
+    }
+
+    static onClickPlantFamilyDetail = (phytaromaContext: IPhytaromaContext, plantFamily: PlantFamily) => {
+        phytaromaContext.setPlantFamilyIdValue(plantFamily.id);
     };
 }

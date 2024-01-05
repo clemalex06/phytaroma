@@ -6,9 +6,11 @@ export enum PhytaromaTextResources {
     footerLabelLink = "Suivez moi sur GitHub",
     footerDescription = "Le moteur de recherche de phytothérapie inspiré par ",
     topDescriptionWikiphytoLink = "http://www.wikiphyto.org/wiki/Accueil",
-    topDescriptionButtonDisplayFamilyPlant = "Afficher à la liste des famille de plantes",
+    topDescriptionButtonDisplayFamilyPlant = "Afficher la liste des famille de plantes",
     topDescriptionButtonNewSearch = "Nouvelle Recherche",
     plantDetailNoInformation = "Aucune information disponible",
     linkOnWikiphyto = "Ouvrir sur Wikiphyto",
     planDetailGoBackFamilyPlant = "Revenir à la famille de cette plante",
+    viewDetailLabel = "Voir le détail",
+    plantFamilyListLabel = "Liste des familles de plantes",
 }
