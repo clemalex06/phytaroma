@@ -8,4 +8,7 @@ export enum PhytaromaTextResources {
     topDescriptionWikiphytoLink = "http://www.wikiphyto.org/wiki/Accueil",
     topDescriptionButtonDisplayFamilyPlant = "Afficher à la liste des famille de plantes",
     topDescriptionButtonNewSearch = "Nouvelle Recherche",
+    plantDetailNoInformation = "Aucune information disponible",
+    linkOnWikiphyto = "Ouvrir sur Wikiphyto",
+    planDetailGoBackFamilyPlant = "Revenir à la famille de cette plante",
 }

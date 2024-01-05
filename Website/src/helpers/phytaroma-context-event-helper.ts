@@ -1,6 +1,8 @@
 import React from "react";
 import { IPhytaromaContext } from "../models/phytaroma-context";
 import { PhytaromaTextResources } from "../resources/phytaroma-text-resources";
+import PlantDetail from "../models/plant-detail";
+import { instance as SearchPlantService } from "../services/search-plant-service";
 
 export class PhytaromaContextEventHelper {
     static readonly resources = PhytaromaTextResources;
@@ -23,7 +25,7 @@ export class PhytaromaContextEventHelper {
         return phytaromaContext;
     }
 
-    static isPlantFamilyValueSelected: (phytaromaContext: IPhytaromaContext) => boolean = (phytaromaContext: IPhytaromaContext) => {
+    static isPlantFamilyValueSelected = (phytaromaContext: IPhytaromaContext) => {
         return phytaromaContext.plantFamilyValue.length !== 0;
     }
 
@@ -44,5 +46,17 @@ export class PhytaromaContextEventHelper {
             'PhytAroma est un moteur de recherche intuitif permettant de rechercher'
             + 'de nombreuses plantes utilisées en phytothérapie et Aromathérapie.'
             + 'Il propose une interface facile pour afficher les informations présentes sur ';
+    };
+
+    static getPlantDetail(phytaromaContext: IPhytaromaContext): PlantDetail {
+        return SearchPlantService.getPlantDetail(phytaromaContext.plantFamilyValue, phytaromaContext.plantDetailIdValue);
+    }
+
+    static plantDetailOnClickWikiphyto = (plant: PlantDetail) => {
+        window.open(plant.link, '_blank');
+    };
+
+    static plantDetailOnClickGoBackAction = (phytaromaContext: IPhytaromaContext) => {
+        phytaromaContext.setPlantDetailIdValue('');
     };
 }
