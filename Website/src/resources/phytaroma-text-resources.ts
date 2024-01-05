@@ -15,4 +15,17 @@ export enum PhytaromaTextResources {
     plantFamilyListLabel = "Liste des familles de plantes",
     plantFamilyLabel = "Famille de plantes : ",
     plantDetailLabel = "Fiche la plante : ",
+    shortDescriptionLabel = "le moteur de recherche inspiré par ",
+    longDescriptionLabel = 'PhytAroma est un moteur de recherche intuitif permettant de rechercher'
+    + ' de nombreuses plantes utilisées en phytothérapie et Aromathérapie.'
+    + ' Il propose une interface facile pour afficher les informations présentes sur ',
+    searchLabel = "Entrez un mot clé de recherche",
+    name = "Nom",
+    description = "Description",
+    history = "Histoire",
+    dosis = "Dose",
+    composition = "Composition",
+    healthProperty = "Propriété de santé",
+    indications = "Indications",
+    undesirableEffects = "Effets indésirables",
 }

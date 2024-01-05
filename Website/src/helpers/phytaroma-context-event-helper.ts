@@ -8,15 +8,26 @@ import PlantFamily from "../models/plant-family";
 export class PhytaromaContextEventHelper {
     static readonly resources = PhytaromaTextResources;
 
+    static readonly propertiesNameTranslation: { [key: string]: string } = {
+        Name: this.resources.name,
+        Description: this.resources.description,
+        History: this.resources.history,
+        Dosis: this.resources.dosis,
+        Composition: this.resources.composition,
+        HealthProperty: this.resources.healthProperty,
+        Indications: this.resources.indications,
+        UndesirableEffects: this.resources.undesirableEffects,
+    };
+
     static initializeContext(): IPhytaromaContext {
         const [searchActivated, setSearchActivated] = React.useState<boolean>(false);
-        const [plantFamilyValue, setPlantFamilyValue] = React.useState<string>('');
+        const [plantFamilyIdValue, setPlantFamilyValue] = React.useState<string>('');
         const [plantDetailIdValue, setPlantDetailIdValue] = React.useState<string>('');
         const [searchstring, setSearchstring] = React.useState<string>('');
         const phytaromaContext: IPhytaromaContext = {
             searchActivated: searchActivated,
             setSearchActivated: setSearchActivated,
-            plantFamilyValue: plantFamilyValue,
+            plantFamilyIdValue: plantFamilyIdValue,
             setPlantFamilyIdValue: setPlantFamilyValue,
             plantDetailIdValue: plantDetailIdValue,
             setPlantDetailIdValue: setPlantDetailIdValue,
@@ -27,7 +38,7 @@ export class PhytaromaContextEventHelper {
     }
 
     static isPlantFamilyValueSelected = (phytaromaContext: IPhytaromaContext) => {
-        return phytaromaContext.plantFamilyValue.length !== 0;
+        return phytaromaContext.plantFamilyIdValue.length !== 0;
     }
 
     static isPlantDetailSelected: (phytaromaContext: IPhytaromaContext) => boolean = (phytaromaContext: IPhytaromaContext) => {
@@ -41,16 +52,14 @@ export class PhytaromaContextEventHelper {
     };
 
     static getDespcriptionContent(phytaromaContext: IPhytaromaContext): string {
-        return phytaromaContext.searchActivated ?
-            'le moteur de recherche inspiré par '
+        return phytaromaContext.searchActivated || this.isPlantFamilyValueSelected(phytaromaContext) ?
+            this.resources.shortDescriptionLabel
             :
-            'PhytAroma est un moteur de recherche intuitif permettant de rechercher'
-            + 'de nombreuses plantes utilisées en phytothérapie et Aromathérapie.'
-            + 'Il propose une interface facile pour afficher les informations présentes sur ';
+            this.resources.longDescriptionLabel;
     };
 
     static getPlantDetail(phytaromaContext: IPhytaromaContext): PlantDetail {
-        return SearchPlantService.getPlantDetail(phytaromaContext.plantFamilyValue, phytaromaContext.plantDetailIdValue);
+        return SearchPlantService.getPlantDetail(phytaromaContext.plantFamilyIdValue, phytaromaContext.plantDetailIdValue);
     }
 
     static plantDetailOnClickWikiphyto = (plant: PlantDetail) => {
@@ -77,7 +86,14 @@ export class PhytaromaContextEventHelper {
         phytaromaContext.setPlantDetailIdValue(plant.id)
     };
 
-    static getPlantFamily(phytaromaContext: IPhytaromaContext, ): PlantFamily {
-        return SearchPlantService.getPlantFamily(phytaromaContext.plantFamilyValue);
+    static getPlantFamily(phytaromaContext: IPhytaromaContext,): PlantFamily {
+        return SearchPlantService.getPlantFamily(phytaromaContext.plantFamilyIdValue);
     };
+
+    static getPropertyNameTranslation(propertyName: string): string {
+        if (this.propertiesNameTranslation[propertyName]) {
+            return this.propertiesNameTranslation[propertyName];
+        }
+        return propertyName;
+    }
 }
