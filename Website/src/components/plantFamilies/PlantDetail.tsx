@@ -8,9 +8,9 @@ const PlantFamilyDetail: React.FC<IPhytaromaContext> = (props: IPhytaromaContext
 
     const plantDetail = PhytaromaContextEventHelper.getPlantDetail(props);
 
-    const GetPropertyDescriptionLine = (description: string) => {
+    const GetPropertyDescriptionLine = (description: string, key:string) => {
         return (
-            <Typography align="center" color="text.secondary" paragraph>
+            <Typography align="center" color="text.secondary" paragraph key={key}>
                 {description}
             </Typography>
         );
@@ -18,17 +18,17 @@ const PlantFamilyDetail: React.FC<IPhytaromaContext> = (props: IPhytaromaContext
 
     const GetPropertyDetail = (property: PlantProperty) => {
         return (
-            <div>
+            <div key={property.name}>
                 <Divider>
                     {PhytaromaContextEventHelper.getPropertyNameTranslation(property.name)}
                 </Divider>
                 {
-                    property.content.map((description) => {
-                        return GetPropertyDescriptionLine(description);
+                    property.content.map((description, index) => {
+                        return GetPropertyDescriptionLine(description, property.name + index);
                     })
                 }
 
-                {property.content.length === 0 && GetPropertyDescriptionLine(PhytaromaContextEventHelper.resources.plantDetailNoInformation)}
+                {property.content.length === 0 && GetPropertyDescriptionLine(PhytaromaContextEventHelper.resources.plantDetailNoInformation, property.name + "noInformation")}
             </div>
         )
     };
