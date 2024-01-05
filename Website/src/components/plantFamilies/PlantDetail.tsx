@@ -20,7 +20,7 @@ const PlantFamilyDetail: React.FC<IPhytaromaContext> = (props: IPhytaromaContext
         return (
             <div>
                 <Divider>
-                    {property.name}
+                    {PhytaromaContextEventHelper.getPropertyNameTranslation(property.name)}
                 </Divider>
                 {
                     property.content.map((description) => {
