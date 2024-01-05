@@ -30,4 +30,19 @@ export class PhytaromaContextEventHelper {
     static isPlantDetailSelected: (phytaromaContext: IPhytaromaContext) => boolean = (phytaromaContext: IPhytaromaContext) => {
         return phytaromaContext.plantDetailIdValue.length !== 0;
     }
+
+    static activateNewSearch(phytaromaContext: IPhytaromaContext, value: boolean): void {
+        phytaromaContext.setSearchActivated(value);
+        phytaromaContext.setPlantDetailIdValue('');
+        phytaromaContext.setPlantFamilyIdValue('');
+    };
+
+    static getDespcriptionContent(phytaromaContext: IPhytaromaContext): string {
+        return phytaromaContext.searchActivated ?
+            'le moteur de recherche inspiré par '
+            :
+            'PhytAroma est un moteur de recherche intuitif permettant de rechercher'
+            + 'de nombreuses plantes utilisées en phytothérapie et Aromathérapie.'
+            + 'Il propose une interface facile pour afficher les informations présentes sur ';
+    };
 }

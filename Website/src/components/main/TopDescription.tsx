@@ -1,23 +1,9 @@
 import { Box, Button, CardMedia, Container, Link, Stack, Typography } from "@mui/material";
 import React from "react";
 import { IPhytaromaContext } from "../../models/phytaroma-context";
+import { PhytaromaContextEventHelper } from "../../helpers/phytaroma-context-event-helper";
 
 const TopDescription: React.FC<IPhytaromaContext> = (props: IPhytaromaContext) => {
-
-    let despcriptionContent = 'PhytAroma est un moteur de recherche intuitif permettant de rechercher'
-        + 'de nombreuses plantes utilisées en phytothérapie et Aromathérapie.'
-        + 'Il propose une interface facile pour afficher les informations présentes sur ';
-
-    if (props.searchActivated) {
-        despcriptionContent = 'le moteur de recherche inspiré par '
-    }
-
-    const activateNewSearch = (value: boolean) => {
-        props.setSearchActivated(value);
-        props.setPlantDetailIdValue('');
-        props.setPlantFamilyIdValue('');
-    };
-
     return (
         <Box
             sx={{
@@ -34,12 +20,13 @@ const TopDescription: React.FC<IPhytaromaContext> = (props: IPhytaromaContext) =
                     color="text.primary"
                     gutterBottom
                 >
-                    PhytAroma
+                    {PhytaromaContextEventHelper.resources.phytaromaTitle}
                 </Typography>
                 <Typography variant="h5" align="center" color="text.secondary" paragraph>
-                    {despcriptionContent}
-                    <Link color="inherit" target="_blank" rel="noopener" href="http://www.wikiphyto.org/wiki/Accueil">
-                        WikiPhyto
+                    {PhytaromaContextEventHelper.getDespcriptionContent(props)}
+                    <Link color="inherit" target="_blank" rel="noopener"
+                        href={PhytaromaContextEventHelper.resources.topDescriptionWikiphytoLink}>
+                        {PhytaromaContextEventHelper.resources.wikiphytoTitle}
                     </Link>.
                 </Typography>
                 <Box
@@ -54,7 +41,6 @@ const TopDescription: React.FC<IPhytaromaContext> = (props: IPhytaromaContext) =
                             width: '20%'
                         }}
                     />
-
                 </Box>
                 <Stack
                     sx={{ pt: 4 }}
@@ -63,8 +49,14 @@ const TopDescription: React.FC<IPhytaromaContext> = (props: IPhytaromaContext) =
                     justifyContent="center"
                 >
                     {props.searchActivated ?
-                        <Button variant="outlined" onClick={() => activateNewSearch(false)}>Afficher à la liste des famille de plantes</Button>
-                        : <Button variant="contained" onClick={() => activateNewSearch(true)}>Nouvelle Recherche</Button>}
+                        <Button variant="outlined" onClick={
+                            () => PhytaromaContextEventHelper.activateNewSearch(props, false)}>
+                            {PhytaromaContextEventHelper.resources.topDescriptionButtonDisplayFamilyPlant}
+                        </Button>
+                        : <Button variant="contained" onClick={
+                            () => PhytaromaContextEventHelper.activateNewSearch(props, true)}>
+                            {PhytaromaContextEventHelper.resources.topDescriptionButtonNewSearch}
+                        </Button>}
                 </Stack>
             </Container>
         </Box>
