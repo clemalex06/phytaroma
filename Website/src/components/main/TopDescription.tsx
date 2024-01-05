@@ -14,8 +14,8 @@ const TopDescription: React.FC<IPhytaromaContext> = (props: IPhytaromaContext) =
 
     const activateNewSearch = (value: boolean) => {
         props.setSearchActivated(value);
-        props.setPlantDetailValue('');
-        props.setPlantFamilyValue('');
+        props.setPlantDetailIdValue('');
+        props.setPlantFamilyIdValue('');
     };
 
     return (
@@ -56,7 +56,6 @@ const TopDescription: React.FC<IPhytaromaContext> = (props: IPhytaromaContext) =
                     />
 
                 </Box>
-
                 <Stack
                     sx={{ pt: 4 }}
                     direction="row"

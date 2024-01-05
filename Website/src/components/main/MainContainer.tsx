@@ -14,14 +14,17 @@ import PlantDetail from '../plantFamilies/PlantDetail';
 export default function MainContainer() {
   const [searchActivated, setSearchActivated] = React.useState<boolean>(false);
   const [plantFamilyValue, setPlantFamilyValue] = React.useState<string>('');
-  const [plantDetailValue, setPlantDetailValue] = React.useState<string>('');
+  const [plantDetailIdValue, setPlantDetailIdValue] = React.useState<string>('');
+  const [searchstring, setSearchstring] = React.useState<string>('');
   const phytaromaContext: IPhytaromaContext = {
     searchActivated: searchActivated,
     setSearchActivated: setSearchActivated,
     plantFamilyValue: plantFamilyValue,
-    setPlantFamilyValue: setPlantFamilyValue,
-    plantDetailValue: plantDetailValue,
-    setPlantDetailValue: setPlantDetailValue,
+    setPlantFamilyIdValue: setPlantFamilyValue,
+    plantDetailIdValue: plantDetailIdValue,
+    setPlantDetailIdValue: setPlantDetailIdValue,
+    searchstring: searchstring,
+    setSearchstring: setSearchstring,
   };
 
   const isPlantFamilyValueSelected: () => boolean = () => {
@@ -29,7 +32,7 @@ export default function MainContainer() {
   }
 
   const isPlantDetailSelected: () => boolean = () => {
-    return phytaromaContext.plantDetailValue.length !== 0;
+    return phytaromaContext.plantDetailIdValue.length !== 0;
   }
 
   return (

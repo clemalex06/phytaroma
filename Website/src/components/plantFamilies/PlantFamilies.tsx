@@ -13,7 +13,7 @@ const PlantFamilies: React.FC<IPhytaromaContext> = (props: IPhytaromaContext) =>
     };
 
     const onClickPlantFamilyDetail = (plantFamily: PlantFamily) => {
-        props.setPlantFamilyValue(plantFamily.id);
+        props.setPlantFamilyIdValue(plantFamily.id);
     };
 
     return (

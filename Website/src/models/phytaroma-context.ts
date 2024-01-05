@@ -1,8 +1,10 @@
 export interface IPhytaromaContext {
     searchActivated: boolean,
-    setSearchActivated: (id: boolean) => void;
+    setSearchActivated: (value: boolean) => void;
     plantFamilyValue: string;
-    setPlantFamilyValue: (id: string) => void;
-    plantDetailValue: string;
-    setPlantDetailValue: (id: string) => void;
+    setPlantFamilyIdValue: (id: string) => void;
+    plantDetailIdValue: string;
+    setPlantDetailIdValue: (id: string) => void;
+    searchstring: string;
+    setSearchstring: (value: string) => void;
 }

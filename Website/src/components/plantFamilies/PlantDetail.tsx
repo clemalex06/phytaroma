@@ -7,14 +7,14 @@ import { PlantProperty } from "../../models/plant-property";
 
 const PlantFamilyDetail: React.FC<IPhytaromaContext> = (props: IPhytaromaContext) => {
 
-    const plantDetail = SearchPlantService.getPlantDetail(props.plantFamilyValue, props.plantDetailValue);
+    const plantDetail = SearchPlantService.getPlantDetail(props.plantFamilyValue, props.plantDetailIdValue);
 
     const onClickWikiphyto = (plant: PlantDetail) => {
         window.open(plant.link, '_blank');
     };
 
     const onClickGoBackAction = () => {
-        props.setPlantDetailValue('');
+        props.setPlantDetailIdValue('');
     };
 
     const GetPropertyDescriptionLine = (description: string) => {
