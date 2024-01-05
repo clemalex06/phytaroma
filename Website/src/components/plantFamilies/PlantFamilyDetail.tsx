@@ -1,25 +1,27 @@
-import { Button, Card, CardActions, CardContent, Container, Grid, Typography } from "@mui/material";
+import { Button, Card, CardContent, Container, Grid, Typography } from "@mui/material";
 import React from "react";
-import { instance as SearchPlantService } from '../../services/search-plant-service';
 import { IPhytaromaContext } from "../../models/phytaroma-context";
-import PlantDetail from "../../models/plant-detail";
+import { PhytaromaContextEventHelper } from "../../helpers/phytaroma-context-event-helper";
 
 const PlantFamilyDetail: React.FC<IPhytaromaContext> = (props: IPhytaromaContext) => {
 
-    const plantFamily = SearchPlantService.getPlantFamily(props.plantFamilyValue);
-
-    const onClickWikiphyto = (plant: PlantDetail) => {
-        window.open(plant.link, '_blank');
-    };
-
-    const onClickPlantFamilyDetail = (plant: PlantDetail) => {
-        props.setPlantDetailIdValue(plant.id)
-    };
+    const plantFamily = PhytaromaContextEventHelper.getPlantFamily(props);
 
     return (
         <Container maxWidth="md">
+            <Typography align="center">
+                <Button onClick={() => { PhytaromaContextEventHelper.activateNewSearch(props, false) }}>
+                    {PhytaromaContextEventHelper.resources.topDescriptionButtonDisplayFamilyPlant}
+                </Button>
+            </Typography>
+
             <Typography variant="h5" align="center" color="text.secondary" paragraph>
-                {plantFamily.name}
+                {PhytaromaContextEventHelper.resources.plantFamilyLabel + plantFamily.name}
+            </Typography>
+            <Typography align="center">
+                <Button onClick={() => { PhytaromaContextEventHelper.plantFamilyOnClickWikiphyto(plantFamily) }}>
+                    {PhytaromaContextEventHelper.resources.linkOnWikiphyto}
+                </Button>
             </Typography>
             <Grid container spacing={4}>
                 {plantFamily.plants.map((plant) => (
@@ -32,10 +34,11 @@ const PlantFamilyDetail: React.FC<IPhytaromaContext> = (props: IPhytaromaContext
                                     {plant.name}
                                 </Typography>
                             </CardContent>
-                            <CardActions>
-                                <Button size="small" onClick={() => { onClickPlantFamilyDetail(plant) }}>Voir le détail</Button>
-                                <Button size="small" onClick={() => { onClickWikiphyto(plant) }}>Ouvrir sur wikiphyto</Button>
-                            </CardActions>
+                            <Typography align="center">
+                                <Button size="small" onClick={() => { PhytaromaContextEventHelper.onClickPlantDetail(props, plant) }}>
+                                    {PhytaromaContextEventHelper.resources.viewDetailLabel}
+                                </Button>
+                            </Typography>
                         </Card>
                     </Grid>
                 ))}

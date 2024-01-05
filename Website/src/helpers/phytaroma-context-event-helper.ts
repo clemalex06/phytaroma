@@ -57,6 +57,10 @@ export class PhytaromaContextEventHelper {
         window.open(plant.link, '_blank');
     };
 
+    static plantFamilyOnClickWikiphyto = (plantFamily: PlantFamily) => {
+        window.open(plantFamily.link, '_blank');
+    };
+
     static plantDetailOnClickGoBackAction = (phytaromaContext: IPhytaromaContext) => {
         phytaromaContext.setPlantDetailIdValue('');
     };
@@ -67,5 +71,13 @@ export class PhytaromaContextEventHelper {
 
     static onClickPlantFamilyDetail = (phytaromaContext: IPhytaromaContext, plantFamily: PlantFamily) => {
         phytaromaContext.setPlantFamilyIdValue(plantFamily.id);
+    };
+
+    static onClickPlantDetail = (phytaromaContext: IPhytaromaContext, plant: PlantDetail) => {
+        phytaromaContext.setPlantDetailIdValue(plant.id)
+    };
+
+    static getPlantFamily(phytaromaContext: IPhytaromaContext, ): PlantFamily {
+        return SearchPlantService.getPlantFamily(phytaromaContext.plantFamilyValue);
     };
 }

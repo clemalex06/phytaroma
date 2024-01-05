@@ -13,4 +13,6 @@ export enum PhytaromaTextResources {
     planDetailGoBackFamilyPlant = "Revenir à la famille de cette plante",
     viewDetailLabel = "Voir le détail",
     plantFamilyListLabel = "Liste des familles de plantes",
+    plantFamilyLabel = "Famille de plantes : ",
+    plantDetailLabel = "Fiche la plante : ",
 }

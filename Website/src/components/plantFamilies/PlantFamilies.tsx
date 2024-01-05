@@ -28,7 +28,6 @@ const PlantFamilies: React.FC<IPhytaromaContext> = (props: IPhytaromaContext) =>
                                     {PhytaromaContextEventHelper.resources.viewDetailLabel}
                                 </Button>
                             </Typography>
-
                         </Card>
                     </Grid>
                 ))}

@@ -36,17 +36,21 @@ const PlantFamilyDetail: React.FC<IPhytaromaContext> = (props: IPhytaromaContext
     return (
         <Container maxWidth="md">
             <Typography align="center">
-                <Button onClick={() => { PhytaromaContextEventHelper.plantDetailOnClickGoBackAction(props) }}>{PhytaromaContextEventHelper.resources.planDetailGoBackFamilyPlant}</Button>
+                <Button onClick={() => { PhytaromaContextEventHelper.plantDetailOnClickGoBackAction(props) }}>
+                    {PhytaromaContextEventHelper.resources.planDetailGoBackFamilyPlant}
+                </Button>
             </Typography>
             <Typography variant="h5" align="center" color="text.secondary" paragraph>
-                {plantDetail.name}
+                {PhytaromaContextEventHelper.resources.plantDetailLabel + plantDetail.name}
+            </Typography>
+            <Typography align="center">
+                <Button onClick={() => { PhytaromaContextEventHelper.plantDetailOnClickWikiphyto(plantDetail) }}>
+                    {PhytaromaContextEventHelper.resources.linkOnWikiphyto}
+                </Button>
             </Typography>
             {plantDetail.properties.map((property) => {
                 return GetPropertyDetail(property);
             })}
-            <Typography align="center">
-                <Button onClick={() => { PhytaromaContextEventHelper.plantDetailOnClickWikiphyto(plantDetail) }}>{PhytaromaContextEventHelper.resources.linkOnWikiphyto}</Button>
-            </Typography>
         </Container>
     );
 }
