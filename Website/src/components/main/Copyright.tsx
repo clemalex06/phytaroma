@@ -1,12 +1,13 @@
 import { Link, Typography } from "@mui/material";
 import React from "react";
+import { PhytaromaContextEventHelper } from "../../helpers/phytaroma-context-event-helper";
 
 const Copyright: React.FC = () => {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" target="_blank" rel="noopener" href="https://github.com/clemalex06">
-        Suivez moi sur GitHub
+      {PhytaromaContextEventHelper.resources.footerCopyright}
+      <Link color="inherit" target="_blank" rel="noopener" href={PhytaromaContextEventHelper.resources.footerGitHubLink}>
+      {PhytaromaContextEventHelper.resources.footerLabelLink}
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}

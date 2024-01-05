@@ -1,6 +1,7 @@
 import { AppBar, Toolbar, Typography } from "@mui/material";
 import GrassIcon from '@mui/icons-material/Grass';
 import React from "react";
+import { PhytaromaContextEventHelper } from "../../helpers/phytaroma-context-event-helper";
 
 export default function NavBar() {
     return (
@@ -8,7 +9,7 @@ export default function NavBar() {
             <Toolbar>
                 <GrassIcon sx={{ mr: 2 }} />
                 <Typography variant="h6" color="inherit" noWrap>
-                    PhytAroma
+                    {PhytaromaContextEventHelper.resources.phytaromaTitle}
                 </Typography>
             </Toolbar>
         </AppBar>

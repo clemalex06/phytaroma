@@ -10,40 +10,21 @@ import { IPhytaromaContext } from '../../models/phytaroma-context';
 import SearchContainer from '../search/SearchContainer';
 import PlantFamilyDetail from '../plantFamilies/PlantFamilyDetail';
 import PlantDetail from '../plantFamilies/PlantDetail';
+import { PhytaromaContextEventHelper } from '../../helpers/phytaroma-context-event-helper';
 
 export default function MainContainer() {
-  const [searchActivated, setSearchActivated] = React.useState<boolean>(false);
-  const [plantFamilyValue, setPlantFamilyValue] = React.useState<string>('');
-  const [plantDetailIdValue, setPlantDetailIdValue] = React.useState<string>('');
-  const [searchstring, setSearchstring] = React.useState<string>('');
-  const phytaromaContext: IPhytaromaContext = {
-    searchActivated: searchActivated,
-    setSearchActivated: setSearchActivated,
-    plantFamilyValue: plantFamilyValue,
-    setPlantFamilyIdValue: setPlantFamilyValue,
-    plantDetailIdValue: plantDetailIdValue,
-    setPlantDetailIdValue: setPlantDetailIdValue,
-    searchstring: searchstring,
-    setSearchstring: setSearchstring,
-  };
 
-  const isPlantFamilyValueSelected: () => boolean = () => {
-    return phytaromaContext.plantFamilyValue.length !== 0;
-  }
-
-  const isPlantDetailSelected: () => boolean = () => {
-    return phytaromaContext.plantDetailIdValue.length !== 0;
-  }
+  const phytaromaContext: IPhytaromaContext = PhytaromaContextEventHelper.initializeContext();
 
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline></CssBaseline>
       <NavBar></NavBar>
       <TopDescription {...phytaromaContext}></TopDescription>
-      {searchActivated ?
+      {phytaromaContext.searchActivated ?
         <SearchContainer></SearchContainer>
-        : isPlantFamilyValueSelected() ?
-          isPlantDetailSelected() ?
+        : PhytaromaContextEventHelper.isPlantFamilyValueSelected(phytaromaContext) ?
+          PhytaromaContextEventHelper.isPlantDetailSelected(phytaromaContext) ?
             <PlantDetail {...phytaromaContext}></PlantDetail>
             : <PlantFamilyDetail {...phytaromaContext}></PlantFamilyDetail>
           : <PlantFamilies {...phytaromaContext}></PlantFamilies>}
