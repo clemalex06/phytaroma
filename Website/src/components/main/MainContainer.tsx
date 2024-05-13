@@ -22,7 +22,7 @@ export default function MainContainer() {
       <NavBar></NavBar>
       <TopDescription {...phytaromaContext}></TopDescription>
       {phytaromaContext.searchActivated ?
-        <SearchContainer></SearchContainer>
+        <SearchContainer {...phytaromaContext}></SearchContainer>
         : PhytaromaContextEventHelper.isPlantFamilyValueSelected(phytaromaContext) ?
           PhytaromaContextEventHelper.isPlantDetailSelected(phytaromaContext) ?
             <PlantDetail {...phytaromaContext}></PlantDetail>

@@ -8,7 +8,7 @@ const PlantFamilyDetail: React.FC<IPhytaromaContext> = (props: IPhytaromaContext
 
     const plantDetail = PhytaromaContextEventHelper.getPlantDetail(props);
 
-    const GetPropertyDescriptionLine = (description: string, key:string) => {
+    const GetPropertyDescriptionLine = (description: string, key: string) => {
         return (
             <Typography align="center" color="text.secondary" paragraph key={key}>
                 {description}
@@ -37,7 +37,9 @@ const PlantFamilyDetail: React.FC<IPhytaromaContext> = (props: IPhytaromaContext
         <Container maxWidth="md">
             <Typography align="center">
                 <Button onClick={() => { PhytaromaContextEventHelper.plantDetailOnClickGoBackAction(props) }}>
-                    {PhytaromaContextEventHelper.resources.planDetailGoBackFamilyPlant}
+                    {props.searchActivated ?
+                        PhytaromaContextEventHelper.resources.planDetailGoBackSearchResult :
+                        PhytaromaContextEventHelper.resources.planDetailGoBackFamilyPlant}
                 </Button>
             </Typography>
             <Typography variant="h5" align="center" color="text.secondary" paragraph>

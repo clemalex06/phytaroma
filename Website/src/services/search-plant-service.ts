@@ -26,11 +26,11 @@ export class SearchPlantService {
         }
     };
 
-    getPlantDetail(familyId: string, plantDetailId: string): PlantDetail {
+    getPlantDetail(plantDetailId: string): PlantDetail {
         let result = new PlantDetail('', '', '', undefined);
-        const family = plantsData.find(x => x.Id === familyId);
-        if (family) {
-            const detail = family.Plants.find(x => x.Id === plantDetailId);
+         const plants = plantsData.map(x => x.Plants)?.reduce((acc, val) => acc.concat(val), []);
+        if (plants) {
+            const detail = plants.find(x => x.Id === plantDetailId);
             if (detail) {
                 result = new PlantDetail(detail.Id, detail.Name, detail.Link, detail.Properties as IPlantProperty[]);
             }

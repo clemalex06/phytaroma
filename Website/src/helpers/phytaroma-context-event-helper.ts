@@ -4,6 +4,7 @@ import { PhytaromaTextResources } from "../resources/phytaroma-text-resources";
 import PlantDetail from "../models/plant-detail";
 import { instance as SearchPlantService } from "../services/search-plant-service";
 import PlantFamily from "../models/plant-family";
+import Fuse from "fuse.js";
 
 export class PhytaromaContextEventHelper {
     static readonly resources = PhytaromaTextResources;
@@ -49,6 +50,7 @@ export class PhytaromaContextEventHelper {
         phytaromaContext.setSearchActivated(value);
         phytaromaContext.setPlantDetailIdValue('');
         phytaromaContext.setPlantFamilyIdValue('');
+        phytaromaContext.setSearchstring('');
     };
 
     static getDespcriptionContent(phytaromaContext: IPhytaromaContext): string {
@@ -59,7 +61,7 @@ export class PhytaromaContextEventHelper {
     };
 
     static getPlantDetail(phytaromaContext: IPhytaromaContext): PlantDetail {
-        return SearchPlantService.getPlantDetail(phytaromaContext.plantFamilyIdValue, phytaromaContext.plantDetailIdValue);
+        return SearchPlantService.getPlantDetail(phytaromaContext.plantDetailIdValue);
     }
 
     static plantDetailOnClickWikiphyto = (plant: PlantDetail) => {
@@ -96,4 +98,18 @@ export class PhytaromaContextEventHelper {
         }
         return propertyName;
     }
+
+    static onClickSearchResult = (phytaromaContext: IPhytaromaContext, searchstring: string) => {
+        phytaromaContext.setSearchstring(searchstring);
+        phytaromaContext.setPlantDetailIdValue('');
+    };
+
+    static searchPlants(phytaromaContext: IPhytaromaContext): PlantDetail[] {
+        const result: PlantDetail[] = [];
+
+        if (phytaromaContext.searchstring.length !== 0){
+            return SearchPlantService.getPlantFamily('cat1').plants;
+        }
+        return result;
+    };
 }
