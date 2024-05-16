@@ -10,11 +10,18 @@ import PlantDetail from "../plantFamilies/PlantDetail";
 const SearchContainer: React.FC<IPhytaromaContext> = (phytaromaContext: IPhytaromaContext) => {
 
     const [message, setMessage] = useState('');
+    const [nameError, setNameError] = useState(false);
     const handleChange = (event: any) => {
         setMessage(event.target.value);
     };
+    const errorMesage = `Entrez ${PhytaromaContextEventHelper.defaultMinSearchStringLength} charactères ou plus.`;
 
     const setSearchQuery = (searchstring: string) => {
+        if (searchstring.length < PhytaromaContextEventHelper.defaultMinSearchStringLength) {
+            setNameError(true);
+        } else {
+            setNameError(false);
+        }
         PhytaromaContextEventHelper.onClickSearchResult(phytaromaContext, searchstring);
     };
     return (
@@ -29,6 +36,8 @@ const SearchContainer: React.FC<IPhytaromaContext> = (phytaromaContext: IPhytaro
                         setSearchQuery(message);
                     }
                 }}
+                error={nameError}
+                helperText={nameError ? errorMesage : ""}
                 placeholder={PhytaromaContextEventHelper.resources.searchLabel}
                 InputProps={{
                     endAdornment: (

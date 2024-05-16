@@ -9,6 +9,8 @@ import Fuse from "fuse.js";
 export class PhytaromaContextEventHelper {
     static readonly resources = PhytaromaTextResources;
 
+    static defaultMinSearchStringLength = 4;
+
     static readonly propertiesNameTranslation: { [key: string]: string } = {
         Name: this.resources.name,
         Description: this.resources.description,
@@ -107,8 +109,10 @@ export class PhytaromaContextEventHelper {
     static searchPlants(phytaromaContext: IPhytaromaContext): PlantDetail[] {
         const result: PlantDetail[] = [];
 
-        if (phytaromaContext.searchstring.length !== 0){
+        if (phytaromaContext.searchActivated && phytaromaContext.searchstring.length >= PhytaromaContextEventHelper.defaultMinSearchStringLength) {
             return SearchPlantService.getPlantFamily('cat1').plants;
+        } else {
+            phytaromaContext.setSearchstring('');
         }
         return result;
     };

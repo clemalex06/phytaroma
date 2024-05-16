@@ -2,6 +2,7 @@ import plantsData from "../datas/PlantFamiliesWithPlantDetail.min.json";
 import PlantDetail from "../models/plant-detail";
 import PlantFamily from "../models/plant-family";
 import { IPlantProperty } from "../models/plant-property";
+import Fuse from 'fuse.js'
 
 export class SearchPlantService {
 
@@ -28,7 +29,7 @@ export class SearchPlantService {
 
     getPlantDetail(plantDetailId: string): PlantDetail {
         let result = new PlantDetail('', '', '', undefined);
-         const plants = plantsData.map(x => x.Plants)?.reduce((acc, val) => acc.concat(val), []);
+        const plants = plantsData.map(x => x.Plants)?.reduce((acc, val) => acc.concat(val), []);
         if (plants) {
             const detail = plants.find(x => x.Id === plantDetailId);
             if (detail) {
@@ -37,6 +38,9 @@ export class SearchPlantService {
         }
         return result;
     };
+    searchPlants(searchstring: string): any[] {
+        return [];
+    }
 }
 
 export const instance = new SearchPlantService();
