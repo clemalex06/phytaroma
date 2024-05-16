@@ -114,7 +114,7 @@ export class PhytaromaContextEventHelper {
 
         if (phytaromaContext.searchActivated && searchstring.length >= PhytaromaContextEventHelper.defaultMinSearchStringLength) {
             phytaromaContext.setSearchstring(searchstring);
-            return SearchPlantService.searchPlants(phytaromaContext.searchstring);
+            return SearchPlantService.searchPlants(searchstring);
         } else {
             phytaromaContext.setSearchstring('');
         }

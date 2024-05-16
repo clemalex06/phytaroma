@@ -39,16 +39,18 @@ export class SearchPlantService {
         return result;
     };
     searchPlants(searchstring: string): any[] {
+        const plants = plantsData.map(x => x.Plants)?.reduce((acc, val) => acc.concat(val), []);
         const options = {
             includeScore: true,
-            keys: [
-              { name: 'properties', getFn: (plantsCategory: any) => plantsCategory.Plants.Properties }
-            ]
-          };
-          
-          const fuse = new Fuse(plantsData, options)
-          const result = fuse.search({ properties: searchstring })
-        return this.getPlantFamily('cat1').plants;
+            keys: ['Properties.Content']
+        };
+
+        const fuse = new Fuse(plants, options)
+        const resultFuse = fuse.search(searchstring)
+        .filter(x => x.score !== undefined && x.score > 0.8)
+        .map(detail =>new PlantDetail(detail.item.Id, detail.item.Name, detail.item.Link, undefined));
+        
+        return resultFuse;
     }
 }
 
