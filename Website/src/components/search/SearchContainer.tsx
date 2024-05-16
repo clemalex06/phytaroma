@@ -12,16 +12,18 @@ const SearchContainer: React.FC<IPhytaromaContext> = (phytaromaContext: IPhytaro
     const [message, setMessage] = useState('');
     const [nameError, setNameError] = useState(false);
     const handleChange = (event: any) => {
-        setMessage(event.target.value);
-    };
-    const errorMesage = `Entrez ${PhytaromaContextEventHelper.defaultMinSearchStringLength} charactères ou plus.`;
-
-    const setSearchQuery = (searchstring: string) => {
-        if (searchstring.length < PhytaromaContextEventHelper.defaultMinSearchStringLength) {
+        const searchstring = event.target.value;
+        setMessage(searchstring);
+        if (searchstring.length !==0 
+            && searchstring.length < PhytaromaContextEventHelper.defaultMinSearchStringLength) {
             setNameError(true);
         } else {
             setNameError(false);
         }
+    };
+    const errorMesage = `Entrez ${PhytaromaContextEventHelper.defaultMinSearchStringLength} charactères ou plus.`;
+
+    const setSearchQuery = (searchstring: string) => {
         PhytaromaContextEventHelper.onClickSearchResult(phytaromaContext, searchstring);
     };
     return (

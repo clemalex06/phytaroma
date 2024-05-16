@@ -39,7 +39,16 @@ export class SearchPlantService {
         return result;
     };
     searchPlants(searchstring: string): any[] {
-        return [];
+        const options = {
+            includeScore: true,
+            keys: [
+              { name: 'properties', getFn: (plantsCategory: any) => plantsCategory.Plants.Properties }
+            ]
+          };
+          
+          const fuse = new Fuse(plantsData, options)
+          const result = fuse.search({ properties: searchstring })
+        return this.getPlantFamily('cat1').plants;
     }
 }
 

@@ -5,7 +5,7 @@ import { PhytaromaContextEventHelper } from "../../helpers/phytaroma-context-eve
 
 const SearchResult: React.FC<IPhytaromaContext> = (phytaromaContext: IPhytaromaContext) => {
 
-    const plants =  PhytaromaContextEventHelper.searchPlants(phytaromaContext);
+    const plants =  phytaromaContext.plantsResult;
 
     return (
 
