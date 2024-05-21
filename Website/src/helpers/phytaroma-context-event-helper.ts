@@ -22,7 +22,7 @@ export class PhytaromaContextEventHelper {
     };
 
     static initializeContext(): IPhytaromaContext {
-        const [searchActivated, setSearchActivated] = React.useState<boolean>(false);
+        const [searchActivated, setSearchActivated] = React.useState<boolean>(true);
         const [plantFamilyIdValue, setPlantFamilyValue] = React.useState<string>('');
         const [plantDetailIdValue, setPlantDetailIdValue] = React.useState<string>('');
         const [searchstring, setSearchstring] = React.useState<string>('');

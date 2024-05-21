@@ -42,12 +42,13 @@ export class SearchPlantService {
         const plants = plantsData.map(x => x.Plants)?.reduce((acc, val) => acc.concat(val), []);
         const options = {
             includeScore: true,
-            keys: ['Properties.Content']
+            keys: ['Properties.Content'],
+            threshold: 0.2,
+            includeMatches: true
         };
 
         const fuse = new Fuse(plants, options)
         const resultFuse = fuse.search(searchstring)
-        .filter(x => x.score !== undefined && x.score > 0.8)
         .map(detail =>new PlantDetail(detail.item.Id, detail.item.Name, detail.item.Link, undefined));
         
         return resultFuse;
