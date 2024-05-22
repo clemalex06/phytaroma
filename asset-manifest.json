@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/phytaroma/static/js/main.2ab0c565.js",
+    "static/media/wikiphyto-logo.png": "/phytaroma/static/media/wikiphyto-logo.284f454eaa5976b951a1.png",
+    "index.html": "/phytaroma/index.html",
+    "main.2ab0c565.js.map": "/phytaroma/static/js/main.2ab0c565.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.2ab0c565.js"
+  ]
+}
