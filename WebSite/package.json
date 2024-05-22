@@ -1,6 +1,7 @@
 {
-  "name": "create-react-app-with-typescript",
-  "version": "5.0.0",
+  "homepage": "https://clemalex06.github.io/phytaroma",
+  "name": "phytaroma-react-app",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "latest",
@@ -19,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build" 
   },
   "browserslist": {
     "production": [
@@ -32,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
