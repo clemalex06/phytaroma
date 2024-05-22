@@ -1,8 +1,10 @@
 # phytaroma React App example with TypeScript
 
 this website is a search engine frontend to be able to search plants used in phytotherapy. Its also use fusejs seach engine node package.
-you can follow the docuementation to learn more about it 
+you can follow the docuementation to learn more about it
+
 [Material UI documentation](https://mui.com/material-ui/)
+
 [fusejs documentation](https://www.fusejs.io/)
 
 
